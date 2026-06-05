@@ -92,6 +92,11 @@ python3 /opt/data/scripts/jnn_journal.py handoff \
 
 ## 📁 ЗАПИСЬ В OBSIDIAN (ОБЯЗАТЕЛЬНО)
 
+**ВАЖНО:** Obsidian vault находится НЕ в ~/Documents/Obsidian Vault, а в:
+`/opt/data/obsidian-vault/`
+
+**Переменная окружения:** OBSIDIAN_VAULT_PATH=/opt/data/obsidian-vault
+
 **Все метрики и данные записывай в ОБА места:**
 1. Локальный файл: `/opt/data/workspace-habit/` (для быстрого доступа)
 2. Obsidian vault: `/opt/data/obsidian-vault/Habit/` (для синхронизации с GitHub)
@@ -106,6 +111,7 @@ python3 /opt/data/scripts/jnn_journal.py handoff \
 - `dietologist.md` — дневник питания
 - `fitness_trainer.md` — тренировки и шаги
 
-**Автосинхронизация:** каждые 5 минут скрипт `habit-sync-to-obsidian.sh` копирует файлы в vault и пушит на GitHub.
+**Как записывать в Obsidian:**
+Используй абсолютный путь `/opt/data/obsidian-vault/Habit/` — НЕ используй навык obsidian (он ищет в неправильном месте).
 
 **При поиске метрик:** смотри в `/opt/data/obsidian-vault/Habit/` или на GitHub: github.com/Nurlan71/jnn-obsidian-vault/tree/main/Habit
