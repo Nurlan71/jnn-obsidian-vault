@@ -89,3 +89,23 @@ python3 /opt/data/scripts/jnn_journal.py handoff \
 - workspace-habit/subagents.md — список субагентов
 - memories/MEMORY.md — долгосрочная память
 - memories/USER.md — профиль пользователя
+
+## 📁 ЗАПИСЬ В OBSIDIAN (ОБЯЗАТЕЛЬНО)
+
+**Все метрики и данные записывай в ОБА места:**
+1. Локальный файл: `/opt/data/workspace-habit/` (для быстрого доступа)
+2. Obsidian vault: `/opt/data/obsidian-vault/Habit/` (для синхронизации с GitHub)
+
+**Правило:** при любом обновлении данных (вес, привычки, питание, шаги) — записывай в оба места.
+
+**Структура Obsidian/Habit/:**
+- `habit_registry.md` — реестр привычек (обновляется при изменении статусов)
+- `weight_log.md` — трекинг веса (при каждом взвешивании)
+- `habit_log.md` — журнал выполнения привычек (ежедневно)
+- `english_coach.md` — прогресс английского
+- `dietologist.md` — дневник питания
+- `fitness_trainer.md` — тренировки и шаги
+
+**Автосинхронизация:** каждые 5 минут скрипт `habit-sync-to-obsidian.sh` копирует файлы в vault и пушит на GitHub.
+
+**При поиске метрик:** смотри в `/opt/data/obsidian-vault/Habit/` или на GitHub: github.com/Nurlan71/jnn-obsidian-vault/tree/main/Habit
