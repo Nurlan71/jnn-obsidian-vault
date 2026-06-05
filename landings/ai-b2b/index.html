@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoFlow — Автоматизация бизнеса с ИИ | Окупаемость за 2 месяца</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#0A1628;--blue:#2563EB;--cyan:#06B6D4;--purple:#8B5CF6;--white:#ffffff;--light:#F1F5F9;--gray:#64748B;--slate:#334155;}
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'IBM Plex Sans',sans-serif;color:var(--navy);line-height:1.6;overflow-x:hidden;background:var(--white);}
+    
+    .nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 48px;display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(10,22,40,0.06);}
+    .nav-logo{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:var(--navy);text-decoration:none;letter-spacing:-0.5px;}
+    .nav-logo em{color:var(--blue);font-style:normal;}
+    .nav-links{display:flex;gap:32px;align-items:center;}
+    .nav-links a{text-decoration:none;color:var(--gray);font-size:14px;font-weight:500;}
+    .nav-links a:hover{color:var(--blue);}
+    .nav-cta{background:var(--navy);color:white!important;padding:10px 22px;border-radius:8px;font-weight:600;font-size:14px;}
+    
+    /* ===== HERO: Текст слева + ИНТЕРАКТИВНЫЙ ДАШБОРД справа ===== */
+    .hero{padding:140px 60px 100px;background:var(--white);position:relative;overflow:hidden;}
+    .hero::before{content:'';position:absolute;top:0;right:0;width:50%;height:100%;background:linear-gradient(135deg,rgba(37,99,235,0.03),rgba(6,182,212,0.03));}
+    .hero-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;position:relative;z-index:1;}
+    .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,rgba(37,99,235,0.08),rgba(6,182,212,0.08));color:var(--blue);padding:6px 16px;border-radius:6px;font-size:13px;font-weight:600;margin-bottom:24px;}
+    .hero-eyebrow::before{content:'●';color:var(--cyan);font-size:8px;animation:blink 2s infinite;}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
+    h1{font-family:'Space Grotesk',sans-serif;font-size:52px;font-weight:700;line-height:1.1;margin-bottom:24px;letter-spacing:-1px;}
+    h1 .accent{background:linear-gradient(135deg,var(--blue),var(--cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+    .hero-text{font-size:18px;color:var(--gray);margin-bottom:36px;max-width:500px;line-height:1.7;}
+    .hero-actions{display:flex;gap:16px;margin-bottom:48px;}
+    .btn-primary{background:var(--navy);color:white;padding:16px 32px;border-radius:10px;font-size:15px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:all 0.3s;border:none;cursor:pointer;}
+    .btn-primary:hover{background:var(--blue);transform:translateY(-2px);box-shadow:0 8px 30px rgba(37,99,235,0.25);}
+    .btn-ghost{background:transparent;color:var(--navy);padding:16px 32px;border-radius:10px;font-size:15px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:8px;border:1.5px solid #E2E8F0;}
+    .btn-ghost:hover{border-color:var(--blue);color:var(--blue);}
+    .hero-proof{display:flex;align-items:center;gap:24px;}
+    .proof-label{font-size:12px;color:var(--gray);text-transform:uppercase;letter-spacing:1px;font-weight:600;}
+    .proof-logos{display:flex;gap:20px;align-items:center;}
+    .proof-logo{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:700;color:#CBD5E1;letter-spacing:-0.5px;}
+    
+    .hero-right{position:relative;}
+    .dashboard{background:var(--navy);border-radius:16px;padding:28px;color:white;position:relative;overflow:hidden;}
+    .dashboard::before{content:'';position:absolute;top:-50%;right:-50%;width:100%;height:100%;background:radial-gradient(circle,rgba(37,99,235,0.15),transparent 70%);}
+    .dash-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;position:relative;}
+    .dash-top h4{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:600;}
+    .dash-live{background:rgba(6,182,212,0.2);color:var(--cyan);padding:4px 10px;border-radius:6px;font-size:11px;font-weight:600;}
+    .dash-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px;position:relative;}
+    .dash-metric{background:rgba(255,255,255,0.06);border-radius:10px;padding:14px;}
+    .dash-metric-val{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:var(--cyan);}
+    .dash-metric-label{font-size:10px;color:rgba(255,255,255,0.4);margin-top:2px;}
+    .dash-bars{display:flex;align-items:flex-end;gap:5px;height:50px;position:relative;}
+    .dash-bar{flex:1;border-radius:3px 3px 0 0;background:linear-gradient(to top,var(--blue),var(--cyan));animation:grow 1s ease-out;}
+    @keyframes grow{from{height:0}}
+    .dash-bar:nth-child(1){height:40%}.dash-bar:nth-child(2){height:55%}.dash-bar:nth-child(3){height:45%}.dash-bar:nth-child(4){height:70%}.dash-bar:nth-child(5){height:60%}.dash-bar:nth-child(6){height:80%}.dash-bar:nth-child(7){height:75%}.dash-bar:nth-child(8){height:90%}.dash-bar:nth-child(9){height:85%}.dash-bar:nth-child(10){height:95%}.dash-bar:nth-child(11){height:88%}.dash-bar:nth-child(12){height:100%}
+    
+    /* ===== PAIN: Нумерованный список (не карточки!) ===== */
+    .pain{padding:100px 60px;background:var(--light);}
+    .section-label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--blue);margin-bottom:12px;}
+    .section-title{font-family:'Space Grotesk',sans-serif;font-size:42px;font-weight:700;margin-bottom:16px;letter-spacing:-0.5px;}
+    .section-sub{font-size:18px;color:var(--gray);max-width:600px;margin-bottom:48px;}
+    .pain-list{max-width:600px;}
+    .pain-item{display:flex;gap:20px;padding:20px 0;border-bottom:1px solid #E2E8F0;}
+    .pain-num{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:700;color:var(--blue);width:28px;flex-shrink:0;padding-top:2px;}
+    .pain-content h3{font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:600;margin-bottom:4px;}
+    .pain-content p{font-size:14px;color:var(--gray);line-height:1.7;}
+    
+    /* ===== HOW: Горизонтальный процесс с стрелками ===== */
+    .how{padding:100px 60px;background:var(--white);}
+    .how-process{display:flex;align-items:center;justify-content:space-between;margin-top:48px;position:relative;}
+    .how-process::before{content:'';position:absolute;top:32px;left:15%;right:15%;height:2px;background:linear-gradient(90deg,var(--blue),var(--cyan));}
+    .how-step{text-align:center;flex:1;position:relative;}
+    .how-num{width:64px;height:64px;border-radius:50%;background:var(--white);border:2px solid var(--blue);color:var(--blue);font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;position:relative;z-index:1;}
+    .how-step h3{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:600;margin-bottom:6px;}
+    .how-step p{font-size:13px;color:var(--gray);max-width:160px;margin:0 auto;}
+    
+    /* ===== CASES: Большие карточки с метриками ===== */
+    .cases{padding:100px 60px;background:var(--navy);color:white;}
+    .cases .section-label{color:var(--cyan);}
+    .cases .section-title{color:white;}
+    .cases .section-sub{color:rgba(255,255,255,0.5);}
+    .cases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;}
+    .case-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:32px;transition:all 0.3s;}
+    .case-card:hover{background:rgba(255,255,255,0.08);transform:translateY(-4px);}
+    .case-icon{font-size:32px;margin-bottom:16px;}
+    .case-card h3{font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin-bottom:8px;}
+    .case-card p{font-size:14px;color:rgba(255,255,255,0.5);margin-bottom:20px;line-height:1.7;}
+    .case-metrics{display:flex;gap:24px;}
+    .case-metric{text-align:left;}
+    .case-metric-val{font-family:'Space Grotesk',sans-serif;font-size:24px;font-weight:700;color:var(--cyan);}
+    .case-metric-label{font-size:11px;color:rgba(255,255,255,0.4);}
+    
+    /* ===== PRICING: Таблица сравнения ===== */
+    .pricing{padding:100px 60px;background:var(--light);}
+    .pricing-table{width:100%;border-collapse:collapse;margin-top:48px;background:white;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.06);}
+    .pricing-table th{padding:20px 24px;text-align:left;font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;background:var(--navy);color:white;}
+    .pricing-table td{padding:16px 24px;border-bottom:1px solid #f0f0f0;font-size:14px;}
+    .pricing-table tr:last-child td{border-bottom:none;}
+    .pricing-table tr:hover{background:#f8fafc;}
+    .pricing-table .check{color:var(--cyan);font-weight:700;}
+    .pricing-table .cross{color:#CBD5E1;}
+    
+    .cta-section{padding:100px 60px;background:var(--white);text-align:center;}
+    .cta-section h2{font-family:'Space Grotesk',sans-serif;font-size:44px;font-weight:700;margin-bottom:16px;letter-spacing:-1px;}
+    .cta-section p{font-size:18px;color:var(--gray);margin-bottom:36px;}
+    
+    .footer{padding:48px;background:var(--navy);color:rgba(255,255,255,0.35);text-align:center;font-size:14px;}
+    
+    @media(max-width:768px){
+      .hero-grid{grid-template-columns:1fr;gap:40px;}
+      h1{font-size:36px;}
+      .hero-proof{flex-direction:column;align-items:flex-start;}
+      .pain-list{max-width:100%;}
+      .how-process{flex-direction:column;gap:32px;}
+      .how-process::before{display:none;}
+      .cases-grid{grid-template-columns:1fr;}
+      .pricing-table{font-size:12px;}
+      .pricing-table th,.pricing-table td{padding:12px 8px;}
+      .hero,.pain,.how,.cases,.pricing,.cta-section{padding:60px 20px;}
+      .nav-links{display:none;}
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="#" class="nav-logo">Auto<em>Flow</em></a>
+    <div class="nav-links">
+      <a href="#how">Как это работает</a>
+      <a href="#cases">Кейсы</a>
+      <a href="#pricing">Тарифы</a>
+      <a href="#" class="nav-cta">Бесплатный аудит</a>
+    </div>
+  </nav>
+
+  <!-- HERO: Текст слева + ДАШБОРД справа -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-eyebrow">Новый поток проектов — июнь 2026</div>
+        <h1>Автоматизируйте бизнес <span class="accent">с ИИ</span> за 2 недели</h1>
+        <p class="hero-text">Внедряем AI-агентов, которые берут на себя рутину: обработку заявок, работу с клиентами, отчёты. Окупаемость — в среднем 2 месяца.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn-primary">Получить бесплатный аудит →</a>
+          <a href="#" class="btn-ghost">📊 Смотреть кейсы</a>
+        </div>
+        <div class="hero-proof">
+          <span class="proof-label">Нам доверяют</span>
+          <div class="proof-logos">
+            <span class="proof-logo">JNN</span>
+            <span class="proof-logo">TechCo</span>
+            <span class="proof-logo">RetailPro</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="dashboard">
+          <div class="dash-top"><h4>AI Dashboard</h4><span class="dash-live">● Live</span></div>
+          <div class="dash-metrics">
+            <div class="dash-metric"><div class="dash-metric-val">847</div><div class="dash-metric-val">Заявок обработано</div></div>
+            <div class="dash-metric"><div class="dash-metric-val">94%</div><div class="dash-metric-val">Точность</div></div>
+            <div class="dash-metric"><div class="dash-metric-val">-62%</div><div class="dash-metric-val">Время обработки</div></div>
+          </div>
+          <div class="dash-bars">
+            <div class="dash-bar"></div><div class="dash-bar"></div><div class="dash-bar"></div><div class="dash-bar"></div>
+            <div class="dash-bar"></div><div class="dash-bar"></div><div class="dash-bar"></div><div class="dash-bar"></div>
+            <div class="dash-bar"></div><div class="dash-bar"></div><div class="dash-bar"></div><div class="dash-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAIN: Нумерованный список -->
+  <section class="pain">
+    <div class="section-label">Проблемы</div>
+    <h2 class="section-title">Знакомо вашему бизнесу?</h2>
+    <p class="section-sub">Типичные боли, которые мы решаем с помощью ИИ-автоматизации</p>
+    <div class="pain-list">
+      <div class="pain-item"><div class="pain-num">01</div><div class="pain-content"><h3>Потеря заявок</h3><p>Клиенты пишут, но менеджеры не успевают обработать. До 40% заявок теряются.</p></div></div>
+      <div class="pain-item"><div class="pain-num">02</div><div class="pain-content"><h3>Рутина съедает время</h3><p>Сотрудники тратят часы на однообразные задачи вместо стратегической работы.</p></div></div>
+      <div class="pain-item"><div class="pain-num">03</div><div class="pain-content"><h3>Дорогие ошибки</h3><p>Человеческий фактор в данных, расчётах, коммуникациях — стоит денег.</p></div></div>
+      <div class="pain-item"><div class="pain-num">04</div><div class="pain-content"><h3>Масштабирование = найм</h3><p>Чтобы расти, нужно нанимать. Но хороших людей сложно найти и удержать.</p></div></div>
+      <div class="pain-item"><div class="pain-num">05</div><div class="pain-content"><h3>Нет аналитики</h3><p>Данные есть, но они разрознены. Некому собрать и проанализировать.</p></div></div>
+    </div>
+  </section>
+
+  <!-- HOW: Горизонтальный процесс -->
+  <section class="how" id="how">
+    <div class="section-label" style="text-align:center;">Процесс</div>
+    <h2 class="section-title" style="text-align:center;">4 шага к автоматизации</h2>
+    <p class="section-sub" style="text-align:center;margin:0 auto 0;">От аудита до запуска — прозрачный процесс</p>
+    <div class="how-process">
+      <div class="how-step"><div class="how-num">1</div><h3>Аудит</h3><p>Анализируем процессы, находим узкие места</p></div>
+      <div class="how-step"><div class="how-num">2</div><h3>Стратегия</h3><p>Составляем план автоматизации с ROI-расчётом</p></div>
+      <div class="how-step"><div class="how-num">3</div><h3>Внедрение</h3><p>Настраиваем и интегрируем AI-агентов</p></div>
+      <div class="how-step"><div class="how-num">4</div><h3>Запуск</h3><p>Тестируем, обучаем команду, запускаем</p></div>
+    </div>
+  </section>
+
+  <!-- CASES: Большие карточки с метриками -->
+  <section class="cases" id="cases">
+    <div class="section-label">Кейсы</div>
+    <h2 class="section-title">Результаты наших клиентов</h2>
+    <p class="section-sub">Реальные цифры после внедрения AI-автоматизации</p>
+    <div class="cases-grid">
+      <div class="case-card">
+        <div class="case-icon">🛒</div>
+        <h3>Интернет-магазин</h3>
+        <p>Автоматизировали обработку заявок и ответы клиентам через AI-бота.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">3x</div><div class="case-metric-label">Рост конверсии</div></div>
+          <div class="case-metric"><div class="case-metric-val">-70%</div><div class="case-metric-label">Время ответа</div></div>
+        </div>
+      </div>
+      <div class="case-card">
+        <div class="case-icon">🏭</div>
+        <h3>Производство</h3>
+        <p>AI-агент ведёт учёт, формирует отчёты, контролирует склад.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">-45%</div><div class="case-metric-label">Ошибок в учёте</div></div>
+          <div class="case-metric"><div class="case-metric-val">2 мес</div><div class="case-metric-label">Окупаемость</div></div>
+        </div>
+      </div>
+      <div class="case-card">
+        <div class="case-icon">🏢</div>
+        <h3>B2B компания</h3>
+        <p>Автоматическая квалификация лидов и назначение встреч.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">+120%</div><div class="case-metric-label">Лидов обработано</div></div>
+          <div class="case-metric"><div class="case-metric-val">-60%</div><div class="case-metric-label">Стоимость лида</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING: Таблица сравнения -->
+  <section class="pricing" id="pricing">
+    <div class="section-label" style="text-align:center;">Тарифы</div>
+    <h2 class="section-title" style="text-align:center;">Сравнение тарифов</h2>
+    <table class="pricing-table">
+      <thead><tr><th></th><th>Старт</th><th>Бизнес</th><th>Корпорация</th></tr></thead>
+      <tbody>
+        <tr><td>AI-агенты</td><td>1</td><td>до 5</td><td>∞</td></tr>
+        <tr><td>Аудит процессов</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+        <tr><td>Интеграция с CRM</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td></tr>
+        <tr><td>Обучение команды</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td></tr>
+        <tr><td>Кастомные модели</td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td></tr>
+        <tr><td>SLA 99.9%</td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td></tr>
+        <tr><td>Поддержка</td><td>1 мес</td><td>3 мес</td><td>12 мес</td></tr>
+        <tr><td></td><td><strong>150K ₽</strong></td><td><strong>350K ₽</strong></td><td><strong>от 800K ₽</strong></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="cta-section">
+    <h2>Бесплатный аудит ваших процессов</h2>
+    <p>Покажем, где ИИ может сэкономить деньги — без обязательств</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="#" class="btn-primary">Получить аудит →</a>
+      <a href="#" class="btn-ghost">📞 Заказать звонок</a>
+    </div>
+  </section>
+
+  <footer class="footer"><p>© 2026 AutoFlow. Все права защищены.</p></footer>
+</body>
+</html>
