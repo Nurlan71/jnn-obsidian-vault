@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 .obsidian/workspace
 .obsidian/workspace-mobile
 *.log
 .DS_Store
 Thumbs.db
+=======
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+*.tmp
+*.swp
+>>>>>>> 7bfe785 (init: JNN Virtual Office vault restored 2026-06-09)
