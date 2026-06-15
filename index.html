@@ -3,140 +3,188 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JNN Landing Demos — Портфолио</title>
+  <title>JNN Factory — Портфолио | Лендинги для бизнеса</title>
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
-    body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:#f8fafc; color:#1e293b; min-height:100vh; }
-    .header { background:linear-gradient(135deg,#0f172a,#1e293b); color:white; padding:60px 40px; text-align:center; }
-    .header h1 { font-size:42px; font-weight:800; margin-bottom:12px; }
-    .header p { font-size:18px; opacity:0.7; }
-    .stats { display:flex; justify-content:center; gap:40px; margin-top:30px; flex-wrap:wrap; }
-    .stat { text-align:center; }
-    .stat-num { font-size:32px; font-weight:800; color:#38bdf8; }
-    .stat-label { font-size:13px; opacity:0.6; }
-    .container { max-width:1000px; margin:0 auto; padding:40px 20px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:24px; }
+    body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:#f8fafc; color:#1e293b; }
+    .hero { background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%); color:white; padding:80px 20px; text-align:center; }
+    .hero h1 { font-size:42px; font-weight:800; margin-bottom:12px; }
+    .hero p { font-size:18px; opacity:0.7; max-width:600px; margin:0 auto 24px; }
+    .hero .price { display:inline-block; background:rgba(255,255,255,0.1); padding:8px 20px; border-radius:50px; font-size:14px; }
+    .container { max-width:1100px; margin:0 auto; padding:40px 20px; }
+    .section-title { font-size:28px; font-weight:700; margin-bottom:30px; text-align:center; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:24px; }
     .card { background:white; border-radius:16px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.06); transition:all 0.3s; text-decoration:none; color:inherit; display:block; }
-    .card:hover { transform:translateY(-6px); box-shadow:0 12px 40px rgba(0,0,0,0.12); }
-    .card-preview { height:180px; display:flex; align-items:center; justify-content:center; font-size:60px; }
-    .card-preview.fitness { background:linear-gradient(135deg,#fff5f0,#ffe4d6); }
-    .card-preview.dentistry { background:linear-gradient(135deg,#e0f2fe,#bae6fd); }
-    .card-preview.atelie { background:linear-gradient(135deg,#fdf2f8,#fce7f3); }
-    .card-preview.cafe { background:linear-gradient(135deg,#fff7ed,#ffedd5); }
-    .card-preview.stomatology { background:linear-gradient(135deg,#ecfdf5,#d1fae5); }
-    .card-preview.repair { background:linear-gradient(135deg,#fffbeb,#fde68a); }
-    .card-preview.ai-b2b { background:linear-gradient(135deg,#f1f5f9,#cbd5e1); }
+    .card:hover { transform:translateY(-6px); box-shadow:0 12px 40px rgba(0,0,0,0.15); }
+    .card-preview { height:160px; display:flex; align-items:center; justify-content:center; font-size:56px; }
     .card-body { padding:20px; }
     .card-tag { display:inline-block; padding:4px 12px; border-radius:50px; font-size:11px; font-weight:700; text-transform:uppercase; margin-bottom:8px; }
-    .card-tag.fitness { background:#fff3ed; color:#ea580c; }
-    .card-tag.dentistry { background:#e0f2fe; color:#0284c7; }
-    .card-tag.atelie { background:#fce7f3; color:#be185d; }
-    .card-tag.cafe { background:#ffedd5; color:#c2410c; }
-    .card-tag.stomatology { background:#d1fae5; color:#059669; }
-    .card-tag.repair { background:#fef3c7; color:#d97706; }
-    .card-tag.ai-b2b { background:#e2e8f0; color:#475569; }
-    .card h3 { font-size:18px; font-weight:700; margin-bottom:6px; }
-    .card p { font-size:14px; color:#64748b; }
-    .card-link { display:inline-flex; align-items:center; gap:6px; margin-top:12px; color:#2563eb; font-size:14px; font-weight:600; }
-    .cta { background:linear-gradient(135deg,#0f172a,#1e293b); color:white; padding:60px 40px; text-align:center; margin-top:40px; }
-    .cta h2 { font-size:28px; margin-bottom:12px; }
-    .cta p { opacity:0.7; margin-bottom:24px; }
-    .cta .btn { display:inline-block; padding:16px 40px; background:#38bdf8; color:#0f172a; border-radius:50px; text-decoration:none; font-weight:700; }
-    .label-new { position:absolute; top:12px; right:12px; background:#ef4444; color:white; padding:4px 10px; border-radius:50px; font-size:11px; font-weight:700; }
-    .card { position:relative; }
+    .card h3 { font-size:17px; font-weight:700; margin-bottom:6px; }
+    .card p { font-size:13px; color:#64748b; line-height:1.5; }
+    .card-link { display:inline-flex; align-items:center; gap:6px; margin-top:12px; color:#2563eb; font-size:13px; font-weight:600; }
+    .tag-fitness { background:#fff3ed; color:#ea580c; }
+    .tag-dentistry { background:#e0f2fe; color:#0284c7; }
+    .tag-repair { background:#fef3c7; color:#d97706; }
+    .tag-cafe { background:#f3e8ff; color:#933ea; }
+    .tag-atelie { background:#fce7f3; color:#be185d; }
+    .tag-it { background:#e2e8f0; color:#475569; }
+    .tag-hair { background:#ecfdf5; color:#059669; }
+    .tag-edu { background:#faf5ff; color:#7c3aed; }
+    .tag-ai { background:#f1f5f9; color:#475569; }
+    .tag-nuts { background:#fefce8; color:#a16207; }
+    .tag-smart { background:#eff6ff; color:#2563eb; }
+    .preview-fitness { background:linear-gradient(135deg,#fff5f0,#ffe4d6); }
+    .preview-dentistry { background:linear-gradient(135deg,#e0f2fe,#bae6fd); }
+    .preview-repair { background:linear-gradient(135deg,#fffbeb,#fde68a); }
+    .preview-cafe { background:linear-gradient(135deg,#faf5ff,#e9d5ff); }
+    .preview-atelie { background:linear-gradient(135deg,#fce7f3,#fbcfe8); }
+    .preview-it { background:linear-gradient(135deg,#f1f5f9,#cbd5e1); }
+    .preview-hair { background:linear-gradient(135deg,#ecfdf5,#a7f3d0); }
+    .preview-edu { background:linear-gradient(135deg,#faf5ff,#ddd6fe); }
+    .preview-ai { background:linear-gradient(135deg,#f8fafc,#e2e8f0); }
+    .preview-nuts { background:linear-gradient(135deg,#fefce8,#fef08a); }
+    .preview-smart { background:linear-gradient(135deg,#eff6ff,#bfdbfe); }
+    .footer { background:#0f172a; color:white; padding:40px 20px; text-align:center; margin-top:60px; }
+    .footer a { color:#60a5fa; text-decoration:none; }
+    .stats { display:flex; justify-content:center; gap:40px; margin:30px 0; flex-wrap:wrap; }
+    .stat { text-align:center; }
+    .stat-num { font-size:36px; font-weight:800; color:#e94560; }
+    .stat-label { font-size:13px; opacity:0.6; }
   </style>
 </head>
 <body>
-  <div class="header">
-    <h1>🎯 JNN Landing Demos</h1>
-    <p>Готовые лендинги для вашего бизнеса. Быстро. Качественно. Доступно.</p>
-    <div class="stats">
-      <div class="stat"><div class="stat-num">7</div><div class="stat-label">шаблонов</div></div>
-      <div class="stat"><div class="stat-num">2</div><div class="stat-label">часа на сайт</div></div>
-      <div class="stat"><div class="stat-num">10К+</div><div class="stat-label">сом цена от</div></div>
-    </div>
+  <div class="hero">
+    <h1>🎯 JNN Factory — Портфолио</h1>
+    <p>Готовые лендинги для вашего бизнеса. Быстро, качественно, недорого.</p>
+    <div class="price">Лендинг от 10 000 сом | Срок: 3-5 дней</div>
   </div>
+
   <div class="container">
+    <div class="stats">
+      <div class="stat"><div class="stat-num">11</div><div class="stat-label">Шаблонов</div></div>
+      <div class="stat"><div class="stat-num">8</div><div class="stat-label">Отраслей</div></div>
+      <div class="stat"><div class="stat-num">3</div><div class="stat-label">Дня срок</div></div>
+    </div>
+
+    <h2 class="section-title">Наши работы</h2>
     <div class="grid">
 
-      <a href="/atelie-moda" class="card">
-        <span class="label-new">NEW</span>
-        <div class="card-preview atelie">🧵</div>
+      <a href="fitness/index.html" class="card">
+        <div class="card-preview preview-fitness">💪</div>
         <div class="card-body">
-          <span class="card-tag atelie">Ателье</span>
-          <h3>Ателье Мода</h3>
-          <p>Индивидуальный пошив одежды. Строгий, элегантный дизайн.</p>
-          <span class="card-link">Открыть →</span>
-        </div>
-      </a>
-
-      <a href="/stomatologiya" class="card">
-        <span class="label-new">NEW</span>
-        <div class="card-preview stomatology">😁</div>
-        <div class="card-body">
-          <span class="card-tag stomatology">Стоматология</span>
-          <h3>Стоматология Smile</h3>
-          <p>Современная клиника. Медицинский дизайн с записью.</p>
-          <span class="card-link">Открыть →</span>
-        </div>
-      </a>
-
-      <a href="/fitness" class="card">
-        <div class="card-preview fitness">💪</div>
-        <div class="card-body">
-          <span class="card-tag fitness">Фитнес</span>
+          <span class="card-tag tag-fitness">Фитнес</span>
           <h3>FitPro — Персональный тренер</h3>
           <p>Трансформация тела за 90 дней. Оранжевый, энергичный дизайн.</p>
           <span class="card-link">Открыть →</span>
         </div>
       </a>
 
-      <a href="/cafe" class="card">
-        <div class="card-preview cafe">☕</div>
+      <a href="dentistry/index.html" class="card">
+        <div class="card-preview preview-dentistry">🦷</div>
         <div class="card-body">
-          <span class="card-tag cafe">Кафе</span>
-          <h3>Coffee Boss — Кофейня</h3>
-          <p>Уютная кофейня. Тёплый дизайн с меню и отзывами.</p>
+          <span class="card-tag tag-dentistry">Стоматология</span>
+          <h3>Dental House — Клиника</h3>
+          <p>Современная стоматология. Голубой, доверительный дизайн.</p>
           <span class="card-link">Открыть →</span>
         </div>
       </a>
 
-      <a href="/it-services-landing" class="card">
-        <div class="card-preview ai-b2b">💻</div>
+      <a href="repair/index.html" class="card">
+        <div class="card-preview preview-repair">🔧</div>
         <div class="card-body">
-          <span class="card-tag ai-b2b">IT-услуги</span>
-          <h3>IT Services — Веб-студия</h3>
-          <p>Создание сайтов. Технологичный дизайн для IT-компании.</p>
+          <span class="card-tag tag-repair">Ремонт техники</span>
+          <h3>RemontPro — Сервис</h3>
+          <p>Ремонт телефонов и ноутбуков. Жёлтый, заметный дизайн.</p>
           <span class="card-link">Открыть →</span>
         </div>
       </a>
 
-      <a href="/parikmaherskaya" class="card">
-        <div class="card-preview dentistry">💇</div>
+      <a href="cafe/index.html" class="card">
+        <div class="card-preview preview-cafe">☕</div>
         <div class="card-body">
-          <span class="card-tag dentistry">Парикмахерская</span>
-          <h3>Стиль — Парикмахерская</h3>
-          <p>Салон красоты. Стильный дизайн с записью онлайн.</p>
+          <span class="card-tag tag-cafe">Кафе</span>
+          <h3>CoffeeTime — Кофейня</h3>
+          <p>Уютное кафе с доставкой. Фиолетовый, тёплый дизайн.</p>
           <span class="card-link">Открыть →</span>
         </div>
       </a>
 
-      <a href="/remont-tehniki" class="card">
-        <div class="card-preview repair">🔧</div>
+      <a href="atelie-moda/index.html" class="card">
+        <div class="card-preview preview-atelie">🧵</div>
         <div class="card-body">
-          <span class="card-tag repair">Ремонт</span>
-          <h3>РемонтПро — Ремонт техники</h3>
-          <p>Ремонт бытовой техники. Доверительный дизайн.</p>
+          <span class="card-tag tag-atelie">Ателье</span>
+          <h3>Ателье Мода — Пошив</h3>
+          <p>Индивидуальный пошив одежды. Тёмный, элегантный дизайн.</p>
           <span class="card-link">Открыть →</span>
         </div>
       </a>
 
-      <a href="/ai-chat-widget" class="card">
-        <div class="card-preview ai-b2b">🤖</div>
+      <a href="it-services/index.html" class="card">
+        <div class="card-preview preview-it">💻</div>
         <div class="card-body">
-          <span class="card-tag ai-b2b">AI-виджет</span>
-          <h3>AI Chat — Виджет для сайта</h3>
-          <p>Чат-бот с ИИ для вашего сайта. Встраивается за 2 минуты.</p>
+          <span class="card-tag tag-it">IT-услуги</span>
+          <h3>JNN — IT решения</h3>
+          <p>Сайты, боты, автоматизация. Строгий, профессиональный дизайн.</p>
+          <span class="card-link">Открыть →</span>
+        </div>
+      </a>
+
+      <a href="parikmaherskaya/index.html" class="card">
+        <div class="card-preview preview-hair">💇</div>
+        <div class="card-body">
+          <span class="card-tag tag-hair">Парикмахерская</span>
+          <h3>Beauty Style — Салон</h3>
+          <p>Парикмахерская и салон красоты. Зелёный, свежий дизайн.</p>
+          <span class="card-link">Открыть →</span>
+        </div>
+      </a>
+
+      <a href="education/index.html" class="card">
+        <div class="card-preview preview-edu">📚</div>
+        <div class="card-body">
+          <span class="card-tag tag-edu">Образование</span>
+          <h3>EduCenter — Курсы</h3>
+          <p>Онлайн и офлайн курсы. Фиолетовый, вдохновляющий дизайн.</p>
+          <span class="card-link">Открыть →</span>
+        </div>
+      </a>
+
+      <a href="ai-chat-widget/index.html" class="card">
+        <div class="card-preview preview-ai">🤖</div>
+        <div class="card-body">
+          <span class="card-tag tag-ai">AI-виджет</span>
+          <h3>AI Chat — Виджет</h3>
+          <p>AI-чат для сайта с мини-CRM. Серый, технологичный дизайн.</p>
+          <span class="card-link">Открыть →</span>
+        </div>
+      </a>
+
+      <a href="krepkiy-oreshek/index.html" class="card">
+        <div class="card-preview preview-nuts">🥜</div>
+        <div class="card-body">
+          <span class="card-tag tag-nuts">Продукты</span>
+          <h3>Крепкий Орешек — Орехи</h3>
+          <p>Продажа орехов и сухофруктов. Жёлтый, натуральный дизайн.</p>
+          <span class="card-link">Открыть →</span>
+        </div>
+      </a>
+
+      <a href="smart-landing/index.html" class="card">
+        <div class="card-preview preview-smart">🎯</div>
+        <div class="card-body">
+          <span class="card-tag tag-smart">Smart Landing</span>
+          <h3>Smart — Универсальный</h3>
+          <p>Универсальный лендинг с формами и аналитикой.</p>
+          <span class="card-link">Открыть →</span>
+        </div>
+      </a>
+
+      <a href="ai-b2b/index.html" class="card">
+        <div class="card-preview preview-ai">🏢</div>
+        <div class="card-body">
+          <span class="card-tag tag-ai">B2B</span>
+          <h3>B2B — Компания</h3>
+          <p>Корпоративный лендинг для B2B. Тёмный, деловой дизайн.</p>
           <span class="card-link">Открыть →</span>
         </div>
       </a>
@@ -144,10 +192,10 @@
     </div>
   </div>
 
-  <div class="cta">
-    <h2>Хотите такой же сайт для вашего бизнеса?</h2>
-    <p>Создаём лендинги за 2-4 часа. Цена от 10 000 сом.</p>
-    <a href="https://wa.me/996777083015" class="btn">Написать в WhatsApp</a>
+  <div class="footer">
+    <p><strong>JNN Factory</strong> — Создаём сайты и лендинги для бизнеса</p>
+    <p>📞 +996 777 083 015 | 📱 WhatsApp | 📍 Бишкек</p>
+    <p style="margin-top:16px; opacity:0.5;">© 2026 JNN Factory. Все права защищены.</p>
   </div>
 </body>
 </html>

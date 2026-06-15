@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Салон «Элегант» — Парикмахерская премиум класса | Москва</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#C41E3A;--primary-dark:#9B1530;--accent:#D4AF37;--bg:#0a0a0a;--card:#141414;--text:#f0f0f0;--text2:#999}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+header{padding:20px 0;position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,10,10,0.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(196,30,58,0.15)}
+header .container{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:1.5rem;font-weight:800;color:var(--accent);letter-spacing:2px}
+.logo span{color:#fff}
+nav a{color:var(--text2);text-decoration:none;margin-left:28px;font-size:0.95rem;transition:color .3s}
+nav a:hover{color:var(--accent)}
+.hero{padding:150px 0 80px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;top:-50px;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(196,30,58,0.15) 0%,transparent 70%);z-index:-1}
+.badge{display:inline-block;padding:8px 20px;background:rgba(212,175,55,0.1);border:1px solid rgba(212,175,55,0.3);border-radius:50px;font-size:0.85rem;color:var(--accent);margin-bottom:24px}
+h1{font-size:3rem;font-weight:800;line-height:1.15;margin-bottom:20px}
+h1 span{color:var(--accent)}
+.hero-sub{font-size:1.15rem;color:var(--text2);max-width:580px;margin:0 auto 36px}
+.cta-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.btn{padding:16px 36px;border-radius:12px;font-size:1rem;font-weight:600;text-decoration:none;cursor:pointer;transition:all .3s;border:none;display:inline-block}
+.btn-primary{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;box-shadow:0 4px 24px rgba(196,30,58,0.35)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(196,30,58,0.45)}
+.btn-outline{background:transparent;border:2px solid var(--accent);color:var(--accent)}
+.btn-outline:hover{background:rgba(212,175,55,0.1)}
+.features{padding:80px 0}
+.section-title{text-align:center;font-size:2rem;font-weight:700;margin-bottom:10px}
+.section-sub{text-align:center;color:var(--text2);margin-bottom:50px;font-size:1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid rgba(196,30,58,0.08);border-radius:16px;padding:32px;transition:transform .3s,border-color .3s}
+.card:hover{transform:translateY(-4px);border-color:rgba(212,175,55,0.3)}
+.card-icon{font-size:2.2rem;margin-bottom:14px}
+.card h3{font-size:1.15rem;margin-bottom:8px}
+.card p{color:var(--text2);font-size:0.92rem}
+.services{padding:80px 0;background:linear-gradient(180deg,transparent,rgba(196,30,58,0.03),transparent)}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:40px}
+.service-item{background:var(--card);border:1px solid rgba(196,30,58,0.08);border-radius:14px;padding:24px;text-align:center}
+.service-item .emoji{font-size:2rem;margin-bottom:8px}
+.service-item h4{font-size:1rem;margin-bottom:4px}
+.service-item .price{color:var(--accent);font-weight:700;font-size:1.1rem}
+.gallery{padding:80px 0}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:40px}
+.gallery-item{background:linear-gradient(135deg,var(--card),#1a1a1a);border-radius:16px;padding:60px 20px;text-align:center;border:1px solid rgba(196,30,58,0.08)}
+.gallery-item .emoji{font-size:3rem;margin-bottom:12px}
+.gallery-item p{color:var(--text2);font-size:0.9rem}
+.reviews{padding:80px 0;background:linear-gradient(180deg,transparent,rgba(196,30,58,0.03),transparent)}
+.review-card{background:var(--card);border:1px solid rgba(196,30,58,0.08);border-radius:16px;padding:32px;margin-top:40px}
+.review-card .stars{color:var(--accent);font-size:1.2rem;margin-bottom:12px}
+.review-card p{font-style:italic;color:var(--text2);margin-bottom:12px}
+.review-card .author{font-weight:600;font-size:0.95rem}
+.contact{padding:80px 0;text-align:center}
+.contact-box{background:var(--card);border:1px solid rgba(196,30,58,0.15);border-radius:20px;padding:50px;max-width:550px;margin:0 auto}
+.contact-box p{color:var(--text2);margin-bottom:24px;font-size:1.05rem}
+footer{padding:40px 0;border-top:1px solid rgba(196,30,58,0.08);text-align:center;color:var(--text2);font-size:0.85rem}
+@media(max-width:768px){h1{font-size:2rem}nav{display:none}}
+</style>
+</head>
+<body>
+<header><div class="container">
+<div class="logo">ЭЛЕГАНТ</div>
+<nav><a href="#services">Услуги</a><a href="#gallery">Работы</a><a href="#reviews">Отзывы</a><a href="#contact">Запись</a></nav>
+</div></header>
+<section class="hero"><div class="container">
+<div class="badge">✨ Премиум парикмахерская</div>
+<h1>Салон <span>«Элегант»</span><br>Ваш стиль — наша работа</h1>
+<div class="hero-sub">Стрижки, окрашивание, уход от мастеров с 10-летним стажем. Запишитесь онлайн — бот подберёт удобное время</div>
+<div class="cta-row">
+<a href="#contact" class="btn btn-primary">Записаться онлайн</a>
+<a href="#services" class="btn btn-outline">Смотреть услуги</a>
+</div>
+</div></section>
+<section class="features"><div class="container">
+<h2 class="section-title">Почему выбирают нас</h2>
+<div class="section-sub">Более 5 000 довольных клиентов</div>
+<div class="grid">
+<div class="card"><div class="card-icon">✂️</div><h3>Мастера высшего класса</h3><p>Каждый стилист имеет стаж от 10 лет и регулярно проходит обучение у ведущих колористов Европы</p></div>
+<div class="card"><div class="card-icon">🌿</div><h3>Премиальная косметика</h3><p>Работаем только на профессиональных средствах: L'Oréal Professionnel, Kerastase, Olaplex</p></div>
+<div class="card"><div class="card-icon">🤖</div><h3>Запись 24/7 через бота</h3><p>Наш Telegram-бот ответит на вопросы, покажет свободные окна и запишет вас за 2 минуты</p></div>
+<div class="card"><div class="card-icon">📍</div><div class="card-icon">📍</div><h3>Удобное расположение</h3><p>Салон в центре города, 5 минут от метро. Бесплатная парковка для клиентов</p></div>
+</div>
+</div></section>
+<section class="services" id="services"><div class="container">
+<h2 class="section-title">Наши услуги</h2>
+<div class="section-sub">Цены актуальны на 2026 год</div>
+<div class="services-grid">
+<div class="service-item"><div class="emoji">💇‍♀️</div><h4>Женская стрижка</h4><div class="price">от 2 500 ₽</div></div>
+<div class="service-item"><div class="emoji">💇</div><h4>Мужская стрижка</h4><div class="price">от 1 500 ₽</div></div>
+<div class="service-item"><div class="emoji">🎨</div><h4>Окрашивание</h4><div class="price">от 5 000 ₽</div></div>
+<div class="service-item"><div class="emoji">✨</div><div class="emoji">Укладка</h4><div class="price">от 1 800 ₽</div></div>
+<div class="service-item"><div class="emoji">💆‍♀️</div><h4>Уход за волосами</h4><div class="price">от 3 000 ₽</div></div>
+<div class="service-item"><div class="emoji">👰</div><h4>Стиль для свадьбы</h4><div class="price">от 8 000 ₽</div></div>
+</div>
+</div></section>
+<section class="gallery" id="gallery"><div class="container">
+<h2 class="section-title">Наши работы</h2>
+<div class="section-sub">Примеры работ наших мастеров</div>
+<div class="gallery-grid">
+<div class="gallery-item"><div class="emoji">💇‍♀️</div><p>Сложное окрашивание</p></div>
+<div class="gallery-item"><div class="emoji">💇</div><p>Мужская стрижка</p></div>
+<div class="gallery-item"><div class="emoji">👰</div><p>Свадебная укладка</p></div>
+</div>
+</div></section>
+<section class="reviews" id="reviews"><div class="container">
+<h2 class="section-title">Отзывы клиентов</h2>
+<div class="review-card">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>«Хожу в Элегант уже 3 года. Мастера — волшебники! Особенно рекомендую Анну — она знает всё о цвете. А запись через бота — это вообще магия, записалась за минуту в 2 часа ночи!»</p>
+<div class="author">— Мария К., клиент с 2023 года</div>
+</div>
+</div></section>
+<section class="contact" id="contact"><div class="container">
+<h2 class="section-title">Запишитесь онлайн</h2>
+<div class="contact-box">
+<p>Напишите нашему боту в Telegram — он ответит мгновенно, покажет свободные окна и запишет вас на удобное время</p>
+<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+<a href="https://t.me/jnn_assistant_bot" class="btn btn-primary">💬 Записаться через Telegram</a>
+<a href="tel:+79991234567" class="btn btn-outline">📞 Позвонить</a>
+</div>
+</div>
+</div></section>
+<footer><div class="container">
+<p>© 2026 Салон «Элегант» | Пример умного лендинга с AI-ботом от JNN Factory</p>
+</div></footer>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();const t=document.querySelector(a.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'});});});
+</script>
+</body>
+</html>
