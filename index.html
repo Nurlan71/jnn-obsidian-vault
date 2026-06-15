@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JNN Factory — Портфолио | Лендинги для бизнеса</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:#f8fafc; color:#1e293b; }
+    
+    .hero { background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%); color:white; padding:80px 20px; text-align:center; }
+    .hero h1 { font-size:42px; font-weight:800; margin-bottom:12px; }
+    .hero p { font-size:18px; opacity:0.7; max-width:600px; margin:0 auto 24px; }
+    .hero .price { display:inline-block; background:rgba(255,255,255,0.1); padding:8px 20px; border-radius:50px; font-size:14px; }
+    
+    .container { max-width:1100px; margin:0 auto; padding:40px 20px; }
+    .section-title { font-size:28px; font-weight:700; margin-bottom:30px; text-align:center; }
+    
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:24px; }
+    
+    .card { background:white; border-radius:16px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.06); transition:all 0.3s; text-decoration:none; color:inherit; display:block; }
+    .card:hover { transform:translateY(-6px); box-shadow:0 12px 40px rgba(0,0,0,0.15); }
+    .card-preview { height:160px; display:flex; align-items:center; justify-content:center; font-size:56px; }
+    .card-body { padding:20px; }
+    .card-tag { display:inline-block; padding:4px 12px; border-radius:50px; font-size:11px; font-weight:700; text-transform:uppercase; margin-bottom:8px; }
+    .card h3 { font-size:17px; font-weight:700; margin-bottom:6px; }
+    .card p { font-size:13px; color:#64748b; line-height:1.5; }
+    .card-link { display:inline-flex; align-items:center; gap:6px; margin-top:12px; color:#2563eb; font-size:13px; font-weight:600; }
+    
+    /* Tag colors */
+    .tag-atelie { background:#fce7f3; color:#be185d; }
+    .tag-med { background:#e0f2fe; color:#0284c7; }
+    .tag-fitness { background:#fff3ed; color:#ea580c; }
+    .tag-repair { background:#fef3c7; color:#d97706; }
+    .tag-cafe { background:#ecfccb; color:#65a30d; }
+    .tag-edu { background:#f3e8ff; color:#9333ea; }
+    .tag-beauty { background:#fce7f3; color:#db2777; }
+    .tag-it { background:#e2e8f0; color:#475569; }
+    .tag-restaurant { background:#fee2e2; color:#dc2626; }
+    
+    /* Preview backgrounds */
+    .preview-atelie { background:linear-gradient(135deg,#1a1a2e,#16213e); }
+    .preview-med { background:linear-gradient(135deg,#e0f2fe,#bae6fd); }
+    .preview-fitness { background:linear-gradient(135deg,#fff5f0,#ffe4d6); }
+    .preview-repair { background:linear-gradient(135deg,#fffbeb,#fde68a); }
+    .preview-cafe { background:linear-gradient(135deg,#ecfccb,#d9f99d); }
+    .preview-edu { background:linear-gradient(135deg,#faf5ff,#e9d5ff); }
+    .preview-beauty { background:linear-gradient(135deg,#fce7f3,#fbcfe8); }
+    .preview-it { background:linear-gradient(135deg,#f1f5f9,#cbd5e1); }
+    .preview-restaurant { background:linear-gradient(135deg,#fee2e2,#fecaca); }
+    
+    .cta { background:linear-gradient(135deg,#0f172a,#1e293b); color:white; padding:60px 20px; text-align:center; margin-top:40px; }
+    .cta h2 { font-size:32px; font-weight:700; margin-bottom:12px; }
+    .cta p { opacity:0.7; margin-bottom:24px; }
+    .cta .btn { display:inline-block; padding:14px 36px; background:#e94560; color:white; border-radius:50px; text-decoration:none; font-weight:700; font-size:16px; }
+    .cta .btn:hover { background:#c73650; }
+    
+    .footer { background:#0f172a; color:white; padding:30px 20px; text-align:center; font-size:13px; opacity:0.6; }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🎯 JNN Factory</h1>
+  <p>Лендинги для вашего бизнеса. Быстро. Качественно. Недорого.</p>
+  <div class="price">💰 от 10 000 сом &nbsp;|&nbsp; ⏱ 3-5 дней</div>
+</div>
+
+<div class="container">
+  <h2 class="section-title">Наши работы</h2>
+  <div class="grid">
+    
+    <a href="atelie-moda/index.html" class="card">
+      <div class="card-preview preview-atelie">🧵</div>
+      <div class="card-body">
+        <span class="card-tag tag-atelie">Швейное ателье</span>
+        <h3>Ателье Мода</h3>
+        <p>Индивидуальный пошив одежды в Бишкеке. Качество, проверенное временем.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="dentistry/index.html" class="card">
+      <div class="card-preview preview-med">🦷</div>
+      <div class="card-body">
+        <span class="card-tag tag-med">Стоматология</span>
+        <h3>Dental House</h3>
+        <p>Современная стоматология. Отбеливание, имплантация, лечение.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="fitness/index.html" class="card">
+      <div class="card-preview preview-fitness">💪</div>
+      <div class="card-body">
+        <span class="card-tag tag-fitness">Фитнес</span>
+        <h3>FitPro</h3>
+        <p>Персональный тренер. Трансформация тела за 90 дней.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="repair/index.html" class="card">
+      <div class="card-preview preview-repair">🔧</div>
+      <div class="card-body">
+        <span class="card-tag tag-repair">Ремонт техники</span>
+        <h3>Ремонт Про</h3>
+        <p>Ремонт телефонов, ноутбуков, бытовой техники. Быстро и качественно.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="cafe/index.html" class="card">
+      <div class="card-preview preview-cafe">☕</div>
+      <div class="card-body">
+        <span class="card-tag tag-cafe">Кафе</span>
+        <h3>Кафе Уют</h3>
+        <p>Уютное кафе с домашней кухней. Доставка и самовывоз.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="education/index.html" class="card">
+      <div class="card-preview preview-edu">📚</div>
+      <div class="card-body">
+        <span class="card-tag tag-edu">Образование</span>
+        <h3>EduCenter</h3>
+        <p>Курсы и тренинги для профессионального роста.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="parikmaherskaya/index.html" class="card">
+      <div class="card-preview preview-beauty">💇</div>
+      <div class="card-body">
+        <span class="card-tag tag-beauty">Красота</span>
+        <h3>Салон красоты</h3>
+        <p>Парикмахерский салон. Стрижки, окрашивание, маникюр.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="it-services/index.html" class="card">
+      <div class="card-preview preview-it">💻</div>
+      <div class="card-body">
+        <span class="card-tag tag-it">IT-услуги</span>
+        <h3>JNN IT Services</h3>
+        <p>Разработка сайтов, ботов, автоматизация бизнеса.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="ai-chat-widget/index.html" class="card">
+      <div class="card-preview preview-it">🤖</div>
+      <div class="card-body">
+        <span class="card-tag tag-it">AI / SaaS</span>
+        <h3>AI Chat Widget</h3>
+        <p>AI-чат для сайта. Автоматизация поддержки клиентов.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="ai-b2b/index.html" class="card">
+      <div class="card-preview preview-it">🏢</div>
+      <div class="card-body">
+        <span class="card-tag tag-it">B2B / SaaS</span>
+        <h3>AI B2B Platform</h3>
+        <p>AI-решения для бизнеса. Автоматизация процессов.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="krepkiy-oreshek/index.html" class="card">
+      <div class="card-preview preview-restaurant">🍽️</div>
+      <div class="card-body">
+        <span class="card-tag tag-restaurant">Ресторан</span>
+        <h3>Крепкий Орешек</h3>
+        <p>Ресторан европейской кухни. Банкеты, доставка.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+    <a href="smart-landing/index.html" class="card">
+      <div class="card-preview preview-it">⚡</div>
+      <div class="card-body">
+        <span class="card-tag tag-it">Универсальный</span>
+        <h3>Smart Landing</h3>
+        <p>Универсальный лендинг с AI-чатом и мини-CRM.</p>
+        <span class="card-link">Открыть →</span>
+      </div>
+    </a>
+    
+  </div>
+</div>
+
+<div class="cta">
+  <h2>Хотите такой же лендинг?</h2>
+  <p>Напишите нам — обсудим ваш проект и сделаем демо за 1 день</p>
+  <a href="https://wa.me/996777083015" class="btn">📱 Написать в WhatsApp</a>
+</div>
+
+<div class="footer">
+  © 2026 JNN Factory | Лендинги для бизнеса<br>
+  📞 +996 777 083 015 (Руслан) | 📱 @JNN_Navigator_bot
+</div>
+
+</body>
+</html>
