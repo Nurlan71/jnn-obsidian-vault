@@ -1,102 +1,32 @@
-# 📁 Структура папки `landings/` — Портфолио JNN Factory
+# 🎯 JNN Factory — Портфолио лендингов
 
-## Организация
+> Готовые лендинги для вашего бизнеса. Быстро. Качественно. Недорого.
 
-Каждый лендинг — отдельная подпапка:
+**Цены:** от 10 000 сом | **Срок:** 3-5 дней
 
-```
-landings/
-├── index.html          ← Главная страница портфолио (обзор всех работ)
-├── README.md           ← Этот файл
-├── TOP-20-CLIENTS.md   ← Аудит сайтов конкурентов (Firecrawl)
-│
-├── atelie-moda/        ← Швейная мастерская
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── dentistry/          ← Стоматология
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── fitness/            ← Фитнес / спорт
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── repair/             ← Ремонт техники
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── cafe/               ← Кафе / ресторан
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── parikmaherskaya/    ← Парикмахерская
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── it-services/        ← IT-услуги
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── ai-b2b/             ← AI для бизнеса
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── ai-chat-widget/     ← AI чат-виджет
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── education/          ← Образование
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-├── smart-landing/      ← Умный лендинг
-│   ├── index.html
-│   ├── README.md
-│   └── screenshot.png
-│
-└── krepkiy-oreshek/    ← Крепкий орешек (пример)
-    ├── index.html
-    ├── README.md
-    └── screenshot.png
-```
+## Наши работы
 
-## Категории лендингов
+| # | Проект | Отрасль | Демо |
+|---|--------|---------|------|
+| 1 | Ателье Мода | Швейное производство | [Открыть](atelie-moda/index.html) |
+| 2 | Стоматология | Медицина | [Открыть](dentistry/index.html) |
+| 3 | FitPro | Фитнес | [Открыть](fitness/index.html) |
+| 4 | Ремонт техники | Быт. услуги | [Открыть](repair/index.html) |
+| 5 | Кафе | Общепит | [Открыть](cafe/index.html) |
+| 6 | Образование | Образование | [Открыть](education/index.html) |
+| 7 | Парикмахерская | Красота | [Открыть](parikmaherskaya/index.html) |
+| 8 | IT-услуги | IT | [Открыть](it-services/index.html) |
+| 9 | AI Chat Widget | IT / SaaS | [Открыть](ai-chat-widget/index.html) |
+| 10 | AI B2B | IT / B2B | [Открыть](ai-b2b/index.html) |
+| 11 | Крепкий Орешек | Ресторан | [Открыть](krepkiy-oreshek/index.html) |
+| 12 | Smart Landing | Универсальный | [Открыть](smart-landing/index.html) |
 
-| Категория | Лендинги | Целевая аудитория |
-|-----------|----------|-------------------|
-| **Услуги B2C** | dentistry, fitness, repair, cafe, parikmaherskaya | Малый бизнес, салоны, кафе |
-| **Производство** | atelie-moda | Швейные мастерские, цеха |
-| **IT / SaaS** | it-services, ai-b2b, ai-chat-widget, smart-landing | IT-компании, стартапы |
-| **Образование** | education | Курсы, тренинги |
+## Контакты
 
-## Масштабирование
+- **WhatsApp:** +996 777 083 015 (Руслан)
+- **Telegram:** @JNN_Navigator_bot
+- **Email:** nurlan710201@gmail.com
 
-При росте количества проектов:
+---
 
-1. **Каждый проект — отдельная подпапка** (не плоский список файлов)
-2. **Внутри проекта**: index.html + README.md + screenshot.png
-3. **README.md** содержит: описание, стек, ссылку на live demo, отзыв клиента
-4. **index.html** на верхнем уровне — автоматически генерируемый каталог
-5. **При 100+ проектах** — добавить подпапки по категориям: `landings/services/`, `landings/ecommerce/`, `landings/saas/`
-
-## Связь с IT-Услуги
-
-Папка `landings/` — это **портфолио** (что умеем делать).
-Папка `notes/IT-Услуги/` — это **бизнес-процесс** (как продаём и работаем).
-
-Связь:
-- `notes/IT-Услуги/Проекты/` — активные проекты клиентов
-- `notes/IT-Услуги/Шаблоны/` — шаблоны сообщений и скриптов
-- `landings/` — демо-версии для показа клиентам
-- Когда проект завершён → копия лендинга в `landings/` + отзыв в `notes/IT-Услуги/Отзывы/`
+*© 2026 JNN Factory. Все лендинги созданы с помощью AI-инструментов.*
