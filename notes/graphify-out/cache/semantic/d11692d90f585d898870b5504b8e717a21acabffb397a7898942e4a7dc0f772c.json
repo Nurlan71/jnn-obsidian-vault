@@ -1,0 +1,1 @@
+{"nodes": [{"id": "hr_overview", "label": "HR Overview", "file_type": "document", "source_file": "HR/\u041e\u0431\u0437\u043e\u0440.md"}], "edges": [{"source": "hr_overview", "target": "agent_hr", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "HR/\u041e\u0431\u0437\u043e\u0440.md"}], "hyperedges": []}

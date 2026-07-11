@@ -1,0 +1,363 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "jnn_agent_orchestration",
+        "label": "JNN Agent Orchestration Flow",
+        "nodes": [
+          "jnn_structure_navigator",
+          "jnn_structure_dashboard",
+          "jnn_structure_kanban_db"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.9,
+        "source_file": "JNN-Structure.md"
+      },
+      {
+        "id": "jnn_sales_stack",
+        "label": "JNN Sales & Marketing Stack",
+        "nodes": [
+          "jnn_structure_sales",
+          "jnn_structure_rop",
+          "jnn_structure_leadbot",
+          "jnn_structure_nurasales",
+          "jnn_structure_telesender"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "JNN-Structure.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "\u041d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440 (COO)",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_navigator",
+      "community": 1,
+      "norm_label": "\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440 (coo)"
+    },
+    {
+      "label": "\u0420\u041e\u041f (Sales Head)",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_rop",
+      "community": 2,
+      "norm_label": "\u0440\u043e\u043f (sales head)"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0434\u0430\u0436\u043d\u0438\u043a",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_sales",
+      "community": 2,
+      "norm_label": "\u043f\u0440\u043e\u0434\u0430\u0436\u043d\u0438\u043a"
+    },
+    {
+      "label": "\u041c\u0430\u0440\u043a\u0435\u0442\u043e\u043b\u043e\u0433",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_marketer",
+      "community": 3,
+      "norm_label": "\u043c\u0430\u0440\u043a\u0435\u0442\u043e\u043b\u043e\u0433"
+    },
+    {
+      "label": "\u0424\u0438\u043d\u0434\u0438\u0440",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_finance",
+      "community": 0,
+      "norm_label": "\u0444\u0438\u043d\u0434\u0438\u0440"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_production",
+      "community": 0,
+      "norm_label": "\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e"
+    },
+    {
+      "label": "HR",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_hr",
+      "community": 0,
+      "norm_label": "hr"
+    },
+    {
+      "label": "\u0425\u0430\u0431\u0438\u0442-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_habit",
+      "community": 4,
+      "norm_label": "\u0445\u0430\u0431\u0438\u0442-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c"
+    },
+    {
+      "label": "JNN Dashboard",
+      "file_type": "document",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": "https://docs.google.com/spreadsheets/d/1gBqmaUrwWDfsONoWa6wami01EwMyyK81YPDaZilHphk/edit",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_dashboard",
+      "community": 0,
+      "norm_label": "jnn dashboard"
+    },
+    {
+      "label": "Kanban DB",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_kanban_db",
+      "community": 1,
+      "norm_label": "kanban db"
+    },
+    {
+      "label": "JNN-OpenClaw",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_openclaw",
+      "community": 1,
+      "norm_label": "jnn-openclaw"
+    },
+    {
+      "label": "JNN-LeadBot",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_leadbot",
+      "community": 5,
+      "norm_label": "jnn-leadbot"
+    },
+    {
+      "label": "NuraSales",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_nurasales",
+      "community": 2,
+      "norm_label": "nurasales"
+    },
+    {
+      "label": "TeleSender",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_telesender",
+      "community": 6,
+      "norm_label": "telesender"
+    },
+    {
+      "label": "SMM-AI-",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_smmai",
+      "community": 3,
+      "norm_label": "smm-ai-"
+    },
+    {
+      "label": "1-WB-promotion",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_wb_promotion",
+      "community": 8,
+      "norm_label": "1-wb-promotion"
+    },
+    {
+      "label": "wb-mcp-server",
+      "file_type": "code",
+      "source_file": "JNN-Structure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jnn_structure_wb_mcp",
+      "community": 7,
+      "norm_label": "wb-mcp-server"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "JNN-Structure.md",
+      "source": "jnn_structure_navigator",
+      "target": "jnn_structure_kanban_db"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "JNN-Structure.md",
+      "source": "jnn_structure_navigator",
+      "target": "jnn_structure_openclaw"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "JNN-Structure.md",
+      "source": "jnn_structure_rop",
+      "target": "jnn_structure_sales"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "JNN-Structure.md",
+      "source": "jnn_structure_sales",
+      "target": "jnn_structure_dashboard"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "JNN-Structure.md",
+      "source": "jnn_structure_sales",
+      "target": "jnn_structure_nurasales"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "JNN-Structure.md",
+      "source": "jnn_structure_marketer",
+      "target": "jnn_structure_smmai"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "JNN-Structure.md",
+      "source": "jnn_structure_finance",
+      "target": "jnn_structure_dashboard"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "JNN-Structure.md",
+      "source": "jnn_structure_production",
+      "target": "jnn_structure_dashboard"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "JNN-Structure.md",
+      "source": "jnn_structure_hr",
+      "target": "jnn_structure_dashboard"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "jnn_agent_orchestration",
+      "label": "JNN Agent Orchestration Flow",
+      "nodes": [
+        "jnn_structure_navigator",
+        "jnn_structure_dashboard",
+        "jnn_structure_kanban_db"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "JNN-Structure.md"
+    },
+    {
+      "id": "jnn_sales_stack",
+      "label": "JNN Sales & Marketing Stack",
+      "nodes": [
+        "jnn_structure_sales",
+        "jnn_structure_rop",
+        "jnn_structure_leadbot",
+        "jnn_structure_nurasales",
+        "jnn_structure_telesender"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "JNN-Structure.md"
+    }
+  ]
+}

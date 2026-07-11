@@ -1,0 +1,233 @@
+{
+  "communities": {
+    "0": [
+      "otzyvy_nurlan",
+      "otzyvy_otzyvy",
+      "otzyvy_ruslan",
+      "soobshcheniya_baza_klientov",
+      "soobshcheniya_bravo_group",
+      "soobshcheniya_jnn_factory",
+      "soobshcheniya_lending",
+      "soobshcheniya_shablony",
+      "soobshcheniya_telegram_bot"
+    ],
+    "1": [
+      "agent_finance",
+      "agent_habit",
+      "agent_hr",
+      "agent_navigator",
+      "finance_overview",
+      "hr_overview",
+      "human_alina",
+      "human_nurlan"
+    ],
+    "2": [
+      "agent_marketer",
+      "agent_production",
+      "agent_rop",
+      "human_aigerim",
+      "human_timur",
+      "marketing_overview",
+      "production_overview"
+    ],
+    "3": [
+      "communication_protocol_v1",
+      "google_drive_audit",
+      "google_drive_shared",
+      "jnn_architecture_2026_06_12",
+      "memory_upgrade_2026_06_03",
+      "obsidian_vault_shared"
+    ],
+    "4": [
+      "agent_sales",
+      "human_ruslan",
+      "it_services_readme",
+      "ruslan_it_instruction"
+    ],
+    "5": [
+      "architecture_status_2026_06_12",
+      "jnn_dashboard"
+    ],
+    "6": [
+      "active_projects_jnn"
+    ],
+    "7": [
+      "ai_agents_jnn"
+    ],
+    "8": [
+      "ai_tools_it_services"
+    ],
+    "9": [
+      "backlog_ideas"
+    ],
+    "10": [
+      "competitor_audit_garment_kg"
+    ],
+    "11": [
+      "decisions_journal"
+    ],
+    "12": [
+      "google_cloud_setup"
+    ],
+    "13": [
+      "handbook_jnn"
+    ],
+    "14": [
+      "infrastructure_jnn"
+    ],
+    "15": [
+      "it_clients_database"
+    ],
+    "16": [
+      "it_projects_active"
+    ],
+    "17": [
+      "obsidian_vault_purpose"
+    ],
+    "18": [
+      "processes_jnn"
+    ],
+    "19": [
+      "sewing_industry_benchmarks"
+    ],
+    "20": [
+      "team_jnn"
+    ]
+  },
+  "cohesion": {
+    "0": 0.25,
+    "1": 0.25,
+    "2": 0.2857142857142857,
+    "3": 0.4,
+    "4": 0.5,
+    "5": 1.0,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0
+  },
+  "gods": [
+    {
+      "id": "agent_navigator",
+      "label": "Navigator (COO)",
+      "degree": 9
+    },
+    {
+      "id": "soobshcheniya_shablony",
+      "label": "\u0428\u0430\u0431\u043b\u043e\u043d\u044b IT-\u0423\u0441\u043b\u0443\u0433\u0438",
+      "degree": 6
+    },
+    {
+      "id": "google_drive_shared",
+      "label": "Shared Google Drive",
+      "degree": 4
+    },
+    {
+      "id": "agent_marketer",
+      "label": "Marketer (CMO)",
+      "degree": 4
+    },
+    {
+      "id": "otzyvy_ruslan",
+      "label": "\u0420\u0443\u0441\u043b\u0430\u043d",
+      "degree": 4
+    },
+    {
+      "id": "obsidian_vault_shared",
+      "label": "Shared Obsidian Vault",
+      "degree": 3
+    },
+    {
+      "id": "agent_production",
+      "label": "Production Agent",
+      "degree": 3
+    },
+    {
+      "id": "agent_finance",
+      "label": "Finance Agent (CFO)",
+      "degree": 3
+    },
+    {
+      "id": "human_ruslan",
+      "label": "Ruslan (Sales/Designer)",
+      "degree": 3
+    },
+    {
+      "id": "jnn_architecture_2026_06_12",
+      "label": "JNN Factory Architecture (2026-06-12)",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Navigator (COO)",
+      "target": "Shared Google Drive",
+      "source_files": [
+        "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+        "JNN-Architecture-2026-06-12.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Nurlan (CEO)",
+      "target": "Navigator (COO)",
+      "source_files": [
+        "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+        "\u0410\u0433\u0435\u043d\u0442\u044b.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; peripheral node `Nurlan (CEO)` unexpectedly reaches hub `Navigator (COO)`"
+    },
+    {
+      "source": "JNN Communication Protocol v1.0",
+      "target": "Shared Google Drive",
+      "source_files": [
+        "COMMUNICATION-PROTOCOL-v1.md",
+        "JNN-Architecture-2026-06-12.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "HR Overview",
+      "target": "HR Agent",
+      "source_files": [
+        "HR/\u041e\u0431\u0437\u043e\u0440.md",
+        "\u0410\u0433\u0435\u043d\u0442\u044b.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "IT Services README",
+      "target": "Ruslan (Sales/Designer)",
+      "source_files": [
+        "IT-\u0423\u0441\u043b\u0443\u0433\u0438/README.md",
+        "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

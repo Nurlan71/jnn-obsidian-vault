@@ -1,0 +1,58 @@
+{
+  "communities": {
+    "0": [
+      "readme_ai_landing_pages",
+      "readme_cold_calling",
+      "readme_jnn_factory",
+      "readme_jnn_navigator",
+      "readme_jnn_projects",
+      "readme_supabase_integration",
+      "readme_virtual_office"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2857142857142857
+  },
+  "gods": [
+    {
+      "id": "readme_jnn_projects",
+      "label": "\u041f\u0440\u043e\u0435\u043a\u0442\u044b JNN",
+      "degree": 6
+    },
+    {
+      "id": "readme_jnn_factory",
+      "label": "JNN Factory",
+      "degree": 1
+    },
+    {
+      "id": "readme_virtual_office",
+      "label": "\u0412\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0444\u0438\u0441",
+      "degree": 1
+    },
+    {
+      "id": "readme_ai_landing_pages",
+      "label": "\u041b\u0435\u043d\u0434\u0438\u043d\u0433\u0438 AI-\u0443\u0441\u043b\u0443\u0433",
+      "degree": 1
+    },
+    {
+      "id": "readme_jnn_navigator",
+      "label": "JNN Navigator",
+      "degree": 1
+    },
+    {
+      "id": "readme_supabase_integration",
+      "label": "Supabase \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f",
+      "degree": 1
+    },
+    {
+      "id": "readme_cold_calling",
+      "label": "Cold Calling",
+      "degree": 1
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 889,
+    "output": 884
+  }
+}

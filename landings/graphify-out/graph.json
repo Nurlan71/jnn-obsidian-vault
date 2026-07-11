@@ -1,0 +1,468 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "readme.md",
+      "community_name": "Community 0",
+      "id": "readme"
+    },
+    {
+      "label": "\ud83c\udfaf JNN Factory \u2014 \u041f\u043e\u0440\u0442\u0444\u043e\u043b\u0438\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u0432",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "\ud83c\udfaf jnn factory \u2014 \u043f\u043e\u0440\u0442\u0444\u043e\u043b\u0438\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u0432",
+      "community_name": "Community 0",
+      "id": "readme_jnn_factory_\u043f\u043e\u0440\u0442\u0444\u043e\u043b\u0438\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u0432"
+    },
+    {
+      "label": "\u041d\u0430\u0448\u0438 \u0440\u0430\u0431\u043e\u0442\u044b",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "\u043d\u0430\u0448\u0438 \u0440\u0430\u0431\u043e\u0442\u044b",
+      "community_name": "Community 0",
+      "id": "readme_\u043d\u0430\u0448\u0438_\u0440\u0430\u0431\u043e\u0442\u044b"
+    },
+    {
+      "label": "\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "\u043a\u043e\u043d\u0442\u0430\u043a\u0442\u044b",
+      "community_name": "Community 0",
+      "id": "readme_\u043a\u043e\u043d\u0442\u0430\u043a\u0442\u044b"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "ai-b2b/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "readme.md",
+      "community_name": "Community 1",
+      "id": "ai_b2b_readme"
+    },
+    {
+      "label": "AI B2B Landing",
+      "file_type": "document",
+      "source_file": "ai-b2b/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "ai b2b landing",
+      "community_name": "Community 1",
+      "id": "ai_b2b_readme_ai_b2b_landing"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "ai-chat-widget/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "readme.md",
+      "community_name": "Community 2",
+      "id": "ai_chat_widget_readme"
+    },
+    {
+      "label": "AI Chat Widget",
+      "file_type": "document",
+      "source_file": "ai-chat-widget/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "ai chat widget",
+      "community_name": "Community 2",
+      "id": "ai_chat_widget_readme_ai_chat_widget"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "atelie-moda/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "readme.md",
+      "community_name": "Community 3",
+      "id": "atelie_moda_readme"
+    },
+    {
+      "label": "\u0410\u0442\u0435\u043b\u044c\u0435 \u041c\u043e\u0434\u0430",
+      "file_type": "document",
+      "source_file": "atelie-moda/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "\u0430\u0442\u0435\u043b\u044c\u0435 \u043c\u043e\u0434\u0430",
+      "community_name": "Community 3",
+      "id": "atelie_moda_readme_\u0430\u0442\u0435\u043b\u044c\u0435_\u043c\u043e\u0434\u0430"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "cafe/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "readme.md",
+      "community_name": "Community 4",
+      "id": "cafe_readme"
+    },
+    {
+      "label": "\u041a\u0430\u0444\u0435 / \u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+      "file_type": "document",
+      "source_file": "cafe/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "\u043a\u0430\u0444\u0435 / \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+      "community_name": "Community 4",
+      "id": "cafe_readme_\u043a\u0430\u0444\u0435_\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "dentistry/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "readme.md",
+      "community_name": "Community 5",
+      "id": "dentistry_readme"
+    },
+    {
+      "label": "\u0421\u0442\u043e\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f",
+      "file_type": "document",
+      "source_file": "dentistry/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "\u0441\u0442\u043e\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f",
+      "community_name": "Community 5",
+      "id": "dentistry_readme_\u0441\u0442\u043e\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "education/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "readme.md",
+      "community_name": "Community 6",
+      "id": "education_readme"
+    },
+    {
+      "label": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 / \u041a\u0443\u0440\u0441\u044b",
+      "file_type": "document",
+      "source_file": "education/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 / \u043a\u0443\u0440\u0441\u044b",
+      "community_name": "Community 6",
+      "id": "education_readme_\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435_\u043a\u0443\u0440\u0441\u044b"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "fitness/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "readme.md",
+      "community_name": "Community 7",
+      "id": "fitness_readme"
+    },
+    {
+      "label": "\u0424\u0438\u0442\u043d\u0435\u0441 / \u0421\u043f\u043e\u0440\u0442\u0437\u0430\u043b",
+      "file_type": "document",
+      "source_file": "fitness/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "\u0444\u0438\u0442\u043d\u0435\u0441 / \u0441\u043f\u043e\u0440\u0442\u0437\u0430\u043b",
+      "community_name": "Community 7",
+      "id": "fitness_readme_\u0444\u0438\u0442\u043d\u0435\u0441_\u0441\u043f\u043e\u0440\u0442\u0437\u0430\u043b"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "it-services/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "readme.md",
+      "community_name": "Community 8",
+      "id": "it_services_readme"
+    },
+    {
+      "label": "IT-\u0443\u0441\u043b\u0443\u0433\u0438",
+      "file_type": "document",
+      "source_file": "it-services/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "it-\u0443\u0441\u043b\u0443\u0433\u0438",
+      "community_name": "Community 8",
+      "id": "it_services_readme_it_\u0443\u0441\u043b\u0443\u0433\u0438"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "krepkiy-oreshek/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "readme.md",
+      "community_name": "Community 9",
+      "id": "krepkiy_oreshek_readme"
+    },
+    {
+      "label": "\u041a\u0440\u0435\u043f\u043a\u0438\u0439 \u041e\u0440\u0435\u0448\u0435\u043a",
+      "file_type": "document",
+      "source_file": "krepkiy-oreshek/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "\u043a\u0440\u0435\u043f\u043a\u0438\u0438 \u043e\u0440\u0435\u0448\u0435\u043a",
+      "community_name": "Community 9",
+      "id": "krepkiy_oreshek_readme_\u043a\u0440\u0435\u043f\u043a\u0438\u0439_\u043e\u0440\u0435\u0448\u0435\u043a"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "parikmaherskaya/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 10,
+      "norm_label": "readme.md",
+      "community_name": "Community 10",
+      "id": "parikmaherskaya_readme"
+    },
+    {
+      "label": "\u041f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440\u0441\u043a\u0430\u044f",
+      "file_type": "document",
+      "source_file": "parikmaherskaya/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 10,
+      "norm_label": "\u043f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440\u0441\u043a\u0430\u044f",
+      "community_name": "Community 10",
+      "id": "parikmaherskaya_readme_\u043f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440\u0441\u043a\u0430\u044f"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "repair/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": "readme.md",
+      "community_name": "Community 11",
+      "id": "repair_readme"
+    },
+    {
+      "label": "\u0420\u0435\u043c\u043e\u043d\u0442 \u0442\u0435\u0445\u043d\u0438\u043a\u0438",
+      "file_type": "document",
+      "source_file": "repair/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": "\u0440\u0435\u043c\u043e\u043d\u0442 \u0442\u0435\u0445\u043d\u0438\u043a\u0438",
+      "community_name": "Community 11",
+      "id": "repair_readme_\u0440\u0435\u043c\u043e\u043d\u0442_\u0442\u0435\u0445\u043d\u0438\u043a\u0438"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "smart-landing/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 12,
+      "norm_label": "readme.md",
+      "community_name": "Community 12",
+      "id": "smart_landing_readme"
+    },
+    {
+      "label": "Smart Landing",
+      "file_type": "document",
+      "source_file": "smart-landing/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 12,
+      "norm_label": "smart landing",
+      "community_name": "Community 12",
+      "id": "smart_landing_readme_smart_landing"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_jnn_factory_\u043f\u043e\u0440\u0442\u0444\u043e\u043b\u0438\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u0432"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_jnn_factory_\u043f\u043e\u0440\u0442\u0444\u043e\u043b\u0438\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u0432",
+      "target": "readme_\u043a\u043e\u043d\u0442\u0430\u043a\u0442\u044b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_jnn_factory_\u043f\u043e\u0440\u0442\u0444\u043e\u043b\u0438\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u0432",
+      "target": "readme_\u043d\u0430\u0448\u0438_\u0440\u0430\u0431\u043e\u0442\u044b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai-b2b/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_b2b_readme",
+      "target": "ai_b2b_readme_ai_b2b_landing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai-chat-widget/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_chat_widget_readme",
+      "target": "ai_chat_widget_readme_ai_chat_widget"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "atelie-moda/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "atelie_moda_readme",
+      "target": "atelie_moda_readme_\u0430\u0442\u0435\u043b\u044c\u0435_\u043c\u043e\u0434\u0430"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "cafe/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cafe_readme",
+      "target": "cafe_readme_\u043a\u0430\u0444\u0435_\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dentistry/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dentistry_readme",
+      "target": "dentistry_readme_\u0441\u0442\u043e\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "education/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "education_readme",
+      "target": "education_readme_\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435_\u043a\u0443\u0440\u0441\u044b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "fitness/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fitness_readme",
+      "target": "fitness_readme_\u0444\u0438\u0442\u043d\u0435\u0441_\u0441\u043f\u043e\u0440\u0442\u0437\u0430\u043b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "it-services/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "it_services_readme",
+      "target": "it_services_readme_it_\u0443\u0441\u043b\u0443\u0433\u0438"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "krepkiy-oreshek/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "krepkiy_oreshek_readme",
+      "target": "krepkiy_oreshek_readme_\u043a\u0440\u0435\u043f\u043a\u0438\u0439_\u043e\u0440\u0435\u0448\u0435\u043a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "parikmaherskaya/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "parikmaherskaya_readme",
+      "target": "parikmaherskaya_readme_\u043f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440\u0441\u043a\u0430\u044f"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "repair/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repair_readme",
+      "target": "repair_readme_\u0440\u0435\u043c\u043e\u043d\u0442_\u0442\u0435\u0445\u043d\u0438\u043a\u0438"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "smart-landing/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "smart_landing_readme",
+      "target": "smart_landing_readme_smart_landing"
+    }
+  ],
+  "hyperedges": []
+}

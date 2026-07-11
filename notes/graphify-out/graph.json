@@ -1,0 +1,777 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "JNN Communication Protocol v1.0",
+      "file_type": "document",
+      "source_file": "COMMUNICATION-PROTOCOL-v1.md",
+      "community": 3,
+      "norm_label": "jnn communication protocol v1.0",
+      "id": "communication_protocol_v1"
+    },
+    {
+      "label": "Google Cloud Setup",
+      "file_type": "document",
+      "source_file": "Google-Cloud-Setup.md",
+      "community": 12,
+      "norm_label": "google cloud setup",
+      "id": "google_cloud_setup"
+    },
+    {
+      "label": "HR Overview",
+      "file_type": "document",
+      "source_file": "HR/\u041e\u0431\u0437\u043e\u0440.md",
+      "community": 1,
+      "norm_label": "hr overview",
+      "id": "hr_overview"
+    },
+    {
+      "label": "AI Tools for IT Services",
+      "file_type": "document",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/AI-\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b.md",
+      "community": 8,
+      "norm_label": "ai tools for it services",
+      "id": "ai_tools_it_services"
+    },
+    {
+      "label": "IT Services README",
+      "file_type": "document",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/README.md",
+      "community": 4,
+      "norm_label": "it services readme",
+      "id": "it_services_readme"
+    },
+    {
+      "label": "IT Sales Instruction for Ruslan",
+      "file_type": "document",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f-\u0434\u043b\u044f-\u0420\u0443\u0441\u043b\u0430\u043d\u0430.md",
+      "community": 4,
+      "norm_label": "it sales instruction for ruslan",
+      "id": "ruslan_it_instruction"
+    },
+    {
+      "label": "IT Services Clients Database",
+      "file_type": "document",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u041a\u043b\u0438\u0435\u043d\u0442\u044b/\u0411\u0430\u0437\u0430-\u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432.md",
+      "community": 15,
+      "norm_label": "it services clients database",
+      "id": "it_clients_database"
+    },
+    {
+      "label": "Active IT Projects",
+      "file_type": "document",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0435.md",
+      "community": 16,
+      "norm_label": "active it projects",
+      "id": "it_projects_active"
+    },
+    {
+      "label": "JNN Factory Architecture (2026-06-12)",
+      "file_type": "document",
+      "source_file": "JNN-Architecture-2026-06-12.md",
+      "community": 3,
+      "norm_label": "jnn factory architecture (2026-06-12)",
+      "id": "jnn_architecture_2026_06_12"
+    },
+    {
+      "label": "Shared Google Drive",
+      "file_type": "concept",
+      "source_file": "JNN-Architecture-2026-06-12.md",
+      "community": 3,
+      "norm_label": "shared google drive",
+      "id": "google_drive_shared"
+    },
+    {
+      "label": "JNN Obsidian Vault Purpose",
+      "file_type": "document",
+      "source_file": "Obsidian-Vault-\u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435.md",
+      "community": 17,
+      "norm_label": "jnn obsidian vault purpose",
+      "id": "obsidian_vault_purpose"
+    },
+    {
+      "label": "Shared Obsidian Vault",
+      "file_type": "concept",
+      "source_file": "Obsidian-Vault-\u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435.md",
+      "community": 3,
+      "norm_label": "shared obsidian vault",
+      "id": "obsidian_vault_shared"
+    },
+    {
+      "label": "AI-Agents JNN",
+      "file_type": "document",
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "community": 7,
+      "norm_label": "ai-agents jnn",
+      "id": "ai_agents_jnn"
+    },
+    {
+      "label": "Navigator (COO)",
+      "file_type": "code",
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "community": 1,
+      "norm_label": "navigator (coo)",
+      "id": "agent_navigator"
+    },
+    {
+      "label": "Marketer (CMO)",
+      "file_type": "code",
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "community": 2,
+      "norm_label": "marketer (cmo)",
+      "id": "agent_marketer"
+    },
+    {
+      "label": "Sales Agent",
+      "file_type": "code",
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "community": 4,
+      "norm_label": "sales agent",
+      "id": "agent_sales"
+    },
+    {
+      "label": "Production Agent",
+      "file_type": "code",
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "community": 2,
+      "norm_label": "production agent",
+      "id": "agent_production"
+    },
+    {
+      "label": "Finance Agent (CFO)",
+      "file_type": "code",
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "community": 1,
+      "norm_label": "finance agent (cfo)",
+      "id": "agent_finance"
+    },
+    {
+      "label": "HR Agent",
+      "file_type": "code",
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "community": 1,
+      "norm_label": "hr agent",
+      "id": "agent_hr"
+    },
+    {
+      "label": "ROP Agent (Sales Director)",
+      "file_type": "code",
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "community": 2,
+      "norm_label": "rop agent (sales director)",
+      "id": "agent_rop"
+    },
+    {
+      "label": "Habit Control Agent",
+      "file_type": "code",
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "community": 1,
+      "norm_label": "habit control agent",
+      "id": "agent_habit"
+    },
+    {
+      "label": "Memory Upgrade (2026-06-03)",
+      "file_type": "document",
+      "source_file": "\u0410\u043f\u0433\u0440\u0435\u0439\u0434-\u043f\u0430\u043c\u044f\u0442\u0438-2026-06-03.md",
+      "community": 3,
+      "norm_label": "memory upgrade (2026-06-03)",
+      "id": "memory_upgrade_2026_06_03"
+    },
+    {
+      "label": "Architecture Status (2026-06-12)",
+      "file_type": "document",
+      "source_file": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430-\u0441\u0442\u0430\u0442\u0443\u0441-2026-06-12.md",
+      "community": 5,
+      "norm_label": "architecture status (2026-06-12)",
+      "id": "architecture_status_2026_06_12"
+    },
+    {
+      "label": "JNN Dashboard",
+      "file_type": "code",
+      "source_file": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430-\u0441\u0442\u0430\u0442\u0443\u0441-2026-06-12.md",
+      "community": 5,
+      "norm_label": "jnn dashboard",
+      "id": "jnn_dashboard"
+    },
+    {
+      "label": "Google Drive Audit Report",
+      "file_type": "document",
+      "source_file": "\u0410\u0443\u0434\u0438\u0442-Google-Drive.md",
+      "community": 3,
+      "norm_label": "google drive audit report",
+      "id": "google_drive_audit"
+    },
+    {
+      "label": "Backlog of Ideas",
+      "file_type": "document",
+      "source_file": "\u0418\u0434\u0435\u0438/\u0411\u044d\u043a\u043b\u043e\u0433.md",
+      "community": 9,
+      "norm_label": "backlog of ideas",
+      "id": "backlog_ideas"
+    },
+    {
+      "label": "Infrastructure JNN",
+      "file_type": "document",
+      "source_file": "\u0418\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430.md",
+      "community": 14,
+      "norm_label": "infrastructure jnn",
+      "id": "infrastructure_jnn"
+    },
+    {
+      "label": "Team JNN",
+      "file_type": "document",
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "community": 20,
+      "norm_label": "team jnn",
+      "id": "team_jnn"
+    },
+    {
+      "label": "Nurlan (CEO)",
+      "file_type": "rationale",
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "community": 1,
+      "norm_label": "nurlan (ceo)",
+      "id": "human_nurlan"
+    },
+    {
+      "label": "Ruslan (Sales/Designer)",
+      "file_type": "rationale",
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "community": 4,
+      "norm_label": "ruslan (sales/designer)",
+      "id": "human_ruslan"
+    },
+    {
+      "label": "Alina (Finance)",
+      "file_type": "rationale",
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "community": 1,
+      "norm_label": "alina (finance)",
+      "id": "human_alina"
+    },
+    {
+      "label": "Timur (Marketing/Production)",
+      "file_type": "rationale",
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "community": 2,
+      "norm_label": "timur (marketing/production)",
+      "id": "human_timur"
+    },
+    {
+      "label": "Aigerim (Marketing/Sales)",
+      "file_type": "rationale",
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "community": 2,
+      "norm_label": "aigerim (marketing/sales)",
+      "id": "human_aigerim"
+    },
+    {
+      "label": "Competitor Audit: garment.kg",
+      "file_type": "document",
+      "source_file": "\u041c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433/\u041a\u043e\u043d\u043a\u0443\u0440\u0435\u043d\u0442\u044b/\u0410\u0443\u0434\u0438\u0442-garment-kg.md",
+      "community": 10,
+      "norm_label": "competitor audit: garment.kg",
+      "id": "competitor_audit_garment_kg"
+    },
+    {
+      "label": "Marketing Overview",
+      "file_type": "document",
+      "source_file": "\u041c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433/\u041e\u0431\u0437\u043e\u0440.md",
+      "community": 2,
+      "norm_label": "marketing overview",
+      "id": "marketing_overview"
+    },
+    {
+      "label": "Sewing Industry Benchmarks",
+      "file_type": "document",
+      "source_file": "\u041c\u0438\u0440\u043e\u0432\u044b\u0435-\u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0438-\u0448\u0432\u0435\u0439\u043d\u043e\u0435-\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e.md",
+      "community": 19,
+      "norm_label": "sewing industry benchmarks",
+      "id": "sewing_industry_benchmarks"
+    },
+    {
+      "label": "Active JNN Projects",
+      "file_type": "document",
+      "source_file": "\u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0435.md",
+      "community": 6,
+      "norm_label": "active jnn projects",
+      "id": "active_projects_jnn"
+    },
+    {
+      "label": "Production Overview",
+      "file_type": "document",
+      "source_file": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e/\u041e\u0431\u0437\u043e\u0440.md",
+      "community": 2,
+      "norm_label": "production overview",
+      "id": "production_overview"
+    },
+    {
+      "label": "Processes JNN",
+      "file_type": "document",
+      "source_file": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u044b.md",
+      "community": 18,
+      "norm_label": "processes jnn",
+      "id": "processes_jnn"
+    },
+    {
+      "label": "Decisions Journal",
+      "file_type": "document",
+      "source_file": "\u0420\u0435\u0448\u0435\u043d\u0438\u044f/\u0416\u0443\u0440\u043d\u0430\u043b.md",
+      "community": 11,
+      "norm_label": "decisions journal",
+      "id": "decisions_journal"
+    },
+    {
+      "label": "JNN Handbook",
+      "file_type": "document",
+      "source_file": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a-JNN.md",
+      "community": 13,
+      "norm_label": "jnn handbook",
+      "id": "handbook_jnn"
+    },
+    {
+      "label": "Finance Overview",
+      "file_type": "document",
+      "source_file": "\u0424\u0438\u043d\u0430\u043d\u0441\u044b/\u041e\u0431\u0437\u043e\u0440.md",
+      "community": 1,
+      "norm_label": "finance overview",
+      "id": "finance_overview"
+    },
+    {
+      "label": "\u041e\u0442\u0437\u044b\u0432\u044b IT-\u0423\u0441\u043b\u0443\u0433\u0438",
+      "file_type": "document",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u041e\u0442\u0437\u044b\u0432\u044b/\u041e\u0442\u0437\u044b\u0432\u044b.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "\u043e\u0442\u0437\u044b\u0432\u044b it-\u0443\u0441\u043b\u0443\u0433\u0438",
+      "id": "otzyvy_otzyvy"
+    },
+    {
+      "label": "\u0420\u0443\u0441\u043b\u0430\u043d",
+      "file_type": "concept",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u041e\u0442\u0437\u044b\u0432\u044b/\u041e\u0442\u0437\u044b\u0432\u044b.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "\u0440\u0443\u0441\u043b\u0430\u043d",
+      "id": "otzyvy_ruslan"
+    },
+    {
+      "label": "\u041d\u0443\u0440\u043b\u0430\u043d",
+      "file_type": "concept",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u041e\u0442\u0437\u044b\u0432\u044b/\u041e\u0442\u0437\u044b\u0432\u044b.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "\u043d\u0443\u0440\u043b\u0430\u043d",
+      "id": "otzyvy_nurlan"
+    },
+    {
+      "label": "\u0428\u0430\u0431\u043b\u043e\u043d\u044b IT-\u0423\u0441\u043b\u0443\u0433\u0438",
+      "file_type": "document",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "\u0448\u0430\u0431\u043b\u043e\u043d\u044b it-\u0443\u0441\u043b\u0443\u0433\u0438",
+      "id": "soobshcheniya_shablony"
+    },
+    {
+      "label": "JNN Factory",
+      "file_type": "concept",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "jnn factory",
+      "id": "soobshcheniya_jnn_factory"
+    },
+    {
+      "label": "WhatsApp \u0413\u0440\u0443\u043f\u043f\u0430 BRAVO",
+      "file_type": "concept",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "whatsapp \u0433\u0440\u0443\u043f\u043f\u0430 bravo",
+      "id": "soobshcheniya_bravo_group"
+    },
+    {
+      "label": "\u0411\u0430\u0437\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432",
+      "file_type": "document",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "\u0431\u0430\u0437\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432",
+      "id": "soobshcheniya_baza_klientov"
+    },
+    {
+      "label": "\u041b\u0435\u043d\u0434\u0438\u043d\u0433 (\u0441\u0430\u0439\u0442-\u0432\u0438\u0437\u0438\u0442\u043a\u0430)",
+      "file_type": "concept",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "\u043b\u0435\u043d\u0434\u0438\u043d\u0433 (\u0441\u0430\u0438\u0442-\u0432\u0438\u0437\u0438\u0442\u043a\u0430)",
+      "id": "soobshcheniya_lending"
+    },
+    {
+      "label": "Telegram-\u0431\u043e\u0442",
+      "file_type": "concept",
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "telegram-\u0431\u043e\u0442",
+      "id": "soobshcheniya_telegram_bot"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "COMMUNICATION-PROTOCOL-v1.md",
+      "source": "communication_protocol_v1",
+      "target": "google_drive_shared"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HR/\u041e\u0431\u0437\u043e\u0440.md",
+      "source": "hr_overview",
+      "target": "agent_hr"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/README.md",
+      "source": "it_services_readme",
+      "target": "human_ruslan"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f-\u0434\u043b\u044f-\u0420\u0443\u0441\u043b\u0430\u043d\u0430.md",
+      "source": "ruslan_it_instruction",
+      "target": "human_ruslan"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "JNN-Architecture-2026-06-12.md",
+      "source": "jnn_architecture_2026_06_12",
+      "target": "google_drive_shared"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "JNN-Architecture-2026-06-12.md",
+      "source": "jnn_architecture_2026_06_12",
+      "target": "obsidian_vault_shared"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "JNN-Architecture-2026-06-12.md",
+      "source": "agent_navigator",
+      "target": "google_drive_shared"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u0410\u0443\u0434\u0438\u0442-Google-Drive.md",
+      "source": "google_drive_audit",
+      "target": "google_drive_shared"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u0410\u0443\u0434\u0438\u0442-Google-Drive.md",
+      "source": "google_drive_audit",
+      "target": "obsidian_vault_shared"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u0410\u043f\u0433\u0440\u0435\u0439\u0434-\u043f\u0430\u043c\u044f\u0442\u0438-2026-06-03.md",
+      "source": "memory_upgrade_2026_06_03",
+      "target": "obsidian_vault_shared"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "source": "agent_navigator",
+      "target": "agent_finance"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "source": "agent_navigator",
+      "target": "agent_habit"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "source": "agent_navigator",
+      "target": "agent_hr"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "source": "agent_navigator",
+      "target": "agent_marketer"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "source": "agent_navigator",
+      "target": "agent_production"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "source": "agent_navigator",
+      "target": "agent_rop"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "source": "agent_navigator",
+      "target": "agent_sales"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
+      "source": "human_nurlan",
+      "target": "agent_navigator"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "source": "agent_marketer",
+      "target": "human_aigerim"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "source": "agent_marketer",
+      "target": "human_timur"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u041c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433/\u041e\u0431\u0437\u043e\u0440.md",
+      "source": "marketing_overview",
+      "target": "agent_marketer"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "source": "agent_sales",
+      "target": "human_ruslan"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "source": "agent_production",
+      "target": "human_timur"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e/\u041e\u0431\u0437\u043e\u0440.md",
+      "source": "production_overview",
+      "target": "agent_production"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "source": "agent_finance",
+      "target": "human_alina"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u0424\u0438\u043d\u0430\u043d\u0441\u044b/\u041e\u0431\u0437\u043e\u0440.md",
+      "source": "finance_overview",
+      "target": "agent_finance"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430.md",
+      "source": "agent_rop",
+      "target": "human_aigerim"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430-\u0441\u0442\u0430\u0442\u0443\u0441-2026-06-12.md",
+      "source": "architecture_status_2026_06_12",
+      "target": "jnn_dashboard"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u041e\u0442\u0437\u044b\u0432\u044b/\u041e\u0442\u0437\u044b\u0432\u044b.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "otzyvy_otzyvy",
+      "target": "otzyvy_ruslan"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "soobshcheniya_shablony",
+      "target": "otzyvy_otzyvy"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u041e\u0442\u0437\u044b\u0432\u044b/\u041e\u0442\u0437\u044b\u0432\u044b.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "otzyvy_ruslan",
+      "target": "otzyvy_nurlan"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "otzyvy_ruslan",
+      "target": "soobshcheniya_jnn_factory"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "soobshcheniya_shablony",
+      "target": "otzyvy_ruslan"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "soobshcheniya_shablony",
+      "target": "soobshcheniya_baza_klientov"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "soobshcheniya_shablony",
+      "target": "soobshcheniya_bravo_group"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "soobshcheniya_shablony",
+      "target": "soobshcheniya_lending"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IT-\u0423\u0441\u043b\u0443\u0433\u0438/\u0428\u0430\u0431\u043b\u043e\u043d\u044b/\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "soobshcheniya_shablony",
+      "target": "soobshcheniya_telegram_bot"
+    }
+  ],
+  "hyperedges": []
+}

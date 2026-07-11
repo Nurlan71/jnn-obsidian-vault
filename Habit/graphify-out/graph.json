@@ -1,0 +1,328 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "jnn_habit_ecosystem",
+        "label": "JNN Habit Control Ecosystem",
+        "nodes": [
+          "soul_jnn_habit_control",
+          "habit_registry_registry",
+          "weight_tracking_history",
+          "weight_log_obsidian"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "SOUL.md"
+      },
+      {
+        "id": "nurlan_health_goals",
+        "label": "Nurlan's Health & Weight Goals",
+        "nodes": [
+          "soul_nurlan",
+          "weight_tracking_history",
+          "habit_registry_registry"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "SOUL.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "JNN Habit Control",
+      "file_type": "code",
+      "source_file": "SOUL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "soul_jnn_habit_control",
+      "community": 0,
+      "norm_label": "jnn habit control"
+    },
+    {
+      "label": "Nurlan",
+      "file_type": "concept",
+      "source_file": "SOUL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "soul_nurlan",
+      "community": 0,
+      "norm_label": "nurlan"
+    },
+    {
+      "label": "Dietologist Subagent",
+      "file_type": "code",
+      "source_file": "SOUL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "soul_dietologist",
+      "community": 1,
+      "norm_label": "dietologist subagent"
+    },
+    {
+      "label": "Fitness Trainer Subagent",
+      "file_type": "code",
+      "source_file": "SOUL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "soul_fitness_trainer",
+      "community": 0,
+      "norm_label": "fitness trainer subagent"
+    },
+    {
+      "label": "English Coach Subagent",
+      "file_type": "code",
+      "source_file": "SOUL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "soul_english_coach",
+      "community": 0,
+      "norm_label": "english coach subagent"
+    },
+    {
+      "label": "Psychologist Subagent",
+      "file_type": "code",
+      "source_file": "SOUL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "soul_psychologist",
+      "community": 0,
+      "norm_label": "psychologist subagent"
+    },
+    {
+      "label": "Nutritionist Subagent",
+      "file_type": "code",
+      "source_file": "SOUL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "soul_nutritionist",
+      "community": 0,
+      "norm_label": "nutritionist subagent"
+    },
+    {
+      "label": "Navigator Agent",
+      "file_type": "code",
+      "source_file": "SOUL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "soul_navigator",
+      "community": 0,
+      "norm_label": "navigator agent"
+    },
+    {
+      "label": "Habit Registry",
+      "file_type": "document",
+      "source_file": "habit_registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "habit_registry_registry",
+      "community": 0,
+      "norm_label": "habit registry"
+    },
+    {
+      "label": "Weight Tracking History",
+      "file_type": "document",
+      "source_file": "weight-tracking.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "weight_tracking_history",
+      "community": 1,
+      "norm_label": "weight tracking history"
+    },
+    {
+      "label": "Weight Log (Obsidian)",
+      "file_type": "document",
+      "source_file": "weight_log.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "weight_log_obsidian",
+      "community": 1,
+      "norm_label": "weight log (obsidian)"
+    },
+    {
+      "label": "jnn_journal.py",
+      "file_type": "code",
+      "source_file": "SOUL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "soul_jnn_journal_script",
+      "community": 0,
+      "norm_label": "jnn_journal.py"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "habit_registry_registry"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "soul_dietologist"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "soul_english_coach"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "soul_fitness_trainer"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "soul_jnn_journal_script"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "soul_navigator"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "soul_nurlan"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "soul_nutritionist"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "soul_psychologist"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "weight_log_obsidian"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md",
+      "source": "soul_jnn_habit_control",
+      "target": "weight_tracking_history"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "weight-tracking.md",
+      "source": "weight_tracking_history",
+      "target": "soul_dietologist"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "weight_log.md",
+      "source": "weight_log_obsidian",
+      "target": "weight_tracking_history"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "jnn_habit_ecosystem",
+      "label": "JNN Habit Control Ecosystem",
+      "nodes": [
+        "soul_jnn_habit_control",
+        "habit_registry_registry",
+        "weight_tracking_history",
+        "weight_log_obsidian"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SOUL.md"
+    },
+    {
+      "id": "nurlan_health_goals",
+      "label": "Nurlan's Health & Weight Goals",
+      "nodes": [
+        "soul_nurlan",
+        "weight_tracking_history",
+        "habit_registry_registry"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "SOUL.md"
+    }
+  ]
+}

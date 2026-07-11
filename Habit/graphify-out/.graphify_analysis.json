@@ -1,0 +1,137 @@
+{
+  "communities": {
+    "0": [
+      "habit_registry_registry",
+      "soul_english_coach",
+      "soul_fitness_trainer",
+      "soul_jnn_habit_control",
+      "soul_jnn_journal_script",
+      "soul_navigator",
+      "soul_nurlan",
+      "soul_nutritionist",
+      "soul_psychologist"
+    ],
+    "1": [
+      "soul_dietologist",
+      "weight_log_obsidian",
+      "weight_tracking_history"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2222222222222222,
+    "1": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "soul_jnn_habit_control",
+      "label": "JNN Habit Control",
+      "degree": 11
+    },
+    {
+      "id": "weight_tracking_history",
+      "label": "Weight Tracking History",
+      "degree": 3
+    },
+    {
+      "id": "soul_dietologist",
+      "label": "Dietologist Subagent",
+      "degree": 2
+    },
+    {
+      "id": "weight_log_obsidian",
+      "label": "Weight Log (Obsidian)",
+      "degree": 2
+    },
+    {
+      "id": "soul_nurlan",
+      "label": "Nurlan",
+      "degree": 1
+    },
+    {
+      "id": "soul_fitness_trainer",
+      "label": "Fitness Trainer Subagent",
+      "degree": 1
+    },
+    {
+      "id": "soul_english_coach",
+      "label": "English Coach Subagent",
+      "degree": 1
+    },
+    {
+      "id": "soul_psychologist",
+      "label": "Psychologist Subagent",
+      "degree": 1
+    },
+    {
+      "id": "soul_nutritionist",
+      "label": "Nutritionist Subagent",
+      "degree": 1
+    },
+    {
+      "id": "soul_navigator",
+      "label": "Navigator Agent",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Weight Log (Obsidian)",
+      "target": "Weight Tracking History",
+      "source_files": [
+        "weight_log.md",
+        "weight-tracking.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "JNN Habit Control",
+      "target": "Weight Log (Obsidian)",
+      "source_files": [
+        "SOUL.md",
+        "weight_log.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `Weight Log (Obsidian)` unexpectedly reaches hub `JNN Habit Control`"
+    },
+    {
+      "source": "JNN Habit Control",
+      "target": "Habit Registry",
+      "source_files": [
+        "SOUL.md",
+        "habit_registry.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Habit Registry` unexpectedly reaches hub `JNN Habit Control`"
+    },
+    {
+      "source": "JNN Habit Control",
+      "target": "Weight Tracking History",
+      "source_files": [
+        "SOUL.md",
+        "weight-tracking.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Weight Tracking History",
+      "target": "Dietologist Subagent",
+      "source_files": [
+        "weight-tracking.md",
+        "SOUL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "cites",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 5564,
+    "output": 1461
+  }
+}

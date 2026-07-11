@@ -1,0 +1,132 @@
+{
+  "README.md": {
+    "mtime": 1781529375.2523923,
+    "ast_hash": "ee2c3f740298931dee8a502e7420719a",
+    "semantic_hash": ""
+  },
+  "ai-b2b/README.md": {
+    "mtime": 1781529375.2523923,
+    "ast_hash": "d37bc1c96ab7fc26c01f62cf639d87d2",
+    "semantic_hash": ""
+  },
+  "ai-b2b/index.html": {
+    "mtime": 1781529375.2523923,
+    "ast_hash": "a4679cea7bb2f6fb173aaabc86069ec0",
+    "semantic_hash": ""
+  },
+  "ai-chat-widget/README.md": {
+    "mtime": 1781529375.2523923,
+    "ast_hash": "00dd83f76bb45893e405349ad4787e28",
+    "semantic_hash": ""
+  },
+  "ai-chat-widget/index.html": {
+    "mtime": 1781529375.2533922,
+    "ast_hash": "534814bd904862c1862b76191f59c968",
+    "semantic_hash": ""
+  },
+  "atelie-moda/README.md": {
+    "mtime": 1781529375.2543921,
+    "ast_hash": "5e130f1cd7ffba89ac484b1718cbc697",
+    "semantic_hash": ""
+  },
+  "atelie-moda/index.html": {
+    "mtime": 1781529375.2543921,
+    "ast_hash": "d4fbca2cd3b3ea181ebc94c297a79351",
+    "semantic_hash": ""
+  },
+  "cafe/README.md": {
+    "mtime": 1781529375.2543921,
+    "ast_hash": "4584fa6e14ba918083805dbc3cd88767",
+    "semantic_hash": ""
+  },
+  "cafe/index.html": {
+    "mtime": 1781529375.2543921,
+    "ast_hash": "52f9b989df6241ce30dd6cee0a60ddbf",
+    "semantic_hash": ""
+  },
+  "dentistry/README.md": {
+    "mtime": 1781529375.2553923,
+    "ast_hash": "096b2c9d77be465cfcca4dcbcf7bafea",
+    "semantic_hash": ""
+  },
+  "dentistry/index.html": {
+    "mtime": 1781529375.2553923,
+    "ast_hash": "d8951ca13706c7f053915f0d60b297ed",
+    "semantic_hash": ""
+  },
+  "education/README.md": {
+    "mtime": 1781529375.2553923,
+    "ast_hash": "cb491ae635e2ba8a634e3b41242b9e19",
+    "semantic_hash": ""
+  },
+  "education/index.html": {
+    "mtime": 1781529375.2553923,
+    "ast_hash": "6d6a2ae1b0242510bff98e4e36afd59d",
+    "semantic_hash": ""
+  },
+  "fitness/README.md": {
+    "mtime": 1781529375.2563922,
+    "ast_hash": "fc1942c0b905a79ff760f3fd4501ae77",
+    "semantic_hash": ""
+  },
+  "fitness/index.html": {
+    "mtime": 1781529375.2563922,
+    "ast_hash": "f46a4aed6bee4760feb4f03d6fb01bc0",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1781529375.2563922,
+    "ast_hash": "ef21e078d6732a770c7f7d99c65b46e9",
+    "semantic_hash": ""
+  },
+  "it-services/README.md": {
+    "mtime": 1781529375.2563922,
+    "ast_hash": "65dd9a149c70aa278f834dfc9f89c4b0",
+    "semantic_hash": ""
+  },
+  "it-services/index.html": {
+    "mtime": 1781529375.2573922,
+    "ast_hash": "5fc21544410b332270efa1743ea5272d",
+    "semantic_hash": ""
+  },
+  "krepkiy-oreshek/README.md": {
+    "mtime": 1781529375.2573922,
+    "ast_hash": "987dfd28211274ba58875a198a2ca884",
+    "semantic_hash": ""
+  },
+  "krepkiy-oreshek/index.html": {
+    "mtime": 1781529375.2573922,
+    "ast_hash": "130195919e9e67af61f93b150ca1627b",
+    "semantic_hash": ""
+  },
+  "parikmaherskaya/README.md": {
+    "mtime": 1781529375.2573922,
+    "ast_hash": "a045c4b2eaaa0c70767c06e8f2012923",
+    "semantic_hash": ""
+  },
+  "parikmaherskaya/index.html": {
+    "mtime": 1781529375.2573922,
+    "ast_hash": "1a59ada34b61ccce4cfb1fc498e2d9fa",
+    "semantic_hash": ""
+  },
+  "repair/README.md": {
+    "mtime": 1781529375.258392,
+    "ast_hash": "f9cd56a17e033802757e2ad9374dd080",
+    "semantic_hash": ""
+  },
+  "repair/index.html": {
+    "mtime": 1781529375.258392,
+    "ast_hash": "6a5da479fd3e02565739a61f83964908",
+    "semantic_hash": ""
+  },
+  "smart-landing/README.md": {
+    "mtime": 1781529375.258392,
+    "ast_hash": "d246bee65cc82e2c2657df4a9b70fb90",
+    "semantic_hash": ""
+  },
+  "smart-landing/index.html": {
+    "mtime": 1781529375.258392,
+    "ast_hash": "0b448022d6fc09a0d137a2cc415bc7f5",
+    "semantic_hash": ""
+  }
+}
