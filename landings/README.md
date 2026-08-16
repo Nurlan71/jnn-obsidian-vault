@@ -20,6 +20,7 @@
 | 10 | AI B2B | IT / B2B | [Открыть](ai-b2b/index.html) |
 | 11 | Крепкий Орешек | Ресторан | [Открыть](krepkiy-oreshek/index.html) |
 | 12 | Smart Landing | Универсальный | [Открыть](smart-landing/index.html) |
+| 13 | **JNN Factory** | Швейное производство | [jnnfactory.online](https://jnnfactory.online) |
 
 ## Контакты
 
