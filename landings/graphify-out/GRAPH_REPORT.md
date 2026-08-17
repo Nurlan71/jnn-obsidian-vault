@@ -1,4 +1,4 @@
-# Graph Report - /opt/data/obsidian-vault/landings  (2026-06-30)
+# Graph Report - /opt/data/obsidian-vault/landings  (2026-08-17)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
@@ -7,6 +7,11 @@
 - 28 nodes · 15 edges · 13 communities (1 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `40f9d9a5`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]
