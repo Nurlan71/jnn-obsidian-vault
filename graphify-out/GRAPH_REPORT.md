@@ -1,4 +1,4 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-08-18)
+# Graph Report - /opt/data/obsidian-vault  (2026-08-19)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
@@ -7,6 +7,11 @@
 - 764 nodes · 698 edges · 69 communities (55 shown, 14 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `4f7d4af0`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]

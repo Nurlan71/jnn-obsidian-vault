@@ -15390,5 +15390,6 @@
       "target": "\u0433\u043b\u0430\u0432\u043d\u0430\u044f_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "4f7d4af047f8748d12116fb75e2339691fe4968a"
 }
