@@ -1,15 +1,15 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-08-23)
+# Graph Report - /opt/data/obsidian-vault  (2026-08-24)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 764 nodes · 698 edges · 69 communities (55 shown, 14 thin omitted)
+- 765 nodes · 699 edges · 69 communities (55 shown, 14 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ca40c61e`
+- Built from commit: `13a1d014`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -85,7 +85,7 @@
 - [[_COMMUNITY_Community 68|Community 68]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Трекинг веса — Нурлан` - 47 edges
+1. `Трекинг веса — Нурлан` - 48 edges
 2. `Ты — HR-директор JNN Factory` - 15 edges
 3. `Ты — Руководитель отдела продаж JNN Factory` - 15 edges
 4. `Ты — Финансовый директор JNN Factory` - 14 edges
@@ -106,11 +106,11 @@
 
 ### Community 0 - "Community 0"
 Cohesion: 0.04
-Nodes (47): 01.08 (суббота), 04.08 (вторник), 05.08 (среда), 09.08 (воскресенье), 12.08 (среда), 13.07 (понедельник) — ✈️ Москва, 13.08 (четверг), 14.07 (вторник) — Москва (+39 more)
+Nodes (48): 01.08 (суббота), 04.08 (вторник), 05.08 (среда), 09.08 (воскресенье), 12.08 (среда), 13.07 (понедельник) — ✈️ Москва, 13.08 (четверг), 14.07 (вторник) — Москва (+40 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.06
-Nodes (34): 1. Структура Google Drive — Обзор, 2. Анализ таблиц — соответствие бизнес-логике, 3. Метрики для владельца (Нурлана), 4. Распределение таблиц — Кто заполняет и как часто, 5. Obsidian — Анализ и рекомендации, 5 кейсов использования Obsidian в Hermes (и сравнение с JNN), 6. Итоговые рекомендации, HR (5 таблиц) ✅ Хорошо (+26 more)
+Cohesion: 0.05
+Nodes (36): JNN Dashboard, JNN Factory — Архитектура и статус (12.06.2026), Агенты, Интеграции, Кросс-агентные триггеры, Планы, Структура Google Drive, 1. Структура Google Drive — Обзор (+28 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.06
@@ -213,8 +213,8 @@ Cohesion: 0.20
 Nodes (9): 1. Увеличены лимиты памяти (ВСЕ 8 агентов), 2. Подключён плагин holographic, 3. Требуется перезапуск, Trust scoring (holographic), Апгрейд памяти JNN — 03.06.2026, Архитектура памяти после апгрейда, Плагины памяти (установлены, 1 активен), Ссылки (+1 more)
 
 ### Community 27 - "Community 27"
-Cohesion: 0.13
-Nodes (12): JNN Dashboard, JNN Factory — Архитектура и статус (12.06.2026), Агенты, Интеграции, Кросс-агентные триггеры, Планы, Структура Google Drive, Ключевые моменты (+4 more)
+Cohesion: 0.20
+Nodes (10): 5. Obsidian — Анализ и рекомендации, 5 кейсов использования Obsidian в Hermes (и сравнение с JNN), Как используется сейчас, Кейс 1: Персональная база знаний (PKM), Кейс 2: Расширенная память агента (RAG-подобная), Кейс 3: Журнал решений и обучение, Кейс 4: Проектный менеджмент, Кейс 5: Двусторонняя синхронизация с Google Drive (+2 more)
 
 ### Community 28 - "Community 28"
 Cohesion: 0.20
@@ -325,7 +325,7 @@ Cohesion: 0.22
 Nodes (8): Адресат (Поставщик), Наша позиция / план, Наши данные по факту, Претензия ООО «Айлукхоум» о возврате аванса — 18.08.2026, Реквизиты для возврата (из претензии), Реквизиты отправителя (Покупатель), Суть претензии, Угроза
 
 ## Knowledge Gaps
-- **568 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+563 more)
+- **569 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+564 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -334,15 +334,15 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `📊 Аудит Google Drive JNN — Итоговый отчёт` connect `Community 1` to `Community 27`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
+- **Why does `5. Obsidian — Анализ и рекомендации` connect `Community 27` to `Community 1`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _568 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _569 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.058823529411764705 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
-- **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
