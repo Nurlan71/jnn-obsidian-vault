@@ -1,4 +1,4 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-08-25)
+# Graph Report - /opt/data/obsidian-vault  (2026-08-26)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
@@ -9,7 +9,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d81bc012`
+- Built from commit: `9e4be98d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
