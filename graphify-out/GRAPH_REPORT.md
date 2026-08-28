@@ -1,15 +1,15 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-08-26)
+# Graph Report - /opt/data/obsidian-vault  (2026-08-27)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 765 nodes · 699 edges · 69 communities (55 shown, 14 thin omitted)
+- 766 nodes · 700 edges · 69 communities (55 shown, 14 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9e4be98d`
+- Built from commit: `cae7456d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -85,7 +85,7 @@
 - [[_COMMUNITY_Community 68|Community 68]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Трекинг веса — Нурлан` - 48 edges
+1. `Трекинг веса — Нурлан` - 49 edges
 2. `Ты — HR-директор JNN Factory` - 15 edges
 3. `Ты — Руководитель отдела продаж JNN Factory` - 15 edges
 4. `Ты — Финансовый директор JNN Factory` - 14 edges
@@ -106,7 +106,7 @@
 
 ### Community 0 - "Community 0"
 Cohesion: 0.04
-Nodes (48): 01.08 (суббота), 04.08 (вторник), 05.08 (среда), 09.08 (воскресенье), 12.08 (среда), 13.07 (понедельник) — ✈️ Москва, 13.08 (четверг), 14.07 (вторник) — Москва (+40 more)
+Nodes (49): 01.08 (суббота), 04.08 (вторник), 05.08 (среда), 09.08 (воскресенье), 12.08 (среда), 13.07 (понедельник) — ✈️ Москва, 13.08 (четверг), 14.07 (вторник) — Москва (+41 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.05
@@ -325,7 +325,7 @@ Cohesion: 0.22
 Nodes (8): Адресат (Поставщик), Наша позиция / план, Наши данные по факту, Претензия ООО «Айлукхоум» о возврате аванса — 18.08.2026, Реквизиты для возврата (из претензии), Реквизиты отправителя (Покупатель), Суть претензии, Угроза
 
 ## Knowledge Gaps
-- **569 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+564 more)
+- **570 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+565 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -337,9 +337,9 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `5. Obsidian — Анализ и рекомендации` connect `Community 27` to `Community 1`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _569 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _570 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.04 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
