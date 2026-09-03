@@ -13,3 +13,7 @@
 ## Comparisons
 
 ## Queries
+
+## 📚 Словарь
+
+- [[Глоссарий JNN]] — все термины JNN Factory в одном месте.
