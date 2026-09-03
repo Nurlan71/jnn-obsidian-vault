@@ -1,0 +1,23 @@
+model:
+  api_key: ''
+  base_url: ''
+  default: minimax/minimax-m3:free
+  provider: openrouter
+  max_tokens: 16000
+fallback_providers:
+  - model: qwen/qwen3.7-flash
+    provider: openrouter
+    api_key: ${OPENROUTER_API_KEY}
+memory:
+  provider: holographic
+  memory_char_limit: 10000
+  user_char_limit: 5000
+  memory_enabled: true
+  user_profile_enabled: true
+kanban:
+  database_path: /root/.hermes/kanban.db
+_config_version: 39
+fallback_model: qwen/qwen3.7-flash
+onboarding:
+  seen:
+    busy_input_prompt: true
