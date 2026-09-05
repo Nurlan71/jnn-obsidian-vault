@@ -1,15 +1,16 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-09-03)
+# Graph Report - obsidian-vault  (2026-09-04)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 100 files · ~56,791 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 884 nodes · 815 edges · 74 communities (61 shown, 13 thin omitted)
+- 1046 nodes · 967 edges · 86 communities (70 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5076cc7b`
+- Built from commit: `d6a47b54`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -88,18 +89,30 @@
 - [[_COMMUNITY_Community 71|Community 71]]
 - [[_COMMUNITY_Community 72|Community 72]]
 - [[_COMMUNITY_Community 73|Community 73]]
+- [[_COMMUNITY_Community 74|Community 74]]
+- [[_COMMUNITY_Community 75|Community 75]]
+- [[_COMMUNITY_Community 76|Community 76]]
+- [[_COMMUNITY_Community 77|Community 77]]
+- [[_COMMUNITY_Community 78|Community 78]]
+- [[_COMMUNITY_Community 79|Community 79]]
+- [[_COMMUNITY_Community 80|Community 80]]
+- [[_COMMUNITY_Community 81|Community 81]]
+- [[_COMMUNITY_Community 82|Community 82]]
+- [[_COMMUNITY_Community 83|Community 83]]
+- [[_COMMUNITY_Community 84|Community 84]]
+- [[_COMMUNITY_Community 85|Community 85]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Трекинг веса — Нурлан` - 50 edges
-2. `Словарь терминов JNN Factory` - 15 edges
-3. `Ты — HR-директор JNN Factory` - 15 edges
-4. `Ты — Руководитель отдела продаж JNN Factory` - 15 edges
-5. `Словарь терминов JNN Factory` - 15 edges
-6. `Ты — Финансовый директор JNN Factory` - 14 edges
-7. `Ты — Маркетолог JNN Factory` - 14 edges
-8. `Ты — Директор по производству JNN Factory` - 14 edges
-9. `Ты — Менеджер по продажам JNN Factory` - 14 edges
-10. `SOUL.md — JNN Habit Control` - 12 edges
+1. `Трекинг веса — Нурлан` - 24 edges
+2. `Оргструктура JNN v3 — финальная` - 17 edges
+3. `Словарь терминов JNN Factory` - 15 edges
+4. `Ты — HR-директор JNN Factory` - 15 edges
+5. `Ты — Руководитель отдела продаж JNN Factory` - 15 edges
+6. `Словарь терминов JNN Factory` - 15 edges
+7. `Оргструктура JNN v2 — сентябрь 2026` - 14 edges
+8. `Ты — Финансовый директор JNN Factory` - 14 edges
+9. `Ты — Маркетолог JNN Factory` - 14 edges
+10. `Ты — Директор по производству JNN Factory` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -107,11 +120,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (74 total, 13 thin omitted)
+## Communities (86 total, 16 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.04
-Nodes (50): 01.08 (суббота), 01.09 (вторник), 04.08 (вторник), 05.08 (среда), 09.08 (воскресенье), 12.08 (среда), 13.07 (понедельник) — ✈️ Москва, 13.08 (четверг) (+42 more)
+Cohesion: 0.08
+Nodes (24): История замеров, Питание 09.07 (ужин), Питание 10.07 (ночной перекус 02:00), Питание 25.06 (поминки), Питание 25.06 (поминки), Питание 26.06 (вечер), Питание 27.06, Питание 28.06 (+16 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.04
@@ -353,25 +366,61 @@ Nodes (6): История заказа, Кейс для маркетинга, К
 Cohesion: 0.29
 Nodes (6): LTV, Заметка для маркетинга, История заказа, ОсОО «Восход» (Бишкек) — ЗАКРЫТ, Связанные заказы (история), Статус (обновлено 03.09.2026)
 
+### Community 74 - "Community 74"
+Cohesion: 0.04
+Nodes (49): KPO:, KPO:, KPO:, KPO:, KPO:, 👗 АЙГЕРИМ — Менеджер по работе с клиентами + Маркетолог, 💰 АЛИНА — Финансовый директор, 🎯 ГЛАВНЫЙ ПРИНЦИП (+41 more)
+
+### Community 75 - "Community 75"
+Cohesion: 0.06
+Nodes (36): KРО:, KРО:, KРО:, KРО (ключевые результаты):, 👗 АЙГЕРИМ — Директор по производству + HR, 💰 АЛИНА — Финансовый директор, 🎯 ГЛАВНЫЙ ПРИНЦИП, Ежедневно: (+28 more)
+
+### Community 76 - "Community 76"
+Cohesion: 0.08
+Nodes (22): 📖 3 термина дня (из Глоссария JNN), 👗 АЙГЕРИМ (менеджер по клиентам + маркетолог), 💰 АЛИНА (финансовый директор), 🎯 ГЛАВНЫЙ ПРИНЦИП СЕГОДНЯ, Задачи на 04.09.2026, 📚 МИКРО-УРОК + ТЕРМИНЫ ДНЯ (для всех), 🤖 НУРЛАН (директор / CEO), 📊 СВОДКА НА ВЕЧЕР (20:00) (+14 more)
+
+### Community 77 - "Community 77"
+Cohesion: 0.10
+Nodes (18): 📋 12 КЛЮЧЕВЫХ ПОЗИЦИЙ (целевая модель), БЛОК 1. УПРАВЛЕНИЕ (1 позиция), БЛОК 2. ПРОДАЖИ И КЛИЕНТЫ (3 позиции), БЛОК 3. ПРОИЗВОДСТВО (4 позиции, ~12 человек), БЛОК 4. ПЕЧАТНЫЙ ЦЕХ (3 позиции, 5 человек), БЛОК 5. ФИНАНСЫ И УЧЁТ (2 позиции, 1.5 человека), БЛОК 6. ПОДДЕРЖКА (логистика, IT, юр.), 🗺 КАРТА «ДОЛЖНОСТЬ — ФУНКЦИЯ — AI-АГЕНТ» (+10 more)
+
+### Community 78 - "Community 78"
+Cohesion: 0.14
+Nodes (13): ВЭД-памятка, Контекст компании, Мошенничество / инциденты — порядок действий, Общие правила, Трудовые споры (КР) — краткая рамка, Чек-лист 152-ФЗ (клиентские данные РФ), Чек-лист проверки контрагента (КР/РФ), Шаблон 1. Договор поставки (опт, экспорт КР → РФ) (+5 more)
+
+### Community 79 - "Community 79"
+Cohesion: 0.15
+Nodes (12): HR (Наргиза/Айгерим — пока не подключали, отложено), Аудит действий 03–04.09.2026, ⚠️ ВИСИТ (не сделано / не подтверждено), Маркетолог (Айгерим/Айгерим), Навигатор (Нурлан + я), ❌ НЕ СДЕЛАНО (и не планировалось на 03.09), Производство (Тимур), РОП (Айгерим/Айгерим — да, вчера работал с Айгерим) (+4 more)
+
+### Community 80 - "Community 80"
+Cohesion: 0.22
+Nodes (8): Активный лид требующий跟进, Горячие B2B-лиды (топ-50 база), Источники проверены, Лиды — Follow-up Report 04.09.2026 14:02, ОсОО «Восход» — Заказ №10, Подготовленный текст follow-up для Восхода (WhatsApp/Telegram):, Рекомендации для Нурлана, Статус лидов старше 3 дней без ответа
+
+### Community 81 - "Community 81"
+Cohesion: 0.29
+Nodes (6): Важно, Голос, Зоны ответственности, Кто ты, Правила работы, Ты — Юрист JNN Factory
+
+### Community 82 - "Community 82"
+Cohesion: 0.33
+Nodes (5): KPO, Зона ответственности, Наргиза (JNN Factory), Подчинение, Роль (с 04.09.2026, v3)
+
 ## Knowledge Gaps
-- **659 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+654 more)
+- **777 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+772 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Словарь терминов JNN Factory` connect `Community 69` to `Community 27`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **Why does `Оргструктура JNN v3 — финальная` connect `Community 74` to `Community 77`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+- **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _659 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _777 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.0392156862745098 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
-- **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
