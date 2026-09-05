@@ -1,16 +1,15 @@
-# Graph Report - obsidian-vault  (2026-09-04)
+# Graph Report - /opt/data/obsidian-vault  (2026-09-05)
 
 ## Corpus Check
-- 100 files · ~56,791 words
-- Verdict: corpus is large enough that graph structure adds value.
+- cluster-only mode — file stats not available
 
 ## Summary
-- 1046 nodes · 967 edges · 86 communities (70 shown, 16 thin omitted)
+- 1058 nodes · 978 edges · 87 communities (71 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d6a47b54`
+- Built from commit: `999529b3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -101,6 +100,7 @@
 - [[_COMMUNITY_Community 83|Community 83]]
 - [[_COMMUNITY_Community 84|Community 84]]
 - [[_COMMUNITY_Community 85|Community 85]]
+- [[_COMMUNITY_Community 86|Community 86]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Трекинг веса — Нурлан` - 24 edges
@@ -120,7 +120,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (86 total, 16 thin omitted)
+## Communities (87 total, 16 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.08
@@ -231,8 +231,8 @@ Cohesion: 0.20
 Nodes (9): 1. Увеличены лимиты памяти (ВСЕ 8 агентов), 2. Подключён плагин holographic, 3. Требуется перезапуск, Trust scoring (holographic), Апгрейд памяти JNN — 03.06.2026, Архитектура памяти после апгрейда, Плагины памяти (установлены, 1 активен), Ссылки (+1 more)
 
 ### Community 27 - "Community 27"
-Cohesion: 0.06
-Nodes (32): 3 трека плана, Cron-задачи (активные с 03.09.2026), 📚 Дисциплина: Утреннее собрание 09:00 + Вечерний итог 20:00, Контекст (факты на 03.09.2026), План прорыва JNN Factory — сентябрь 2026, Решения Нурлана (получено 03.09.2026), Связанные документы, 🔴 ТРЕК 1. «Разблокировать кассу + вернуть товар» (1–7 дней) (+24 more)
+Cohesion: 0.05
+Nodes (37): 🤖 AI-ВОРОНКА (8 АГЕНТОВ), Cron-задачи JNN (активные), 📚 ДОКУМЕНТАЦИЯ И ССЫЛКИ, ✏️ КАК ОБНОВЛЯТЬ, 💼 КЛИЕНТЫ И ДОГОВОРЫ, 👥 КОМАНДА, 📊 МАРКЕТИНГ, Мощности (+29 more)
 
 ### Community 28 - "Community 28"
 Cohesion: 0.20
@@ -347,8 +347,8 @@ Cohesion: 0.22
 Nodes (8): Адресат (Поставщик), Наша позиция / план, Наши данные по факту, Претензия ООО «Айлукхоум» о возврате аванса — 18.08.2026, Реквизиты для возврата (из претензии), Реквизиты отправителя (Покупатель), Суть претензии, Угроза
 
 ### Community 69 - "Community 69"
-Cohesion: 0.10
-Nodes (20): 🤖 AI-ВОРОНКА (8 АГЕНТОВ), Cron-задачи JNN (активные), 📚 ДОКУМЕНТАЦИЯ И ССЫЛКИ, ✏️ КАК ОБНОВЛЯТЬ, 💼 КЛИЕНТЫ И ДОГОВОРЫ, 👥 КОМАНДА, 📊 МАРКЕТИНГ, Мощности (+12 more)
+Cohesion: 0.13
+Nodes (15): 🛡️3 ПРАВИЛА ПЛАН-ФАКТА, Айгерим, Алина, 🌙 ВЕЧЕРНИЙ ИТОГ (20:00, 10 минут), 🚀 ЗАПУСК 04.09.2026 (первое собрание), Нурлан, 📝 ПРАВИЛО: новая задача в течение дня, ⏰ Расписание дня (+7 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.20
@@ -402,8 +402,12 @@ Nodes (6): Важно, Голос, Зоны ответственности, Кт
 Cohesion: 0.33
 Nodes (5): KPO, Зона ответственности, Наргиза (JNN Factory), Подчинение, Роль (с 04.09.2026, v3)
 
+### Community 86 - "Community 86"
+Cohesion: 0.17
+Nodes (11): 📋 Айгерим: задачи на день, 📈 Анализ лидов (cron 14:00), Ежедневный отчёт — 05.09.2026 (пт), Задача 1 — Лекала бомбера (S/M/L/XL), Задача 2 — Расчёт себестоимости бомбера, Задача 3 — Рынок тканей, подбор образца под бомбер, Задача 4 — Закупка ткани ⛔ УСЛОВИЕ, Задача 5 — Разговор с клиентами по поло (+3 more)
+
 ## Knowledge Gaps
-- **777 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+772 more)
+- **786 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+781 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -411,11 +415,11 @@ Nodes (5): KPO, Зона ответственности, Наргиза (JNN Fac
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Оргструктура JNN v3 — финальная` connect `Community 74` to `Community 77`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _777 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _786 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
