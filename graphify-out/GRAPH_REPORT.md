@@ -1,15 +1,16 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-09-05)
+# Graph Report - obsidian-vault  (2026-09-06)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 101 files · ~57,869 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1058 nodes · 978 edges · 87 communities (71 shown, 16 thin omitted)
+- 1066 nodes · 986 edges · 87 communities (71 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `999529b3`
+- Built from commit: `f80bbeb9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -103,7 +104,7 @@
 - [[_COMMUNITY_Community 86|Community 86]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Трекинг веса — Нурлан` - 24 edges
+1. `Трекинг веса — Нурлан` - 26 edges
 2. `Оргструктура JNN v3 — финальная` - 17 edges
 3. `Словарь терминов JNN Factory` - 15 edges
 4. `Ты — HR-директор JNN Factory` - 15 edges
@@ -123,8 +124,8 @@
 ## Communities (87 total, 16 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.08
-Nodes (24): История замеров, Питание 09.07 (ужин), Питание 10.07 (ночной перекус 02:00), Питание 25.06 (поминки), Питание 25.06 (поминки), Питание 26.06 (вечер), Питание 27.06, Питание 28.06 (+16 more)
+Cohesion: 0.07
+Nodes (26): История замеров, Ночной перекус 03→04.09 (четверг→пятница, 02:00), Питание 09.07 (ужин), Питание 10.07 (ночной перекус 02:00), Питание 25.06 (поминки), Питание 25.06 (поминки), Питание 26.06 (вечер), Питание 27.06 (+18 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.04
@@ -231,8 +232,8 @@ Cohesion: 0.20
 Nodes (9): 1. Увеличены лимиты памяти (ВСЕ 8 агентов), 2. Подключён плагин holographic, 3. Требуется перезапуск, Trust scoring (holographic), Апгрейд памяти JNN — 03.06.2026, Архитектура памяти после апгрейда, Плагины памяти (установлены, 1 активен), Ссылки (+1 more)
 
 ### Community 27 - "Community 27"
-Cohesion: 0.05
-Nodes (37): 🤖 AI-ВОРОНКА (8 АГЕНТОВ), Cron-задачи JNN (активные), 📚 ДОКУМЕНТАЦИЯ И ССЫЛКИ, ✏️ КАК ОБНОВЛЯТЬ, 💼 КЛИЕНТЫ И ДОГОВОРЫ, 👥 КОМАНДА, 📊 МАРКЕТИНГ, Мощности (+29 more)
+Cohesion: 0.06
+Nodes (32): 3 трека плана, Cron-задачи (активные с 03.09.2026), 📚 Дисциплина: Утреннее собрание 09:00 + Вечерний итог 20:00, Контекст (факты на 03.09.2026), План прорыва JNN Factory — сентябрь 2026, Решения Нурлана (получено 03.09.2026), Связанные документы, 🔴 ТРЕК 1. «Разблокировать кассу + вернуть товар» (1–7 дней) (+24 more)
 
 ### Community 28 - "Community 28"
 Cohesion: 0.20
@@ -347,8 +348,8 @@ Cohesion: 0.22
 Nodes (8): Адресат (Поставщик), Наша позиция / план, Наши данные по факту, Претензия ООО «Айлукхоум» о возврате аванса — 18.08.2026, Реквизиты для возврата (из претензии), Реквизиты отправителя (Покупатель), Суть претензии, Угроза
 
 ### Community 69 - "Community 69"
-Cohesion: 0.13
-Nodes (15): 🛡️3 ПРАВИЛА ПЛАН-ФАКТА, Айгерим, Алина, 🌙 ВЕЧЕРНИЙ ИТОГ (20:00, 10 минут), 🚀 ЗАПУСК 04.09.2026 (первое собрание), Нурлан, 📝 ПРАВИЛО: новая задача в течение дня, ⏰ Расписание дня (+7 more)
+Cohesion: 0.10
+Nodes (20): 🤖 AI-ВОРОНКА (8 АГЕНТОВ), Cron-задачи JNN (активные), 📚 ДОКУМЕНТАЦИЯ И ССЫЛКИ, ✏️ КАК ОБНОВЛЯТЬ, 💼 КЛИЕНТЫ И ДОГОВОРЫ, 👥 КОМАНДА, 📊 МАРКЕТИНГ, Мощности (+12 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.20
@@ -403,11 +404,11 @@ Cohesion: 0.33
 Nodes (5): KPO, Зона ответственности, Наргиза (JNN Factory), Подчинение, Роль (с 04.09.2026, v3)
 
 ### Community 86 - "Community 86"
-Cohesion: 0.17
-Nodes (11): 📋 Айгерим: задачи на день, 📈 Анализ лидов (cron 14:00), Ежедневный отчёт — 05.09.2026 (пт), Задача 1 — Лекала бомбера (S/M/L/XL), Задача 2 — Расчёт себестоимости бомбера, Задача 3 — Рынок тканей, подбор образца под бомбер, Задача 4 — Закупка ткани ⛔ УСЛОВИЕ, Задача 5 — Разговор с клиентами по поло (+3 more)
+Cohesion: 0.11
+Nodes (17): 📋 Айгерим: задачи на день, Активность агентов (API calls за день), 📈 Анализ лидов (cron 14:00), 📊 Вечерние итоги дня (20:00 Бишкек), Ежедневный отчёт — 05.09.2026 (пт), Задача 1 — Лекала бомбера (S/M/L/XL), Задача 2 — Расчёт себестоимости бомбера, Задача 3 — Рынок тканей, подбор образца под бомбер (+9 more)
 
 ## Knowledge Gaps
-- **786 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+781 more)
+- **793 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+788 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -419,9 +420,9 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _786 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _793 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
