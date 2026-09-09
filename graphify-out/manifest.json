@@ -643,5 +643,20 @@
     "mtime": 1788854550.0644994,
     "ast_hash": "53843a98026a0a6cc0b501636d6e0d59",
     "semantic_hash": ""
+  },
+  "events/jnn-navigator--jnn-sales--20260909-1400.json": {
+    "mtime": 1788940978.8172889,
+    "ast_hash": "10c2ba66ff2b0fc3557c6862b90bfbde",
+    "semantic_hash": ""
+  },
+  "notes/_tmp/followup-summary-2026-09-09.md": {
+    "mtime": 1788940997.102151,
+    "ast_hash": "b75912e8b529425124133dd855dd0cd3",
+    "semantic_hash": ""
+  },
+  "notes/_tmp/stale-leads-check-2026-09-09.md": {
+    "mtime": 1788940966.7293787,
+    "ast_hash": "fdde2c1db92d48d94c39bc14af8243be",
+    "semantic_hash": ""
   }
 }
