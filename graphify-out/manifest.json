@@ -673,5 +673,15 @@
     "mtime": 1789027379.7245417,
     "ast_hash": "2f4ef34ae732a3f140cbf4ee68c3cb1b",
     "semantic_hash": ""
+  },
+  "notes/_tmp/avito-check-2026-09-11.md": {
+    "mtime": 1789095920.6505,
+    "ast_hash": "21bceddd1d308d6b300e69b9f9b76e74",
+    "semantic_hash": ""
+  },
+  "notes/_tmp/stale-leads-check-2026-09-11.md": {
+    "mtime": 1789113692.0394049,
+    "ast_hash": "c4bfc2b7596ab1cc2577ba29fda233aa",
+    "semantic_hash": ""
   }
 }
