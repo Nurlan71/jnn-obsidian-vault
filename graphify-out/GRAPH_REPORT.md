@@ -1,15 +1,15 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-09-12)
+# Graph Report - /opt/data/obsidian-vault  (2026-09-13)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 1204 nodes · 1107 edges · 104 communities (88 shown, 16 thin omitted)
+- 1217 nodes · 1119 edges · 105 communities (89 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `44e9cb78`
+- Built from commit: `eb1265d2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -116,6 +116,7 @@
 - [[_COMMUNITY_Community 101|Community 101]]
 - [[_COMMUNITY_Community 102|Community 102]]
 - [[_COMMUNITY_Community 103|Community 103]]
+- [[_COMMUNITY_Community 104|Community 104]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Трекинг веса — Нурлан` - 27 edges
@@ -135,7 +136,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (104 total, 16 thin omitted)
+## Communities (105 total, 16 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
@@ -481,8 +482,12 @@ Nodes (7): → jnn-marketer, → jnn-sales, Делегированные дей�
 Cohesion: 0.40
 Nodes (4): Не хватает (для следующего отчёта), Обновление — 11.09.2026 (фиксация факта дня), Таблицы (обновлено), Футболки — подготовка к закрою
 
+### Community 104 - "Community 104"
+Cohesion: 0.15
+Nodes (12): Avito, CRM (Google Drive — «Лиды и Сделки.xlsx»), Events.jsonl (A2A шина), → jnn-marketer, → jnn-sales, Telegram (JNN группа, ЛС Нурлана, JNN Команда), Tilda Leads (форма на сайте), Авито-Чек — Отчёт Навигатора (+4 more)
+
 ## Knowledge Gaps
-- **881 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+876 more)
+- **890 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+885 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -494,7 +499,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _881 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _890 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
