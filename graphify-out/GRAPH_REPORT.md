@@ -1,18 +1,12 @@
-# Graph Report - obsidian-vault  (2026-09-14)
+# Graph Report - /opt/data/obsidian-vault  (2026-09-15)
 
 ## Corpus Check
-- 124 files · ~65,754 words
-- Verdict: corpus is large enough that graph structure adds value.
+- cluster-only mode — file stats not available
 
 ## Summary
-- 1239 nodes · 1139 edges · 107 communities (91 shown, 16 thin omitted)
+- 1253 nodes · 1152 edges · 108 communities (92 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `640231d4`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]
@@ -120,9 +114,10 @@
 - [[_COMMUNITY_Community 104|Community 104]]
 - [[_COMMUNITY_Community 105|Community 105]]
 - [[_COMMUNITY_Community 106|Community 106]]
+- [[_COMMUNITY_Community 107|Community 107]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Трекинг веса — Нурлан` - 27 edges
+1. `Трекинг веса — Нурлан` - 28 edges
 2. `Оргструктура JNN v3 — финальная` - 17 edges
 3. `Словарь терминов JNN Factory` - 15 edges
 4. `Ты — HR-директор JNN Factory` - 15 edges
@@ -139,11 +134,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (107 total, 16 thin omitted)
+## Communities (108 total, 16 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
-Nodes (27): История замеров, Ночной перекус 03→04.09 (четверг→пятница, 02:00), Питание 09.07 (ужин), Питание 10.07 (ночной перекус 02:00), Питание 25.06 (поминки), Питание 25.06 (поминки), Питание 26.06 (вечер), Питание 27.06 (+19 more)
+Nodes (28): История замеров, Ночной перекус 03→04.09 (четверг→пятница, 02:00), Питание 09.07 (ужин), Питание 10.07 (ночной перекус 02:00), Питание 25.06 (поминки), Питание 25.06 (поминки), Питание 26.06 (вечер), Питание 27.06 (+20 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.04
@@ -497,8 +492,12 @@ Nodes (12): Avito, CRM (Google Drive — «Лиды и Сделки.xlsx»), Eve
 Cohesion: 0.22
 Nodes (8): 1. Алина / КГМА — WhatsApp/Telegram: +996 553 190 477, 2. Мереке — WhatsApp: +7 777 812 02 906 (повторный заказ), Источники данных, ⛔ КРИТИЧЕСКАЯ ПРОБЛЕМА, Найденные лиды > 3 дней без ответа, Подготовленные follow-up сообщения, 🔍 Проверка застоявшихся лидов — 14.09.2026 14:00 Бишкек, Что нужно от Нурлана
 
+### Community 107 - "Community 107"
+Cohesion: 0.15
+Nodes (12): Avito, CRM (Google Drive — «Лиды и Сделки.xlsx»), Events.jsonl (A2A шина), → jnn-marketer, → jnn-sales, Telegram (JNN группа, ЛС Нурлана, JNN Команда), Tilda Leads (форма на сайте), Авито-Чек — Отчёт Навигатора (+4 more)
+
 ## Knowledge Gaps
-- **905 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+900 more)
+- **915 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+910 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -510,9 +509,9 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _905 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _915 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
