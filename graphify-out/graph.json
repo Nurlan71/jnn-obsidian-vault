@@ -9409,6 +9409,116 @@
       "community_name": "Community 107"
     },
     {
+      "label": "avito-check-2026-09-16.md",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "avito-check-2026-09-16.md",
+      "id": "tmp_avito_check_2026_09_16",
+      "community_name": "Community 108"
+    },
+    {
+      "label": "\u0410\u0432\u0438\u0442\u043e-\u0427\u0435\u043a \u2014 \u041e\u0442\u0447\u0451\u0442 \u041d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "\u0430\u0432\u0438\u0442\u043e-\u0447\u0435\u043a \u2014 \u043e\u0442\u0447\u0435\u0442 \u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "id": "tmp_avito_check_2026_09_16_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "community_name": "Community 108"
+    },
+    {
+      "label": "\ud83d\udd0d \u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "\ud83d\udd0d \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "id": "tmp_avito_check_2026_09_16_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "community_name": "Community 108"
+    },
+    {
+      "label": "Telegram (JNN \u0433\u0440\u0443\u043f\u043f\u0430, \u041b\u0421 \u041d\u0443\u0440\u043b\u0430\u043d\u0430, JNN \u041a\u043e\u043c\u0430\u043d\u0434\u0430)",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "telegram (jnn \u0433\u0440\u0443\u043f\u043f\u0430, \u043b\u0441 \u043d\u0443\u0440\u043b\u0430\u043d\u0430, jnn \u043a\u043e\u043c\u0430\u043d\u0434\u0430)",
+      "id": "tmp_avito_check_2026_09_16_telegram_jnn_\u0433\u0440\u0443\u043f\u043f\u0430_\u043b\u0441_\u043d\u0443\u0440\u043b\u0430\u043d\u0430_jnn_\u043a\u043e\u043c\u0430\u043d\u0434\u0430",
+      "community_name": "Community 108"
+    },
+    {
+      "label": "Avito",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "avito",
+      "id": "tmp_avito_check_2026_09_16_avito",
+      "community_name": "Community 108"
+    },
+    {
+      "label": "Tilda Leads (\u0444\u043e\u0440\u043c\u0430 \u043d\u0430 \u0441\u0430\u0439\u0442\u0435)",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "tilda leads (\u0444\u043e\u0440\u043c\u0430 \u043d\u0430 \u0441\u0430\u0438\u0442\u0435)",
+      "id": "tmp_avito_check_2026_09_16_tilda_leads_\u0444\u043e\u0440\u043c\u0430_\u043d\u0430_\u0441\u0430\u0439\u0442\u0435",
+      "community_name": "Community 108"
+    },
+    {
+      "label": "CRM (Google Drive \u2014 \u00ab\u041b\u0438\u0434\u044b \u0438 \u0421\u0434\u0435\u043b\u043a\u0438.xlsx\u00bb)",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "crm (google drive \u2014 \u00ab\u043b\u0438\u0434\u044b \u0438 \u0441\u0434\u0435\u043b\u043a\u0438.xlsx\u00bb)",
+      "id": "tmp_avito_check_2026_09_16_crm_google_drive_\u043b\u0438\u0434\u044b_\u0438_\u0441\u0434\u0435\u043b\u043a\u0438_xlsx",
+      "community_name": "Community 108"
+    },
+    {
+      "label": "Gateways \u0441\u0442\u0430\u0442\u0443\u0441",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "gateways \u0441\u0442\u0430\u0442\u0443\u0441",
+      "id": "tmp_avito_check_2026_09_16_gateways_\u0441\u0442\u0430\u0442\u0443\u0441",
+      "community_name": "Community 108"
+    },
+    {
+      "label": "\u26a0\ufe0f \u041a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "\u26a0\ufe0f \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "id": "tmp_avito_check_2026_09_16_\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "community_name": "Community 108"
+    },
+    {
+      "label": "\u0418\u0442\u043e\u0433",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "community": 108,
+      "norm_label": "\u0438\u0442\u043e\u0433",
+      "id": "tmp_avito_check_2026_09_16_\u0438\u0442\u043e\u0433",
+      "community_name": "Community 108"
+    },
+    {
       "label": "followup-summary-2026-09-09.md",
       "file_type": "document",
       "source_file": "notes/_tmp/followup-summary-2026-09-09.md",
@@ -21691,6 +21801,96 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_avito_check_2026_09_16",
+      "target": "tmp_avito_check_2026_09_16_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_avito_check_2026_09_16_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "target": "tmp_avito_check_2026_09_16_\u0438\u0442\u043e\u0433"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_avito_check_2026_09_16_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "target": "tmp_avito_check_2026_09_16_\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_avito_check_2026_09_16_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "target": "tmp_avito_check_2026_09_16_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_avito_check_2026_09_16_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_16_avito"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_avito_check_2026_09_16_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_16_crm_google_drive_\u043b\u0438\u0434\u044b_\u0438_\u0441\u0434\u0435\u043b\u043a\u0438_xlsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_avito_check_2026_09_16_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_16_gateways_\u0441\u0442\u0430\u0442\u0443\u0441"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_avito_check_2026_09_16_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_16_telegram_jnn_\u0433\u0440\u0443\u043f\u043f\u0430_\u043b\u0441_\u043d\u0443\u0440\u043b\u0430\u043d\u0430_jnn_\u043a\u043e\u043c\u0430\u043d\u0434\u0430"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-16.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_avito_check_2026_09_16_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_16_tilda_leads_\u0444\u043e\u0440\u043c\u0430_\u043d\u0430_\u0441\u0430\u0439\u0442\u0435"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "notes/_tmp/followup-summary-2026-09-09.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -25309,5 +25509,6 @@
       "target": "\u0433\u043b\u0430\u0432\u043d\u0430\u044f_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "5015995941e16dfc11fae205b0c402fbb93ecdeb"
 }
