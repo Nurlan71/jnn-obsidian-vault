@@ -743,5 +743,10 @@
     "mtime": 1789527701.224326,
     "ast_hash": "47c4609df80157934c46ebf09724c425",
     "semantic_hash": ""
+  },
+  "notes/_tmp/stale-leads-check-2026-09-17.md": {
+    "mtime": 1789632176.6363697,
+    "ast_hash": "0526baf003a767e5dce2f870811a77e0",
+    "semantic_hash": ""
   }
 }
