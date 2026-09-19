@@ -3277,7 +3277,7 @@
       "label": "\u041f\u0438\u0442\u0430\u043d\u0438\u0435 29.06",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L76",
+      "source_location": "L81",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_29_06",
       "community": 0,
@@ -3287,7 +3287,7 @@
       "label": "\u0423\u0442\u0440\u0435\u043d\u043d\u0438\u0439 \u0432\u0435\u0441 28.06",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L82",
+      "source_location": "L87",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_28_06",
       "community": 0,
@@ -3297,7 +3297,7 @@
       "label": "\u0421\u0438\u043c\u043f\u0442\u043e\u043c\u044b \u0416\u041a\u0422 (\u0437\u0430\u043f\u0438\u0441\u044c \u043e\u0442 28.06)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L87",
+      "source_location": "L92",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b_\u0436\u043a\u0442_\u0437\u0430\u043f\u0438\u0441\u044c_\u043e\u0442_28_06",
       "community": 0,
@@ -3307,7 +3307,7 @@
       "label": "\u0423\u0442\u0440\u0435\u043d\u043d\u0438\u0439 \u0432\u0435\u0441 27.06",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L99",
+      "source_location": "L104",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_27_06",
       "community": 0,
@@ -3317,9 +3317,9 @@
       "label": "\u0423\u0442\u0440\u0435\u043d\u043d\u0438\u0439 \u0432\u0435\u0441 28.06",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L103",
+      "source_location": "L108",
       "_origin": "ast",
-      "id": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_28_06_103",
+      "id": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_28_06_108",
       "community": 0,
       "norm_label": "\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0438 \u0432\u0435\u0441 28.06"
     },
@@ -3327,7 +3327,7 @@
       "label": "\u041f\u0438\u0442\u0430\u043d\u0438\u0435 28.06",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L107",
+      "source_location": "L112",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_28_06",
       "community": 0,
@@ -3337,7 +3337,7 @@
       "label": "\u041f\u0438\u0442\u0430\u043d\u0438\u0435 27.06",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L112",
+      "source_location": "L117",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_27_06",
       "community": 0,
@@ -3347,7 +3347,7 @@
       "label": "\u041f\u0438\u0442\u0430\u043d\u0438\u0435 26.06 (\u0432\u0435\u0447\u0435\u0440)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L117",
+      "source_location": "L122",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_26_06_\u0432\u0435\u0447\u0435\u0440",
       "community": 0,
@@ -3357,7 +3357,7 @@
       "label": "\u041f\u0438\u0442\u0430\u043d\u0438\u0435 25.06 (\u043f\u043e\u043c\u0438\u043d\u043a\u0438)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L122",
+      "source_location": "L127",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_25_06_\u043f\u043e\u043c\u0438\u043d\u043a\u0438",
       "community": 0,
@@ -3367,9 +3367,9 @@
       "label": "\u041f\u0438\u0442\u0430\u043d\u0438\u0435 25.06 (\u043f\u043e\u043c\u0438\u043d\u043a\u0438)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L128",
+      "source_location": "L133",
       "_origin": "ast",
-      "id": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_25_06_\u043f\u043e\u043c\u0438\u043d\u043a\u0438_128",
+      "id": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_25_06_\u043f\u043e\u043c\u0438\u043d\u043a\u0438_133",
       "community": 0,
       "norm_label": "\u043f\u0438\u0442\u0430\u043d\u0438\u0435 25.06 (\u043f\u043e\u043c\u0438\u043d\u043a\u0438)"
     },
@@ -3377,7 +3377,7 @@
       "label": "\u0423\u0442\u0440\u0435\u043d\u043d\u0438\u0439 \u0432\u0435\u0441 09.07",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L134",
+      "source_location": "L139",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_09_07",
       "community": 0,
@@ -3387,7 +3387,7 @@
       "label": "\u0423\u0442\u0440\u0435\u043d\u043d\u0438\u0439 \u0432\u0435\u0441 10.07",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L137",
+      "source_location": "L142",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_10_07",
       "community": 0,
@@ -3397,7 +3397,7 @@
       "label": "\u0423\u0442\u0440\u0435\u043d\u043d\u0438\u0439 \u0432\u0435\u0441 11.07",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L140",
+      "source_location": "L145",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_11_07",
       "community": 0,
@@ -3407,7 +3407,7 @@
       "label": "\u0428\u0430\u0433\u0438 11.07 (\u0441\u0443\u0431\u0431\u043e\u0442\u0430)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L144",
+      "source_location": "L149",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0448\u0430\u0433\u0438_11_07_\u0441\u0443\u0431\u0431\u043e\u0442\u0430",
       "community": 0,
@@ -3417,7 +3417,7 @@
       "label": "\u0423\u0442\u0440\u0435\u043d\u043d\u0438\u0439 \u0432\u0435\u0441 12.07",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L147",
+      "source_location": "L152",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_12_07",
       "community": 0,
@@ -3427,7 +3427,7 @@
       "label": "\u041f\u0438\u0442\u0430\u043d\u0438\u0435 09.07 (\u0443\u0436\u0438\u043d)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L152",
+      "source_location": "L157",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_09_07_\u0443\u0436\u0438\u043d",
       "community": 0,
@@ -3437,7 +3437,7 @@
       "label": "\u041f\u0438\u0442\u0430\u043d\u0438\u0435 10.07 (\u043d\u043e\u0447\u043d\u043e\u0439 \u043f\u0435\u0440\u0435\u043a\u0443\u0441 02:00)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L159",
+      "source_location": "L164",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_10_07_\u043d\u043e\u0447\u043d\u043e\u0439_\u043f\u0435\u0440\u0435\u043a\u0443\u0441_02_00",
       "community": 0,
@@ -3447,7 +3447,7 @@
       "label": "\u0426\u0435\u043b\u0438",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L164",
+      "source_location": "L169",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0446\u0435\u043b\u0438",
       "community": 0,
@@ -3457,7 +3457,7 @@
       "label": "\u0428\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 01.09 (\u0432\u0442\u043e\u0440\u043d\u0438\u043a)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L170",
+      "source_location": "L175",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_01_09_\u0432\u0442\u043e\u0440\u043d\u0438\u043a",
       "community": 0,
@@ -3467,7 +3467,7 @@
       "label": "\u0428\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 02.09 (\u0441\u0440\u0435\u0434\u0430)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L175",
+      "source_location": "L180",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_02_09_\u0441\u0440\u0435\u0434\u0430",
       "community": 0,
@@ -3477,7 +3477,7 @@
       "label": "\u041d\u043e\u0447\u043d\u043e\u0439 \u043f\u0435\u0440\u0435\u043a\u0443\u0441 03\u219204.09 (\u0447\u0435\u0442\u0432\u0435\u0440\u0433\u2192\u043f\u044f\u0442\u043d\u0438\u0446\u0430, 02:00)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L180",
+      "source_location": "L185",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u043d\u043e\u0447\u043d\u043e\u0439_\u043f\u0435\u0440\u0435\u043a\u0443\u0441_03_04_09_\u0447\u0435\u0442\u0432\u0435\u0440\u0433_\u043f\u044f\u0442\u043d\u0438\u0446\u0430_02_00",
       "community": 0,
@@ -3487,7 +3487,7 @@
       "label": "\u0428\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 03.09 (\u0447\u0435\u0442\u0432\u0435\u0440\u0433)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L185",
+      "source_location": "L190",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_03_09_\u0447\u0435\u0442\u0432\u0435\u0440\u0433",
       "community": 0,
@@ -3497,7 +3497,7 @@
       "label": "\u0428\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 04.09 (\u043f\u044f\u0442\u043d\u0438\u0446\u0430)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L193",
+      "source_location": "L198",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_04_09_\u043f\u044f\u0442\u043d\u0438\u0446\u0430",
       "community": 0,
@@ -3507,7 +3507,7 @@
       "label": "\u0428\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 11.09 (\u043f\u044f\u0442\u043d\u0438\u0446\u0430)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L198",
+      "source_location": "L203",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_11_09_\u043f\u044f\u0442\u043d\u0438\u0446\u0430",
       "community": 0,
@@ -3517,17 +3517,37 @@
       "label": "\u0428\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 13.09 (\u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435)",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L204",
+      "source_location": "L209",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_13_09_\u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435",
       "community": 0,
       "norm_label": "\u0448\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 13.09 (\u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435)"
     },
     {
+      "label": "\u0428\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 17.09 (\u0447\u0435\u0442\u0432\u0435\u0440\u0433)",
+      "file_type": "document",
+      "source_file": "Habit/weight-tracking.md",
+      "source_location": "L221",
+      "_origin": "ast",
+      "id": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_17_09_\u0447\u0435\u0442\u0432\u0435\u0440\u0433",
+      "community": 0,
+      "norm_label": "\u0448\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 17.09 (\u0447\u0435\u0442\u0432\u0435\u0440\u0433)"
+    },
+    {
+      "label": "\u0428\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 18.09 (\u043f\u044f\u0442\u043d\u0438\u0446\u0430)",
+      "file_type": "document",
+      "source_file": "Habit/weight-tracking.md",
+      "source_location": "L230",
+      "_origin": "ast",
+      "id": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_18_09_\u043f\u044f\u0442\u043d\u0438\u0446\u0430",
+      "community": 0,
+      "norm_label": "\u0448\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435 18.09 (\u043f\u044f\u0442\u043d\u0438\u0446\u0430)"
+    },
+    {
       "label": "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u0438",
       "file_type": "document",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L220",
+      "source_location": "L239",
       "_origin": "ast",
       "id": "habit_weight_tracking_\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u0438",
       "community": 0,
@@ -3570,7 +3590,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u0441\u043b\u043e\u0432\u0430\u0440\u044c_\u0442\u0435\u0440\u043c\u0438\u043d\u043e\u0432_jnn_factory",
-      "community": 27,
+      "community": 69,
       "norm_label": "\u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0442\u0435\u0440\u043c\u0438\u043d\u043e\u0432 jnn factory"
     },
     {
@@ -3580,7 +3600,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83c\udfed \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f"
     },
     {
@@ -3590,7 +3610,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043a\u043e\u043c\u0430\u043d\u0434\u0430",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83d\udc65 \u043a\u043e\u043c\u0430\u043d\u0434\u0430"
     },
     {
@@ -3600,7 +3620,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_ai_\u0432\u043e\u0440\u043e\u043d\u043a\u0430_8_\u0430\u0433\u0435\u043d\u0442\u043e\u0432",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83e\udd16 ai-\u0432\u043e\u0440\u043e\u043d\u043a\u0430 (8 \u0430\u0433\u0435\u043d\u0442\u043e\u0432)"
     },
     {
@@ -3610,7 +3630,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83c\udfed \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e"
     },
     {
@@ -3620,7 +3640,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043c\u043e\u0449\u043d\u043e\u0441\u0442\u0438",
-      "community": 27,
+      "community": 69,
       "norm_label": "\u043c\u043e\u0449\u043d\u043e\u0441\u0442\u0438"
     },
     {
@@ -3630,7 +3650,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u044f",
-      "community": 27,
+      "community": 69,
       "norm_label": "\u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u044f"
     },
     {
@@ -3640,7 +3660,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435_\u0442\u0435\u0440\u043c\u0438\u043d\u044b",
-      "community": 27,
+      "community": 69,
       "norm_label": "\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0442\u0435\u0440\u043c\u0438\u043d\u044b"
     },
     {
@@ -3650,7 +3670,7 @@
       "source_location": "L96",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u0444\u0438\u043d\u0430\u043d\u0441\u044b",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83d\udcb0 \u0444\u0438\u043d\u0430\u043d\u0441\u044b"
     },
     {
@@ -3660,7 +3680,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043f\u0440\u043e\u0434\u0430\u0436\u0438",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83d\udecd \u043f\u0440\u043e\u0434\u0430\u0436\u0438"
     },
     {
@@ -3670,7 +3690,7 @@
       "source_location": "L135",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u044d\u0442\u0430\u043f\u044b_\u0441\u0434\u0435\u043b\u043a\u0438_\u0432\u043e\u0440\u043e\u043d\u043a\u0430_jnn",
-      "community": 27,
+      "community": 69,
       "norm_label": "\u044d\u0442\u0430\u043f\u044b \u0441\u0434\u0435\u043b\u043a\u0438 (\u0432\u043e\u0440\u043e\u043d\u043a\u0430 jnn)"
     },
     {
@@ -3680,7 +3700,7 @@
       "source_location": "L150",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83d\udcca \u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433"
     },
     {
@@ -3690,7 +3710,7 @@
       "source_location": "L164",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435",
-      "community": 27,
+      "community": 69,
       "norm_label": "\u2696\ufe0f \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435"
     },
     {
@@ -3700,7 +3720,7 @@
       "source_location": "L182",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043a\u043b\u0438\u0435\u043d\u0442\u044b_\u0438_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u044b",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83d\udcbc \u043a\u043b\u0438\u0435\u043d\u0442\u044b \u0438 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u044b"
     },
     {
@@ -3710,7 +3730,7 @@
       "source_location": "L195",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043f\u0440\u043e\u0446\u0435\u0434\u0443\u0440\u044b_\u0438_\u0440\u0438\u0442\u0443\u0430\u043b\u044b",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83d\udd01 \u043f\u0440\u043e\u0446\u0435\u0434\u0443\u0440\u044b \u0438 \u0440\u0438\u0442\u0443\u0430\u043b\u044b"
     },
     {
@@ -3720,7 +3740,7 @@
       "source_location": "L207",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_cron_\u0437\u0430\u0434\u0430\u0447\u0438_jnn_\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0435",
-      "community": 27,
+      "community": 69,
       "norm_label": "cron-\u0437\u0430\u0434\u0430\u0447\u0438 jnn (\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0435)"
     },
     {
@@ -3730,7 +3750,7 @@
       "source_location": "L219",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u0442\u0435\u0440\u043c\u0438\u043d\u044b",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83d\udcbb \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0442\u0435\u0440\u043c\u0438\u043d\u044b"
     },
     {
@@ -3740,7 +3760,7 @@
       "source_location": "L234",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f_\u0438_\u0441\u0441\u044b\u043b\u043a\u0438",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83d\udcda \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f \u0438 \u0441\u0441\u044b\u043b\u043a\u0438"
     },
     {
@@ -3750,7 +3770,7 @@
       "source_location": "L251",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "community": 27,
+      "community": 69,
       "norm_label": "\ud83d\udd17 \u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b"
     },
     {
@@ -3760,7 +3780,7 @@
       "source_location": "L261",
       "_origin": "ast",
       "id": "plan_reports_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439_jnn_\u043a\u0430\u043a_\u043e\u0431\u043d\u043e\u0432\u043b\u044f\u0442\u044c",
-      "community": 27,
+      "community": 69,
       "norm_label": "\u270f\ufe0f \u043a\u0430\u043a \u043e\u0431\u043d\u043e\u0432\u043b\u044f\u0442\u044c"
     },
     {
@@ -4030,7 +4050,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_jnn_factory",
-      "community": 69,
+      "community": 27,
       "norm_label": "\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442 \u043f\u043b\u0430\u043d-\u0444\u0430\u043a\u0442\u0430 jnn factory"
     },
     {
@@ -4040,7 +4060,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435_\u0434\u043d\u044f",
-      "community": 69,
+      "community": 27,
       "norm_label": "\u23f0 \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0434\u043d\u044f"
     },
     {
@@ -4050,7 +4070,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0435_\u0441\u043e\u0431\u0440\u0430\u043d\u0438\u0435_09_00_15_\u043c\u0438\u043d\u0443\u0442",
-      "community": 69,
+      "community": 27,
       "norm_label": "\ud83c\udf05 \u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0435 \u0441\u043e\u0431\u0440\u0430\u043d\u0438\u0435 (09:00, 15 \u043c\u0438\u043d\u0443\u0442)"
     },
     {
@@ -4060,7 +4080,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0432\u0435\u0447\u0435\u0440\u043d\u0438\u0439_\u0438\u0442\u043e\u0433_20_00_10_\u043c\u0438\u043d\u0443\u0442",
-      "community": 69,
+      "community": 27,
       "norm_label": "\ud83c\udf19 \u0432\u0435\u0447\u0435\u0440\u043d\u0438\u0438 \u0438\u0442\u043e\u0433 (20:00, 10 \u043c\u0438\u043d\u0443\u0442)"
     },
     {
@@ -4070,7 +4090,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u043f\u0440\u0430\u0432\u0438\u043b\u043e_\u043d\u043e\u0432\u0430\u044f_\u0437\u0430\u0434\u0430\u0447\u0430_\u0432_\u0442\u0435\u0447\u0435\u043d\u0438\u0435_\u0434\u043d\u044f",
-      "community": 69,
+      "community": 27,
       "norm_label": "\ud83d\udcdd \u043f\u0440\u0430\u0432\u0438\u043b\u043e: \u043d\u043e\u0432\u0430\u044f \u0437\u0430\u0434\u0430\u0447\u0430 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u0434\u043d\u044f"
     },
     {
@@ -4080,7 +4100,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_3_\u043f\u0440\u0430\u0432\u0438\u043b\u0430_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430",
-      "community": 69,
+      "community": 27,
       "norm_label": "\ud83d\udee1\ufe0f3 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u043f\u043b\u0430\u043d-\u0444\u0430\u043a\u0442\u0430"
     },
     {
@@ -4090,7 +4110,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0440\u043e\u043b\u0438_\u043d\u0430_04_09_2026",
-      "community": 69,
+      "community": 27,
       "norm_label": "\ud83d\udc65 \u0440\u043e\u043b\u0438 (\u043d\u0430 04.09.2026)"
     },
     {
@@ -4100,7 +4120,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0447\u0435\u043a_\u043b\u0438\u0441\u0442_\u0441\u043e\u0431\u0440\u0430\u043d\u0438\u044f_\u0440\u0430\u0441\u043f\u0435\u0447\u0430\u0442\u0430\u0439_\u0432_\u0447\u0430\u0442",
-      "community": 69,
+      "community": 27,
       "norm_label": "\ud83d\udccb \u0447\u0435\u043a-\u043b\u0438\u0441\u0442 \u0441\u043e\u0431\u0440\u0430\u043d\u0438\u044f (\u0440\u0430\u0441\u043f\u0435\u0447\u0430\u0442\u0430\u0438 \u0432 \u0447\u0430\u0442)"
     },
     {
@@ -4110,7 +4130,7 @@
       "source_location": "L124",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0437\u0430\u043f\u0443\u0441\u043a_04_09_2026_\u043f\u0435\u0440\u0432\u043e\u0435_\u0441\u043e\u0431\u0440\u0430\u043d\u0438\u0435",
-      "community": 69,
+      "community": 27,
       "norm_label": "\ud83d\ude80 \u0437\u0430\u043f\u0443\u0441\u043a 04.09.2026 (\u043f\u0435\u0440\u0432\u043e\u0435 \u0441\u043e\u0431\u0440\u0430\u043d\u0438\u0435)"
     },
     {
@@ -4120,7 +4140,7 @@
       "source_location": "L128",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0442\u0438\u043c\u0443\u0440",
-      "community": 69,
+      "community": 27,
       "norm_label": "\u0442\u0438\u043c\u0443\u0440"
     },
     {
@@ -4130,7 +4150,7 @@
       "source_location": "L132",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0430\u0439\u0433\u0435\u0440\u0438\u043c",
-      "community": 69,
+      "community": 27,
       "norm_label": "\u0430\u0438\u0433\u0435\u0440\u0438\u043c"
     },
     {
@@ -4140,7 +4160,7 @@
       "source_location": "L136",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0430\u043b\u0438\u043d\u0430",
-      "community": 69,
+      "community": 27,
       "norm_label": "\u0430\u043b\u0438\u043d\u0430"
     },
     {
@@ -4150,7 +4170,7 @@
       "source_location": "L140",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u043d\u0443\u0440\u043b\u0430\u043d",
-      "community": 69,
+      "community": 27,
       "norm_label": "\u043d\u0443\u0440\u043b\u0430\u043d"
     },
     {
@@ -4160,7 +4180,7 @@
       "source_location": "L146",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "community": 69,
+      "community": 27,
       "norm_label": "\ud83d\udcda \u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b"
     },
     {
@@ -4170,7 +4190,7 @@
       "source_location": "L152",
       "_origin": "ast",
       "id": "plan_reports_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u043b\u0430\u043d_\u0444\u0430\u043a\u0442\u0430_\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u044f",
-      "community": 69,
+      "community": 27,
       "norm_label": "\ud83d\udd04 \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u044f"
     },
     {
@@ -8651,6 +8671,106 @@
       "_origin": "ast",
       "id": "tmp_avito_check_2026_09_16_\u0438\u0442\u043e\u0433",
       "community": 108,
+      "norm_label": "\u0438\u0442\u043e\u0433"
+    },
+    {
+      "label": "avito-check-2026-09-18.md",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18",
+      "community": 110,
+      "norm_label": "avito-check-2026-09-18.md"
+    },
+    {
+      "label": "\u0410\u0432\u0438\u0442\u043e-\u0427\u0435\u043a \u2014 \u041e\u0442\u0447\u0451\u0442 \u041d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "community": 110,
+      "norm_label": "\u0430\u0432\u0438\u0442\u043e-\u0447\u0435\u043a \u2014 \u043e\u0442\u0447\u0435\u0442 \u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430"
+    },
+    {
+      "label": "\ud83d\udd0d \u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "community": 110,
+      "norm_label": "\ud83d\udd0d \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432"
+    },
+    {
+      "label": "Telegram (JNN \u0433\u0440\u0443\u043f\u043f\u0430, \u041b\u0421 \u041d\u0443\u0440\u043b\u0430\u043d\u0430, JNN \u041a\u043e\u043c\u0430\u043d\u0434\u0430)",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18_telegram_jnn_\u0433\u0440\u0443\u043f\u043f\u0430_\u043b\u0441_\u043d\u0443\u0440\u043b\u0430\u043d\u0430_jnn_\u043a\u043e\u043c\u0430\u043d\u0434\u0430",
+      "community": 110,
+      "norm_label": "telegram (jnn \u0433\u0440\u0443\u043f\u043f\u0430, \u043b\u0441 \u043d\u0443\u0440\u043b\u0430\u043d\u0430, jnn \u043a\u043e\u043c\u0430\u043d\u0434\u0430)"
+    },
+    {
+      "label": "Avito",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18_avito",
+      "community": 110,
+      "norm_label": "avito"
+    },
+    {
+      "label": "Tilda Leads (\u0444\u043e\u0440\u043c\u0430 \u043d\u0430 \u0441\u0430\u0439\u0442\u0435)",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18_tilda_leads_\u0444\u043e\u0440\u043c\u0430_\u043d\u0430_\u0441\u0430\u0439\u0442\u0435",
+      "community": 110,
+      "norm_label": "tilda leads (\u0444\u043e\u0440\u043c\u0430 \u043d\u0430 \u0441\u0430\u0438\u0442\u0435)"
+    },
+    {
+      "label": "CRM (Google Drive \u2014 \u00ab\u041b\u0438\u0434\u044b \u0438 \u0421\u0434\u0435\u043b\u043a\u0438.xlsx\u00bb)",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18_crm_google_drive_\u043b\u0438\u0434\u044b_\u0438_\u0441\u0434\u0435\u043b\u043a\u0438_xlsx",
+      "community": 110,
+      "norm_label": "crm (google drive \u2014 \u00ab\u043b\u0438\u0434\u044b \u0438 \u0441\u0434\u0435\u043b\u043a\u0438.xlsx\u00bb)"
+    },
+    {
+      "label": "Gateways \u0441\u0442\u0430\u0442\u0443\u0441",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18_gateways_\u0441\u0442\u0430\u0442\u0443\u0441",
+      "community": 110,
+      "norm_label": "gateways \u0441\u0442\u0430\u0442\u0443\u0441"
+    },
+    {
+      "label": "\u26a0\ufe0f \u041a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18_\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "community": 110,
+      "norm_label": "\u26a0\ufe0f \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b"
+    },
+    {
+      "label": "\u0418\u0442\u043e\u0433",
+      "file_type": "document",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "tmp_avito_check_2026_09_18_\u0438\u0442\u043e\u0433",
+      "community": 110,
       "norm_label": "\u0438\u0442\u043e\u0433"
     },
     {
@@ -15839,11 +15959,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L128",
+      "source_location": "L133",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "habit_weight_tracking_\u0442\u0440\u0435\u043a\u0438\u043d\u0433_\u0432\u0435\u0441\u0430_\u043d\u0443\u0440\u043b\u0430\u043d",
-      "target": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_25_06_\u043f\u043e\u043c\u0438\u043d\u043a\u0438_128"
+      "target": "habit_weight_tracking_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_25_06_\u043f\u043e\u043c\u0438\u043d\u043a\u0438_133",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15969,11 +16089,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Habit/weight-tracking.md",
-      "source_location": "L103",
+      "source_location": "L108",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "habit_weight_tracking_\u0442\u0440\u0435\u043a\u0438\u043d\u0433_\u0432\u0435\u0441\u0430_\u043d\u0443\u0440\u043b\u0430\u043d",
-      "target": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_28_06_103"
+      "target": "habit_weight_tracking_\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439_\u0432\u0435\u0441_28_06_108",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16054,6 +16174,26 @@
       "confidence_score": 1.0,
       "source": "habit_weight_tracking_\u0442\u0440\u0435\u043a\u0438\u043d\u0433_\u0432\u0435\u0441\u0430_\u043d\u0443\u0440\u043b\u0430\u043d",
       "target": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_13_09_\u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Habit/weight-tracking.md",
+      "source_location": "L221",
+      "weight": 1.0,
+      "source": "habit_weight_tracking_\u0442\u0440\u0435\u043a\u0438\u043d\u0433_\u0432\u0435\u0441\u0430_\u043d\u0443\u0440\u043b\u0430\u043d",
+      "target": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_17_09_\u0447\u0435\u0442\u0432\u0435\u0440\u0433",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Habit/weight-tracking.md",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "habit_weight_tracking_\u0442\u0440\u0435\u043a\u0438\u043d\u0433_\u0432\u0435\u0441\u0430_\u043d\u0443\u0440\u043b\u0430\u043d",
+      "target": "habit_weight_tracking_\u0448\u0430\u0433\u0438_\u0438_\u043f\u0438\u0442\u0430\u043d\u0438\u0435_18_09_\u043f\u044f\u0442\u043d\u0438\u0446\u0430",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -20708,6 +20848,96 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "tmp_avito_check_2026_09_18",
+      "target": "tmp_avito_check_2026_09_18_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "tmp_avito_check_2026_09_18_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "target": "tmp_avito_check_2026_09_18_\u0438\u0442\u043e\u0433",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "tmp_avito_check_2026_09_18_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "target": "tmp_avito_check_2026_09_18_\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tmp_avito_check_2026_09_18_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_\u043e\u0442\u0447\u0451\u0442_\u043d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440\u0430",
+      "target": "tmp_avito_check_2026_09_18_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tmp_avito_check_2026_09_18_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_18_avito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "tmp_avito_check_2026_09_18_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_18_crm_google_drive_\u043b\u0438\u0434\u044b_\u0438_\u0441\u0434\u0435\u043b\u043a\u0438_xlsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "tmp_avito_check_2026_09_18_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_18_gateways_\u0441\u0442\u0430\u0442\u0443\u0441",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tmp_avito_check_2026_09_18_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_18_telegram_jnn_\u0433\u0440\u0443\u043f\u043f\u0430_\u043b\u0441_\u043d\u0443\u0440\u043b\u0430\u043d\u0430_jnn_\u043a\u043e\u043c\u0430\u043d\u0434\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/avito-check-2026-09-18.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "tmp_avito_check_2026_09_18_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "target": "tmp_avito_check_2026_09_18_tilda_leads_\u0444\u043e\u0440\u043c\u0430_\u043d\u0430_\u0441\u0430\u0439\u0442\u0435",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "notes/_tmp/followup-summary-2026-09-09.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -21181,9 +21411,9 @@
       "source_file": "notes/_tmp/stale-leads-check-2026-09-17.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tmp_stale_leads_check_2026_09_17",
-      "target": "tmp_stale_leads_check_2026_09_17_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0445\u0441\u044f_\u043b\u0438\u0434\u043e\u0432_17_09_2026_14_01_\u0431\u0438\u0448\u043a\u0435\u043a",
-      "confidence_score": 1.0
+      "target": "tmp_stale_leads_check_2026_09_17_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0445\u0441\u044f_\u043b\u0438\u0434\u043e\u0432_17_09_2026_14_01_\u0431\u0438\u0448\u043a\u0435\u043a"
     },
     {
       "relation": "contains",
@@ -21191,9 +21421,9 @@
       "source_file": "notes/_tmp/stale-leads-check-2026-09-17.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tmp_stale_leads_check_2026_09_17_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0445\u0441\u044f_\u043b\u0438\u0434\u043e\u0432_17_09_2026_14_01_\u0431\u0438\u0448\u043a\u0435\u043a",
-      "target": "tmp_stale_leads_check_2026_09_17_\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0439\u0441\u044f_\u043b\u0438\u0434",
-      "confidence_score": 1.0
+      "target": "tmp_stale_leads_check_2026_09_17_\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0439\u0441\u044f_\u043b\u0438\u0434"
     },
     {
       "relation": "contains",
@@ -21201,9 +21431,9 @@
       "source_file": "notes/_tmp/stale-leads-check-2026-09-17.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tmp_stale_leads_check_2026_09_17_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0445\u0441\u044f_\u043b\u0438\u0434\u043e\u0432_17_09_2026_14_01_\u0431\u0438\u0448\u043a\u0435\u043a",
-      "target": "tmp_stale_leads_check_2026_09_17_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438_\u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u044b",
-      "confidence_score": 1.0
+      "target": "tmp_stale_leads_check_2026_09_17_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438_\u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u044b"
     },
     {
       "relation": "contains",
@@ -21211,9 +21441,9 @@
       "source_file": "notes/_tmp/stale-leads-check-2026-09-17.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tmp_stale_leads_check_2026_09_17_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0445\u0441\u044f_\u043b\u0438\u0434\u043e\u0432_17_09_2026_14_01_\u0431\u0438\u0448\u043a\u0435\u043a",
-      "target": "tmp_stale_leads_check_2026_09_17_\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u0438",
-      "confidence_score": 1.0
+      "target": "tmp_stale_leads_check_2026_09_17_\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u0438"
     },
     {
       "relation": "contains",
@@ -21221,9 +21451,9 @@
       "source_file": "notes/_tmp/stale-leads-check-2026-09-17.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tmp_stale_leads_check_2026_09_17_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0445\u0441\u044f_\u043b\u0438\u0434\u043e\u0432_17_09_2026_14_01_\u0431\u0438\u0448\u043a\u0435\u043a",
-      "target": "tmp_stale_leads_check_2026_09_17_\u0441\u0442\u0430\u0442\u0443\u0441_\u043b\u0438\u0434\u043e\u0432_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430",
-      "confidence_score": 1.0
+      "target": "tmp_stale_leads_check_2026_09_17_\u0441\u0442\u0430\u0442\u0443\u0441_\u043b\u0438\u0434\u043e\u0432_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430"
     },
     {
       "relation": "contains",
@@ -21231,9 +21461,9 @@
       "source_file": "notes/_tmp/stale-leads-check-2026-09-17.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tmp_stale_leads_check_2026_09_17_\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0439\u0441\u044f_\u043b\u0438\u0434",
-      "target": "tmp_stale_leads_check_2026_09_17_\u0430\u043b\u0438\u043d\u0430_\u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043b\u044c_\u0441\u0442\u0443\u0434\u0435\u043d\u0442\u043e\u0432_\u043a\u0433\u043c\u0430",
-      "confidence_score": 1.0
+      "target": "tmp_stale_leads_check_2026_09_17_\u0430\u043b\u0438\u043d\u0430_\u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043b\u044c_\u0441\u0442\u0443\u0434\u0435\u043d\u0442\u043e\u0432_\u043a\u0433\u043c\u0430"
     },
     {
       "relation": "contains",
@@ -21241,9 +21471,9 @@
       "source_file": "notes/_tmp/stale-leads-check-2026-09-17.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tmp_stale_leads_check_2026_09_17_\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439_\u0437\u0430\u0441\u0442\u043e\u044f\u0432\u0448\u0438\u0439\u0441\u044f_\u043b\u0438\u0434",
-      "target": "tmp_stale_leads_check_2026_09_17_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0435_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435_whatsapp_telegram",
-      "confidence_score": 1.0
+      "target": "tmp_stale_leads_check_2026_09_17_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0435_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435_whatsapp_telegram"
     },
     {
       "relation": "contains",
@@ -24397,5 +24627,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ca80806eb86acee6738e23450af2204d38fd49f1"
+  "built_at_commit": "a944ab9098db67b10242afc07e476024de3bb655"
 }
