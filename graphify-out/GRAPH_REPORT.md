@@ -1,15 +1,15 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-09-22)
+# Graph Report - /opt/data/obsidian-vault  (2026-09-23)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 1364 nodes · 1251 edges · 125 communities (108 shown, 17 thin omitted)
+- 1395 nodes · 1278 edges · 129 communities (112 shown, 17 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `851e15f5`
+- Built from commit: `48d7cf2a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -137,6 +137,10 @@
 - [[_COMMUNITY_Community 122|Community 122]]
 - [[_COMMUNITY_Community 123|Community 123]]
 - [[_COMMUNITY_Community 124|Community 124]]
+- [[_COMMUNITY_Community 125|Community 125]]
+- [[_COMMUNITY_Community 126|Community 126]]
+- [[_COMMUNITY_Community 127|Community 127]]
+- [[_COMMUNITY_Community 128|Community 128]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Трекинг веса — Нурлан` - 30 edges
@@ -156,7 +160,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (125 total, 17 thin omitted)
+## Communities (129 total, 17 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -582,8 +586,24 @@ Nodes (9): Delegate Status, Dropped Pipeline, Активный заказ — С
 Cohesion: 0.22
 Nodes (8): Agent-Reach v1.5.0, CRM — 3 записи (все старые, без изменений с 21.09), Gateways — все 9 активны ✅, → jnn-marketer, → jnn-sales, ⚠️ Критическая ситуация, Проверенные источники, 📊 Сводка Навигатора — 22.09.2026 (Вторник)
 
+### Community 125 - "Community 125"
+Cohesion: 0.22
+Nodes (8): Avito, CRM (Google Drive — «JNN Продажи/JNN — Продажи — Лиды и Сделки.xlsx»), Gateways статус, Telegram (JNN группа, ЛС Нурлана, JNN Команда), Авито-Чек — Отчёт Навигатора, Итог, ⚠️ Критические проблемы, 🔍 Результаты проверки источников
+
+### Community 126 - "Community 126"
+Cohesion: 0.25
+Nodes (7): 14:00 — Делегировано jnn-sales (stale leads cron), Gateways, Воронка продаж — текущее состояние, Действия сегодня, Ежедневный отчёт — 23.09.2026, Лидогенерация: 0 новых лидов, Сводка за 24ч (22.09–23.09)
+
+### Community 127 - "Community 127"
+Cohesion: 0.25
+Nodes (7): 1. Алина/КГМА — 56 дней тишины (CRITICAL), 2. Султан — 12 дней без обновления статуса, Делегирование, Лиды старше 3 дней без ответа — Follow-up 23.09.2026 14:00, Подготовленные follow-up сообщения, Проверка, Сталые лиды (>3 дней без ответа)
+
+### Community 128 - "Community 128"
+Cohesion: 0.33
+Nodes (5): Google Drive, SSL / Сайт travel.jnnn8n.ru, Whisper / Транскрибация, Память, Уроки сессии 23.09.2026
+
 ## Knowledge Gaps
-- **991 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+986 more)
+- **1011 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1006 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -591,11 +611,11 @@ Nodes (8): Agent-Reach v1.5.0, CRM — 3 записи (все старые, бе
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Оргструктура JNN v3 — финальная` connect `Community 74` to `Community 77`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _991 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1011 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
