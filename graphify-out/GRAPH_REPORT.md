@@ -1,15 +1,15 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-09-23)
+# Graph Report - /opt/data/obsidian-vault  (2026-09-24)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 1395 nodes · 1278 edges · 129 communities (112 shown, 17 thin omitted)
+- 1421 nodes · 1301 edges · 137 communities (120 shown, 17 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `48d7cf2a`
+- Built from commit: `cf071171`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -141,6 +141,13 @@
 - [[_COMMUNITY_Community 126|Community 126]]
 - [[_COMMUNITY_Community 127|Community 127]]
 - [[_COMMUNITY_Community 128|Community 128]]
+- [[_COMMUNITY_Community 129|Community 129]]
+- [[_COMMUNITY_Community 130|Community 130]]
+- [[_COMMUNITY_Community 131|Community 131]]
+- [[_COMMUNITY_Community 132|Community 132]]
+- [[_COMMUNITY_Community 133|Community 133]]
+- [[_COMMUNITY_Community 134|Community 134]]
+- [[_COMMUNITY_Community 136|Community 136]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Трекинг веса — Нурлан` - 30 edges
@@ -160,7 +167,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (129 total, 17 thin omitted)
+## Communities (137 total, 17 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -271,8 +278,8 @@ Cohesion: 0.20
 Nodes (9): 1. Увеличены лимиты памяти (ВСЕ 8 агентов), 2. Подключён плагин holographic, 3. Требуется перезапуск, Trust scoring (holographic), Апгрейд памяти JNN — 03.06.2026, Архитектура памяти после апгрейда, Плагины памяти (установлены, 1 активен), Ссылки (+1 more)
 
 ### Community 27 - "Community 27"
-Cohesion: 0.06
-Nodes (32): 3 трека плана, Cron-задачи (активные с 03.09.2026), 📚 Дисциплина: Утреннее собрание 09:00 + Вечерний итог 20:00, Контекст (факты на 03.09.2026), План прорыва JNN Factory — сентябрь 2026, Решения Нурлана (получено 03.09.2026), Связанные документы, 🔴 ТРЕК 1. «Разблокировать кассу + вернуть товар» (1–7 дней) (+24 more)
+Cohesion: 0.18
+Nodes (11): 3 трека плана, Cron-задачи (активные с 03.09.2026), 📚 Дисциплина: Утреннее собрание 09:00 + Вечерний итог 20:00, Контекст (факты на 03.09.2026), План прорыва JNN Factory — сентябрь 2026, Решения Нурлана (получено 03.09.2026), Связанные документы, 🔴 ТРЕК 1. «Разблокировать кассу + вернуть товар» (1–7 дней) (+3 more)
 
 ### Community 28 - "Community 28"
 Cohesion: 0.20
@@ -387,8 +394,8 @@ Cohesion: 0.22
 Nodes (8): Адресат (Поставщик), Наша позиция / план, Наши данные по факту, Претензия ООО «Айлукхоум» о возврате аванса — 18.08.2026, Реквизиты для возврата (из претензии), Реквизиты отправителя (Покупатель), Суть претензии, Угроза
 
 ### Community 69 - "Community 69"
-Cohesion: 0.10
-Nodes (20): 🤖 AI-ВОРОНКА (8 АГЕНТОВ), Cron-задачи JNN (активные), 📚 ДОКУМЕНТАЦИЯ И ССЫЛКИ, ✏️ КАК ОБНОВЛЯТЬ, 💼 КЛИЕНТЫ И ДОГОВОРЫ, 👥 КОМАНДА, 📊 МАРКЕТИНГ, Мощности (+12 more)
+Cohesion: 0.12
+Nodes (16): 🤖 AI-ВОРОНКА (8 АГЕНТОВ), Cron-задачи JNN (активные), 📚 ДОКУМЕНТАЦИЯ И ССЫЛКИ, ✏️ КАК ОБНОВЛЯТЬ, 💼 КЛИЕНТЫ И ДОГОВОРЫ, 👥 КОМАНДА, 📊 МАРКЕТИНГ, 🏭 ОРГАНИЗАЦИЯ (+8 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.20
@@ -602,8 +609,36 @@ Nodes (7): 1. Алина/КГМА — 56 дней тишины (CRITICAL), 2. С
 Cohesion: 0.33
 Nodes (5): Google Drive, SSL / Сайт travel.jnnn8n.ru, Whisper / Транскрибация, Память, Уроки сессии 23.09.2026
 
+### Community 129 - "Community 129"
+Cohesion: 0.20
+Nodes (10): 🛡️3 ПРАВИЛА ПЛАН-ФАКТА, 🌙 ВЕЧЕРНИЙ ИТОГ (20:00, 10 минут), 📝 ПРАВИЛО: новая задача в течение дня, ⏰ Расписание дня, Регламент план-факта JNN Factory, 👥 РОЛИ (на 04.09.2026), 📚 Связанные документы, 🔄 Синхронизация (+2 more)
+
+### Community 130 - "Community 130"
+Cohesion: 0.20
+Nodes (9): Stale Leads Follow-up — 24.09.2026 (14:00 Бишкек), Алина/КГМА (57 дней молчит), Делегирование jnn-sales, Источники данных, Подготовленные follow-up сообщения, Результаты проверки CRM (Google Sheets), Следующая проверка: 25.09 (cron 14:00), Сравнение с предыдущими проверками (+1 more)
+
+### Community 131 - "Community 131"
+Cohesion: 0.22
+Nodes (8): Avito, CRM (Google Drive — «JNN Продажи/JNN — Продажи — Лиды и Сделки.xlsx»), Gateways статус, Telegram (JNN группа, ЛС Нурлана, JNN Команда), Авито-Чек — Отчёт Навигатора, Итог, ⚠️ Критические проблемы, 🔍 Результаты проверки источников
+
+### Community 132 - "Community 132"
+Cohesion: 0.29
+Nodes (6): Gateways, Воронка продаж — текущее состояние, Действия сегодня, Ежедневный отчёт — 24.09.2026 (Чт), Лидогенерация: 0 новых лидов, Сводка за 24ч (23.09–24.09)
+
+### Community 133 - "Community 133"
+Cohesion: 0.33
+Nodes (6): 5 критических сбоев, Главный вердикт, Консилиум 8 экспертов — итоги, Связанные документы, Участники, Файлы-результаты
+
+### Community 134 - "Community 134"
+Cohesion: 0.40
+Nodes (5): Айгерим, Алина, 🚀 ЗАПУСК 04.09.2026 (первое собрание), Нурлан, Тимур
+
+### Community 136 - "Community 136"
+Cohesion: 0.50
+Nodes (4): Мощности, Продукция, Производственные термины, 🏭 ПРОИЗВОДСТВО
+
 ## Knowledge Gaps
-- **1011 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1006 more)
+- **1028 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1023 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -613,9 +648,9 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Оргструктура JNN v3 — финальная` connect `Community 74` to `Community 77`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _1011 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1028 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
