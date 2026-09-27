@@ -1291,6 +1291,215 @@
       "community_name": "Community 132"
     },
     {
+      "label": "avito-check-2026-09-26.md",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 134,
+      "norm_label": "avito-check-2026-09-26.md",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26",
+      "community_name": "Community 134"
+    },
+    {
+      "label": "\ud83d\udcca \u0410\u0432\u0438\u0442\u043e-\u0427\u0435\u043a \u2014 26.09.2026 (\u0421\u0443\u0431\u0431\u043e\u0442\u0430)",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 134,
+      "norm_label": "\ud83d\udcca \u0430\u0432\u0438\u0442\u043e-\u0447\u0435\u043a \u2014 26.09.2026 (\u0441\u0443\u0431\u0431\u043e\u0442\u0430)",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_26_09_2026_\u0441\u0443\u0431\u0431\u043e\u0442\u0430",
+      "community_name": "Community 134"
+    },
+    {
+      "label": "\u0421\u0432\u043e\u0434\u043a\u0430 \u0437\u0430 24\u0447 (25.09\u201326.09)",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 134,
+      "norm_label": "\u0441\u0432\u043e\u0434\u043a\u0430 \u0437\u0430 24\u0447 (25.09\u201326.09)",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0441\u0432\u043e\u0434\u043a\u0430_\u0437\u0430_24\u0447_25_09_26_09",
+      "community_name": "Community 134"
+    },
+    {
+      "label": "\u041b\u0438\u0434\u043e\u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f: 0 \u043d\u043e\u0432\u044b\u0445 \u043b\u0438\u0434\u043e\u0432 | \u041f\u0435\u0440\u0438\u043e\u0434 \u0431\u0435\u0437 \u043b\u0438\u0434\u043e\u0432: 16+ \u0434\u043d\u0435\u0439 \u043f\u043e\u0434\u0440\u044f\u0434",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 134,
+      "norm_label": "\u043b\u0438\u0434\u043e\u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f: 0 \u043d\u043e\u0432\u044b\u0445 \u043b\u0438\u0434\u043e\u0432 | \u043f\u0435\u0440\u0438\u043e\u0434 \u0431\u0435\u0437 \u043b\u0438\u0434\u043e\u0432: 16+ \u0434\u043d\u0435\u0438 \u043f\u043e\u0434\u0440\u044f\u0434",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u043b\u0438\u0434\u043e\u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f_0_\u043d\u043e\u0432\u044b\u0445_\u043b\u0438\u0434\u043e\u0432_\u043f\u0435\u0440\u0438\u043e\u0434_\u0431\u0435\u0437_\u043b\u0438\u0434\u043e\u0432_16_\u0434\u043d\u0435\u0439_\u043f\u043e\u0434\u0440\u044f\u0434",
+      "community_name": "Community 134"
+    },
+    {
+      "label": "CRM \u2014 \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043e \u0447\u0435\u0440\u0435\u0437 rclone + openpyxl",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 134,
+      "norm_label": "crm \u2014 \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043e \u0447\u0435\u0440\u0435\u0437 rclone + openpyxl",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_crm_\u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043e_\u0447\u0435\u0440\u0435\u0437_rclone_openpyxl",
+      "community_name": "Community 134"
+    },
+    {
+      "label": "Gateways \u0441\u0442\u0430\u0442\u0443\u0441",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "community": 134,
+      "norm_label": "gateways \u0441\u0442\u0430\u0442\u0443\u0441",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_gateways_\u0441\u0442\u0430\u0442\u0443\u0441",
+      "community_name": "Community 134"
+    },
+    {
+      "label": "\u041a\u0440\u043e\u043d-\u0437\u0430\u0434\u0430\u0447\u0438",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 134,
+      "norm_label": "\u043a\u0440\u043e\u043d-\u0437\u0430\u0434\u0430\u0447\u0438",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u043a\u0440\u043e\u043d_\u0437\u0430\u0434\u0430\u0447\u0438",
+      "community_name": "Community 134"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 Avito \u2014 \u0440\u0443\u0447\u043d\u043e\u0439 \u043e\u0431\u0445\u043e\u0434 \u0447\u0435\u0440\u0435\u0437 web_search",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "community": 134,
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 avito \u2014 \u0440\u0443\u0447\u043d\u043e\u0438 \u043e\u0431\u0445\u043e\u0434 \u0447\u0435\u0440\u0435\u0437 web_search",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_avito_\u0440\u0443\u0447\u043d\u043e\u0439_\u043e\u0431\u0445\u043e\u0434_\u0447\u0435\u0440\u0435\u0437_web_search",
+      "community_name": "Community 134"
+    },
+    {
+      "label": "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "community": 134,
+      "norm_label": "\u0434\u0435\u0438\u0441\u0442\u0432\u0438\u044f",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+      "community_name": "Community 134"
+    },
+    {
+      "label": "followup-stale-leads-2026-09-26.md",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "followup-stale-leads-2026-09-26.md",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26",
+      "community_name": "Community 133"
+    },
+    {
+      "label": "\u041b\u0438\u0434\u044b \u0441\u0442\u0430\u0440\u0448\u0435 3 \u0434\u043d\u0435\u0439 \u0431\u0435\u0437 \u043e\u0442\u0432\u0435\u0442\u0430 \u2014 Follow-up 26.09.2026 14:00",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "\u043b\u0438\u0434\u044b \u0441\u0442\u0430\u0440\u0448\u0435 3 \u0434\u043d\u0435\u0438 \u0431\u0435\u0437 \u043e\u0442\u0432\u0435\u0442\u0430 \u2014 follow-up 26.09.2026 14:00",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_26_09_2026_14_00",
+      "community_name": "Community 133"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430",
+      "community_name": "Community 133"
+    },
+    {
+      "label": "\u0421\u0442\u0430\u043b\u044b\u0435 \u043b\u0438\u0434\u044b (>3 \u0434\u043d\u0435\u0439 \u0431\u0435\u0437 \u043e\u0442\u0432\u0435\u0442\u0430)",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "\u0441\u0442\u0430\u043b\u044b\u0435 \u043b\u0438\u0434\u044b (>3 \u0434\u043d\u0435\u0438 \u0431\u0435\u0437 \u043e\u0442\u0432\u0435\u0442\u0430)",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u0441\u0442\u0430\u043b\u044b\u0435_\u043b\u0438\u0434\u044b_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430",
+      "community_name": "Community 133"
+    },
+    {
+      "label": "\ud83d\udd34 \u041a\u0420\u0418\u0422\u0418\u0427\u041d\u041e: \u0421\u0443\u043b\u0442\u0430\u043d \u2014 \u043f\u0440\u043e\u0441\u0440\u043e\u0447\u0435\u043d \u0434\u0435\u0434\u043b\u0430\u0439\u043d",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "\ud83d\udd34 \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e: \u0441\u0443\u043b\u0442\u0430\u043d \u2014 \u043f\u0440\u043e\u0441\u0440\u043e\u0447\u0435\u043d \u0434\u0435\u0434\u043b\u0430\u0438\u043d",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e_\u0441\u0443\u043b\u0442\u0430\u043d_\u043f\u0440\u043e\u0441\u0440\u043e\u0447\u0435\u043d_\u0434\u0435\u0434\u043b\u0430\u0439\u043d",
+      "community_name": "Community 133"
+    },
+    {
+      "label": "\ud83d\udd34 \u0410\u043b\u0438\u043d\u0430/\u041a\u0413\u041c\u0410 \u2014 58 \u0434\u043d\u0435\u0439 \u0442\u0438\u0448\u0438\u043d\u044b",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "\ud83d\udd34 \u0430\u043b\u0438\u043d\u0430/\u043a\u0433\u043c\u0430 \u2014 58 \u0434\u043d\u0435\u0438 \u0442\u0438\u0448\u0438\u043d\u044b",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u0430\u043b\u0438\u043d\u0430_\u043a\u0433\u043c\u0430_58_\u0434\u043d\u0435\u0439_\u0442\u0438\u0448\u0438\u043d\u044b",
+      "community_name": "Community 133"
+    },
+    {
+      "label": "Follow-up \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "follow-up \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f",
+      "community_name": "Community 133"
+    },
+    {
+      "label": "1. \u0410\u043b\u0438\u043d\u0430/\u041a\u0413\u041c\u0410 (WhatsApp: +996 553 190 477)",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "1. \u0430\u043b\u0438\u043d\u0430/\u043a\u0433\u043c\u0430 (whatsapp: +996 553 190 477)",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_1_\u0430\u043b\u0438\u043d\u0430_\u043a\u0433\u043c\u0430_whatsapp_996_553_190_477",
+      "community_name": "Community 133"
+    },
+    {
+      "label": "2. \u0421\u0443\u043b\u0442\u0430\u043d (WhatsApp: +996 995 727 737)",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "2. \u0441\u0443\u043b\u0442\u0430\u043d (whatsapp: +996 995 727 737)",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_2_\u0441\u0443\u043b\u0442\u0430\u043d_whatsapp_996_995_727_737",
+      "community_name": "Community 133"
+    },
+    {
+      "label": "\u26a0\ufe0f \u041f\u0440\u043e\u0431\u043b\u0435\u043c\u0430",
+      "file_type": "document",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "community": 133,
+      "norm_label": "\u26a0\ufe0f \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430",
+      "id": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430",
+      "community_name": "Community 133"
+    },
+    {
       "label": "\u0417\u0430\u0434\u0430\u0447\u0438 \u043d\u0430 04.09.2026.md",
       "file_type": "document",
       "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0417\u0430\u0434\u0430\u0447\u0438 \u043d\u0430 04.09.2026.md",
@@ -16801,6 +17010,176 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_26_09_2026_\u0441\u0443\u0431\u0431\u043e\u0442\u0430"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_26_09_2026_\u0441\u0443\u0431\u0431\u043e\u0442\u0430",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_crm_\u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043e_\u0447\u0435\u0440\u0435\u0437_rclone_openpyxl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_26_09_2026_\u0441\u0443\u0431\u0431\u043e\u0442\u0430",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_gateways_\u0441\u0442\u0430\u0442\u0443\u0441"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_26_09_2026_\u0441\u0443\u0431\u0431\u043e\u0442\u0430",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_26_09_2026_\u0441\u0443\u0431\u0431\u043e\u0442\u0430",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u043a\u0440\u043e\u043d_\u0437\u0430\u0434\u0430\u0447\u0438"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_26_09_2026_\u0441\u0443\u0431\u0431\u043e\u0442\u0430",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_avito_\u0440\u0443\u0447\u043d\u043e\u0439_\u043e\u0431\u0445\u043e\u0434_\u0447\u0435\u0440\u0435\u0437_web_search"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0430\u0432\u0438\u0442\u043e_\u0447\u0435\u043a_26_09_2026_\u0441\u0443\u0431\u0431\u043e\u0442\u0430",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0441\u0432\u043e\u0434\u043a\u0430_\u0437\u0430_24\u0447_25_09_26_09"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/avito-check-2026-09-26.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u0441\u0432\u043e\u0434\u043a\u0430_\u0437\u0430_24\u0447_25_09_26_09",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_avito_check_2026_09_26_\u043b\u0438\u0434\u043e\u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f_0_\u043d\u043e\u0432\u044b\u0445_\u043b\u0438\u0434\u043e\u0432_\u043f\u0435\u0440\u0438\u043e\u0434_\u0431\u0435\u0437_\u043b\u0438\u0434\u043e\u0432_16_\u0434\u043d\u0435\u0439_\u043f\u043e\u0434\u0440\u044f\u0434"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_26_09_2026_14_00"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_26_09_2026_14_00",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_26_09_2026_14_00",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_26_09_2026_14_00",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_26_09_2026_14_00",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u0441\u0442\u0430\u043b\u044b\u0435_\u043b\u0438\u0434\u044b_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u0441\u0442\u0430\u043b\u044b\u0435_\u043b\u0438\u0434\u044b_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u0430\u043b\u0438\u043d\u0430_\u043a\u0433\u043c\u0430_58_\u0434\u043d\u0435\u0439_\u0442\u0438\u0448\u0438\u043d\u044b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u0441\u0442\u0430\u043b\u044b\u0435_\u043b\u0438\u0434\u044b_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_\u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e_\u0441\u0443\u043b\u0442\u0430\u043d_\u043f\u0440\u043e\u0441\u0440\u043e\u0447\u0435\u043d_\u0434\u0435\u0434\u043b\u0430\u0439\u043d"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_1_\u0430\u043b\u0438\u043d\u0430_\u043a\u0433\u043c\u0430_whatsapp_996_553_190_477"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b/followup-stale-leads-2026-09-26.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f",
+      "target": "\u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435_\u043e\u0442\u0447\u0451\u0442\u044b_followup_stale_leads_2026_09_26_2_\u0441\u0443\u043b\u0442\u0430\u043d_whatsapp_996_995_727_737"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "01 \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0417\u0430\u0434\u0430\u0447\u0438 \u043d\u0430 04.09.2026.md",
       "source_location": "L9",
       "weight": 1.0,
@@ -28890,5 +29269,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ab77d2ffa43971df0a7413e4e68d6d3ba2bc2dec"
+  "built_at_commit": "9939999fdaa1959c96867a3af8450b19cdb57178"
 }

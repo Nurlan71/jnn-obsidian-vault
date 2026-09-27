@@ -1,15 +1,15 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-09-25)
+# Graph Report - /opt/data/obsidian-vault  (2026-09-26)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 1433 nodes · 1312 edges · 133 communities (116 shown, 17 thin omitted)
+- 1452 nodes · 1329 edges · 135 communities (118 shown, 17 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ab77d2ff`
+- Built from commit: `9939999f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -145,6 +145,8 @@
 - [[_COMMUNITY_Community 130|Community 130]]
 - [[_COMMUNITY_Community 131|Community 131]]
 - [[_COMMUNITY_Community 132|Community 132]]
+- [[_COMMUNITY_Community 133|Community 133]]
+- [[_COMMUNITY_Community 134|Community 134]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Трекинг веса — Нурлан` - 30 edges
@@ -164,7 +166,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (133 total, 17 thin omitted)
+## Communities (135 total, 17 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -622,8 +624,16 @@ Nodes (8): Avito, CRM (Google Drive — «JNN Продажи/JNN — Прода�
 Cohesion: 0.29
 Nodes (6): Gateways, Воронка продаж — текущее состояние, Действия сегодня, Ежедневный отчёт — 24.09.2026 (Чт), Лидогенерация: 0 новых лидов, Сводка за 24ч (23.09–24.09)
 
+### Community 133 - "Community 133"
+Cohesion: 0.20
+Nodes (9): 1. Алина/КГМА (WhatsApp: +996 553 190 477), 2. Султан (WhatsApp: +996 995 727 737), Follow-up сообщения, 🔴 Алина/КГМА — 58 дней тишины, 🔴 КРИТИЧНО: Султан — просрочен дедлайн, Лиды старше 3 дней без ответа — Follow-up 26.09.2026 14:00, ⚠️ Проблема, Проверка (+1 more)
+
+### Community 134 - "Community 134"
+Cohesion: 0.22
+Nodes (8): CRM — проверено через rclone + openpyxl, Gateways статус, 📊 Авито-Чек — 26.09.2026 (Суббота), Действия, Крон-задачи, Лидогенерация: 0 новых лидов | Период без лидов: 16+ дней подряд, Проверка Avito — ручной обход через web_search, Сводка за 24ч (25.09–26.09)
+
 ## Knowledge Gaps
-- **1036 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1031 more)
+- **1048 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1043 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -631,11 +641,11 @@ Nodes (6): Gateways, Воронка продаж — текущее состоя
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Оргструктура JNN v3 — финальная` connect `Community 74` to `Community 77`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _1036 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1048 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
