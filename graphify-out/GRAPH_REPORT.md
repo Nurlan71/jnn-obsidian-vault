@@ -1,15 +1,15 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-09-27)
+# Graph Report - /opt/data/obsidian-vault  (2026-09-28)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 1469 nodes · 1344 edges · 137 communities (120 shown, 17 thin omitted)
+- 1498 nodes · 1370 edges · 140 communities (123 shown, 17 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cfde987e`
+- Built from commit: `c6c72052`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -149,6 +149,9 @@
 - [[_COMMUNITY_Community 134|Community 134]]
 - [[_COMMUNITY_Community 135|Community 135]]
 - [[_COMMUNITY_Community 136|Community 136]]
+- [[_COMMUNITY_Community 137|Community 137]]
+- [[_COMMUNITY_Community 138|Community 138]]
+- [[_COMMUNITY_Community 139|Community 139]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Трекинг веса — Нурлан` - 30 edges
@@ -168,7 +171,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (137 total, 17 thin omitted)
+## Communities (140 total, 17 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -642,8 +645,20 @@ Nodes (8): Avito-Чек + Лидогенерация — 27.09.2026, CRM — а�
 Cohesion: 0.25
 Nodes (7): 1. Алина/КГМА — 60 дней тишины (CRITICAL, must-action), 2. Султан — 16 дней без обновления статуса, Задача для Продавника, Лиды старше 3 дней без ответа — Follow-up 27.09.2026 14:05 Бишкек, Подготовленные follow-up сообщения, Проверка, Сталые лиды (>3 дней без ответа)
 
+### Community 137 - "Community 137"
+Cohesion: 0.20
+Nodes (9): 1. Алина/КГМА (+996 553 190 477, WhatsApp/Telegram), 2. Султан (+996 995 727 737, WhatsApp), Follow-up сообщения, 🔴 КРИТИЧНО: Алина/КГМА — 61 день тишины, Лиды старше 3 дней без ответа — Follow-up 28.09.2026 14:00 Бишкек, ⚠️ Проблемы, Проверка, Сталые лиды (>3 дней без ответа) (+1 more)
+
+### Community 138 - "Community 138"
+Cohesion: 0.20
+Nodes (9): jnn-marketer (3 задачи):, jnn-sales (2 задачи):, Ежедневный отчёт JNN Factory — 28.09.2026 (Пн), 🎯 Задачи на день (приземлённо), 👥 Команда, 📊 Лидогенерация за 24ч, Нурлан (решения нужны):, 🏭 Производство (+1 more)
+
+### Community 139 - "Community 139"
+Cohesion: 0.22
+Nodes (8): Avito-Чек + Лидогенерация — 28.09.2026, CRM — актуальное состояние (проверено через rclone + openpyxl parsing), Gateways статус, Анализ конкурентов на Авито/Lalafo, Делегирование агенту jnn-marketer:, Делегирование агенту jnn-sales:, Итог, Сводка за 24ч (27.09–28.09)
+
 ## Knowledge Gaps
-- **1059 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1054 more)
+- **1079 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1074 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -653,14 +668,14 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `Оргструктура JNN v3 — финальная` connect `Community 74` to `Community 77`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+- **Why does `Словарь терминов JNN Factory` connect `Community 69` to `Community 27`?**
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _1059 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1079 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
