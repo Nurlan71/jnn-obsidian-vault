@@ -1,15 +1,15 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-09-28)
+# Graph Report - /opt/data/obsidian-vault  (2026-09-29)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 1498 nodes · 1370 edges · 140 communities (123 shown, 17 thin omitted)
+- 1509 nodes · 1380 edges · 141 communities (124 shown, 17 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c6c72052`
+- Built from commit: `6b9dfad8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -152,6 +152,7 @@
 - [[_COMMUNITY_Community 137|Community 137]]
 - [[_COMMUNITY_Community 138|Community 138]]
 - [[_COMMUNITY_Community 139|Community 139]]
+- [[_COMMUNITY_Community 140|Community 140]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Трекинг веса — Нурлан` - 30 edges
@@ -171,7 +172,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (140 total, 17 thin omitted)
+## Communities (141 total, 17 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -657,8 +658,12 @@ Nodes (9): jnn-marketer (3 задачи):, jnn-sales (2 задачи):, Ежед
 Cohesion: 0.22
 Nodes (8): Avito-Чек + Лидогенерация — 28.09.2026, CRM — актуальное состояние (проверено через rclone + openpyxl parsing), Gateways статус, Анализ конкурентов на Авито/Lalafo, Делегирование агенту jnn-marketer:, Делегирование агенту jnn-sales:, Итог, Сводка за 24ч (27.09–28.09)
 
+### Community 140 - "Community 140"
+Cohesion: 0.18
+Nodes (10): 1. Алина/КГМА → Telegram: +996 553 190 477, 2. Султан → WhatsApp: +996 995 727 737, Follow-up сообщения (готовы для копирования Нурланом), Делегирование jnn-sales, ⚠️ Критические проблемы, 🔴 КРИТИЧНО: Алина/КГМА — 62 дня тишины, Лиды старше 3 дней без ответа — Follow-up 29.09.2026 14:00 Бишкек, Проверка источников (+2 more)
+
 ## Knowledge Gaps
-- **1079 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1074 more)
+- **1086 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1081 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -666,13 +671,13 @@ Nodes (8): Avito-Чек + Лидогенерация — 28.09.2026, CRM — а�
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Оргструктура JNN v2 — сентябрь 2026` connect `Community 75` to `Community 77`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `Оргструктура JNN v3 — финальная` connect `Community 74` to `Community 77`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Why does `Словарь терминов JNN Factory` connect `Community 69` to `Community 27`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _1079 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1086 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

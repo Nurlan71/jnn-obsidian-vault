@@ -12115,6 +12115,127 @@
       "community_name": "Community 137"
     },
     {
+      "label": "stale-leads-check-2026-09-29.md",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "stale-leads-check-2026-09-29.md",
+      "id": "tmp_stale_leads_check_2026_09_29",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "\u041b\u0438\u0434\u044b \u0441\u0442\u0430\u0440\u0448\u0435 3 \u0434\u043d\u0435\u0439 \u0431\u0435\u0437 \u043e\u0442\u0432\u0435\u0442\u0430 \u2014 Follow-up 29.09.2026 14:00 \u0411\u0438\u0448\u043a\u0435\u043a",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "\u043b\u0438\u0434\u044b \u0441\u0442\u0430\u0440\u0448\u0435 3 \u0434\u043d\u0435\u0438 \u0431\u0435\u0437 \u043e\u0442\u0432\u0435\u0442\u0430 \u2014 follow-up 29.09.2026 14:00 \u0431\u0438\u0448\u043a\u0435\u043a",
+      "id": "tmp_stale_leads_check_2026_09_29_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_29_09_2026_14_00_\u0431\u0438\u0448\u043a\u0435\u043a",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "id": "tmp_stale_leads_check_2026_09_29_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "\u0421\u0442\u0430\u043b\u044b\u0435 \u043b\u0438\u0434\u044b (>3 \u0434\u043d\u0435\u0439 \u0431\u0435\u0437 \u043e\u0442\u0432\u0435\u0442\u0430)",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "\u0441\u0442\u0430\u043b\u044b\u0435 \u043b\u0438\u0434\u044b (>3 \u0434\u043d\u0435\u0438 \u0431\u0435\u0437 \u043e\u0442\u0432\u0435\u0442\u0430)",
+      "id": "tmp_stale_leads_check_2026_09_29_\u0441\u0442\u0430\u043b\u044b\u0435_\u043b\u0438\u0434\u044b_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "\ud83d\udd34 \u041a\u0420\u0418\u0422\u0418\u0427\u041d\u041e: \u0410\u043b\u0438\u043d\u0430/\u041a\u0413\u041c\u0410 \u2014 62 \u0434\u043d\u044f \u0442\u0438\u0448\u0438\u043d\u044b",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "\ud83d\udd34 \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e: \u0430\u043b\u0438\u043d\u0430/\u043a\u0433\u043c\u0430 \u2014 62 \u0434\u043d\u044f \u0442\u0438\u0448\u0438\u043d\u044b",
+      "id": "tmp_stale_leads_check_2026_09_29_\u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e_\u0430\u043b\u0438\u043d\u0430_\u043a\u0433\u043c\u0430_62_\u0434\u043d\u044f_\u0442\u0438\u0448\u0438\u043d\u044b",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "\ud83d\udfe1 \u0421\u0443\u043b\u0442\u0430\u043d (#011) \u2014 18 \u0434\u043d\u0435\u0439 \u0441 \u0437\u0430\u043f\u0438\u0441\u0438, \u043a\u0440\u043e\u0439 \u043d\u0435 \u043d\u0430\u0447\u0430\u0442",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "\ud83d\udfe1 \u0441\u0443\u043b\u0442\u0430\u043d (#011) \u2014 18 \u0434\u043d\u0435\u0438 \u0441 \u0437\u0430\u043f\u0438\u0441\u0438, \u043a\u0440\u043e\u0438 \u043d\u0435 \u043d\u0430\u0447\u0430\u0442",
+      "id": "tmp_stale_leads_check_2026_09_29_\u0441\u0443\u043b\u0442\u0430\u043d_011_18_\u0434\u043d\u0435\u0439_\u0441_\u0437\u0430\u043f\u0438\u0441\u0438_\u043a\u0440\u043e\u0439_\u043d\u0435_\u043d\u0430\u0447\u0430\u0442",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "Follow-up \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f (\u0433\u043e\u0442\u043e\u0432\u044b \u0434\u043b\u044f \u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u041d\u0443\u0440\u043b\u0430\u043d\u043e\u043c)",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "follow-up \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f (\u0433\u043e\u0442\u043e\u0432\u044b \u0434\u043b\u044f \u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043d\u0443\u0440\u043b\u0430\u043d\u043e\u043c)",
+      "id": "tmp_stale_leads_check_2026_09_29_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f_\u0433\u043e\u0442\u043e\u0432\u044b_\u0434\u043b\u044f_\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u043d\u0443\u0440\u043b\u0430\u043d\u043e\u043c",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "1. \u0410\u043b\u0438\u043d\u0430/\u041a\u0413\u041c\u0410 \u2192 Telegram: +996 553 190 477",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "1. \u0430\u043b\u0438\u043d\u0430/\u043a\u0433\u043c\u0430 \u2192 telegram: +996 553 190 477",
+      "id": "tmp_stale_leads_check_2026_09_29_1_\u0430\u043b\u0438\u043d\u0430_\u043a\u0433\u043c\u0430_telegram_996_553_190_477",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "2. \u0421\u0443\u043b\u0442\u0430\u043d \u2192 WhatsApp: +996 995 727 737",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "2. \u0441\u0443\u043b\u0442\u0430\u043d \u2192 whatsapp: +996 995 727 737",
+      "id": "tmp_stale_leads_check_2026_09_29_2_\u0441\u0443\u043b\u0442\u0430\u043d_whatsapp_996_995_727_737",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "\u26a0\ufe0f \u041a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "\u26a0\ufe0f \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "id": "tmp_stale_leads_check_2026_09_29_\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "community_name": "Community 140"
+    },
+    {
+      "label": "\u0414\u0435\u043b\u0435\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 jnn-sales",
+      "file_type": "document",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "community": 140,
+      "norm_label": "\u0434\u0435\u043b\u0435\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 jnn-sales",
+      "id": "tmp_stale_leads_check_2026_09_29_\u0434\u0435\u043b\u0435\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_jnn_sales",
+      "community_name": "Community 140"
+    },
+    {
       "label": "\u0410\u0433\u0435\u043d\u0442\u044b.md",
       "file_type": "document",
       "source_file": "notes/\u0410\u0433\u0435\u043d\u0442\u044b.md",
@@ -26576,6 +26697,106 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29",
+      "target": "tmp_stale_leads_check_2026_09_29_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_29_09_2026_14_00_\u0431\u0438\u0448\u043a\u0435\u043a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_29_09_2026_14_00_\u0431\u0438\u0448\u043a\u0435\u043a",
+      "target": "tmp_stale_leads_check_2026_09_29_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f_\u0433\u043e\u0442\u043e\u0432\u044b_\u0434\u043b\u044f_\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u043d\u0443\u0440\u043b\u0430\u043d\u043e\u043c"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_29_09_2026_14_00_\u0431\u0438\u0448\u043a\u0435\u043a",
+      "target": "tmp_stale_leads_check_2026_09_29_\u0434\u0435\u043b\u0435\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_jnn_sales"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_29_09_2026_14_00_\u0431\u0438\u0448\u043a\u0435\u043a",
+      "target": "tmp_stale_leads_check_2026_09_29_\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_29_09_2026_14_00_\u0431\u0438\u0448\u043a\u0435\u043a",
+      "target": "tmp_stale_leads_check_2026_09_29_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29_\u043b\u0438\u0434\u044b_\u0441\u0442\u0430\u0440\u0448\u0435_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430_follow_up_29_09_2026_14_00_\u0431\u0438\u0448\u043a\u0435\u043a",
+      "target": "tmp_stale_leads_check_2026_09_29_\u0441\u0442\u0430\u043b\u044b\u0435_\u043b\u0438\u0434\u044b_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29_\u0441\u0442\u0430\u043b\u044b\u0435_\u043b\u0438\u0434\u044b_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430",
+      "target": "tmp_stale_leads_check_2026_09_29_\u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e_\u0430\u043b\u0438\u043d\u0430_\u043a\u0433\u043c\u0430_62_\u0434\u043d\u044f_\u0442\u0438\u0448\u0438\u043d\u044b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29_\u0441\u0442\u0430\u043b\u044b\u0435_\u043b\u0438\u0434\u044b_3_\u0434\u043d\u0435\u0439_\u0431\u0435\u0437_\u043e\u0442\u0432\u0435\u0442\u0430",
+      "target": "tmp_stale_leads_check_2026_09_29_\u0441\u0443\u043b\u0442\u0430\u043d_011_18_\u0434\u043d\u0435\u0439_\u0441_\u0437\u0430\u043f\u0438\u0441\u0438_\u043a\u0440\u043e\u0439_\u043d\u0435_\u043d\u0430\u0447\u0430\u0442"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f_\u0433\u043e\u0442\u043e\u0432\u044b_\u0434\u043b\u044f_\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u043d\u0443\u0440\u043b\u0430\u043d\u043e\u043c",
+      "target": "tmp_stale_leads_check_2026_09_29_1_\u0430\u043b\u0438\u043d\u0430_\u043a\u0433\u043c\u0430_telegram_996_553_190_477"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/_tmp/stale-leads-check-2026-09-29.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tmp_stale_leads_check_2026_09_29_follow_up_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f_\u0433\u043e\u0442\u043e\u0432\u044b_\u0434\u043b\u044f_\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u043d\u0443\u0440\u043b\u0430\u043d\u043e\u043c",
+      "target": "tmp_stale_leads_check_2026_09_29_2_\u0441\u0443\u043b\u0442\u0430\u043d_whatsapp_996_995_727_737"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "notes/\u0410\u0433\u0435\u043d\u0442\u044b.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -30185,5 +30406,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c6c72052a8e8e5709d6bf65564b6464833b65228"
+  "built_at_commit": "6b9dfad823c2855e8c317589a27874203841d465"
 }

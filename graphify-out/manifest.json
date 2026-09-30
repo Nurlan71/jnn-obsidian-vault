@@ -883,5 +883,15 @@
     "mtime": 1790582507.17394,
     "ast_hash": "9c463351835450e3cb9c9d6806ef0797",
     "semantic_hash": ""
+  },
+  "events/jnn-navigator--jnn-sales--20260929-1405.json": {
+    "mtime": 1790668990.7143388,
+    "ast_hash": "02e2f00801415c4a70cdc617109e48fe",
+    "semantic_hash": ""
+  },
+  "notes/_tmp/stale-leads-check-2026-09-29.md": {
+    "mtime": 1790668982.6504455,
+    "ast_hash": "346affae87b9905bee2afefcee23707a",
+    "semantic_hash": ""
   }
 }
