@@ -1,15 +1,16 @@
-# Graph Report - /opt/data/obsidian-vault  (2026-09-29)
+# Graph Report - obsidian-vault  (2026-09-30)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 159 files · ~77,745 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1509 nodes · 1380 edges · 141 communities (124 shown, 17 thin omitted)
+- 1511 nodes · 1381 edges · 142 communities (124 shown, 18 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6b9dfad8`
+- Built from commit: `83d65e93`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -153,6 +154,7 @@
 - [[_COMMUNITY_Community 138|Community 138]]
 - [[_COMMUNITY_Community 139|Community 139]]
 - [[_COMMUNITY_Community 140|Community 140]]
+- [[_COMMUNITY_Community 141|Community 141]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Трекинг веса — Нурлан` - 30 edges
@@ -172,7 +174,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (141 total, 17 thin omitted)
+## Communities (142 total, 18 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -663,9 +665,9 @@ Cohesion: 0.18
 Nodes (10): 1. Алина/КГМА → Telegram: +996 553 190 477, 2. Султан → WhatsApp: +996 995 727 737, Follow-up сообщения (готовы для копирования Нурланом), Делегирование jnn-sales, ⚠️ Критические проблемы, 🔴 КРИТИЧНО: Алина/КГМА — 62 дня тишины, Лиды старше 3 дней без ответа — Follow-up 29.09.2026 14:00 Бишкек, Проверка источников (+2 more)
 
 ## Knowledge Gaps
-- **1086 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1081 more)
+- **1087 isolated node(s):** `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath`, `Активные`, `Планируемые` (+1082 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **18 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -677,7 +679,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Словарь терминов JNN Factory` connect `Community 69` to `Community 27`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `alwaysUpdateLinks`, `newFileLocation`, `newFileFolderPath` to the rest of the system?**
-  _1086 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1087 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
